@@ -12,9 +12,19 @@ The initial Codito reference harness uses ordinary Python types to isolate finit
 
 Codito may publish representational contracts, validation fixtures, interoperability mappings, research hypotheses, and failure semantics needed for independent inspection. Operational advantage remains separately governed. Routing algorithms, scoring formulas, promotion logic, context optimization, private inference, and other protected methods do not become public merely because Codito has a public representation for their inputs or outputs.
 
+## Compiled adapter boundary
+
+Future Codito research may test model-specific projections of portable UCA artifacts, including structured inputs or learned latent adapters. Such a projection is a compilation target, not the durable semantic authority.
+
+The portable Rosetta or UCA artifact must remain independently identifiable. Replacing a model or adapter must not mutate that source artifact or make its meaning depend on one provider's hidden state.
+
+A qualified adapter should declare enough information to identify its source artifact, adapter version, model target, and known loss or reconstruction contract. These are research requirements for Codito adapters, not new Rosetta Core semantics.
+
 ## Initial proof boundary
 
 The first baseline proves only that the included deterministic fixtures behave as asserted. It does not prove distributed execution, database durability, provider semantics, authorization correctness, learned-model performance, physical actuation, or production readiness.
+
+The serialization and Cognitive IR work in `docs/serialization-boundaries.md` is exploratory. The repository does not currently implement a neural IR compiler, latent-prefix adapter, or non-autoregressive semantic reasoner.
 
 ## Rosetta pin
 
