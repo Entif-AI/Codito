@@ -1,0 +1,28 @@
+{
+  "status": "DRAFT_TEMPLATE_NOT_REGISTERED",
+  "study_id": null,
+  "hypothesis_ids": [],
+  "treatment": null,
+  "comparators": [],
+  "information_access": null,
+  "unit_of_independence": null,
+  "pairing_and_seeds": null,
+  "dataset_and_split_digests": null,
+  "primary_outcome": null,
+  "secondary_outcomes": [],
+  "sample_size_and_justification": null,
+  "stopping_rule": null,
+  "exclusions": null,
+  "multiplicity": null,
+  "hardware_software": null,
+  "full_cost_accounting": null,
+  "sealed_evaluation_custodian": null,
+  "approval_ref": null,
+  "analysis_plan_hash": null,
+  "registration_receipt": null,
+  "decision_rules": {
+    "advance": "Declared useful operating regime with adequate conservation and full-cost accounting",
+    "refine": "Identify mechanism or condition requiring revision; preserve unaffected architecture",
+    "hold": "Unresolved measurement, access, or semantic contract prevents interpretation"
+  }
+}
