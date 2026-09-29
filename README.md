@@ -6,19 +6,32 @@ Codito is the experimental and reference implementation workspace for Entif.AI's
 
 Rosetta remains the authority for Rosetta Core semantics. Codito composes and tests those semantics. It does not redefine the Rosetta Core Spine.
 
+## Why Codito
+
+Model inference is one execution substrate, not the ontology of cognition. Codito studies whether useful cognition can avoid four different serialization costs:
+
+- **token seriality:** output advances through a sequential generation chain;
+- **representational seriality:** intermediate cognition is repeatedly flattened into language;
+- **workflow seriality:** independent operations run in prompt order instead of dependency order;
+- **historical seriality:** useful cognition is forgotten and later recomputed.
+
+Model architecture can lower the cost of one reasoning episode. UCA also asks whether a system can reduce how many expensive episodes are required, which parts must pass through language, and what reusable state survives afterward.
+
+The working synthesis, candidate experiments, and Cognitive IR hypothesis are documented in [Serialization boundaries and Cognitive IR](docs/serialization-boundaries.md).
+
 ## Status
 
 Codito is research software. The current code is a finite reference model extracted from ETR-2026-12. It tests specific architectural distinctions and failure cases. It is not a production cognitive runtime, Rosetta conformance implementation, authorization service, database, or distributed-systems proof.
 
 The initial baseline contains 55 deterministic unit tests with no runtime dependencies beyond Python 3.10 or newer. They cover:
 
-- independent value, evidence, and admission change propagation.
-- fail-closed serving context and expiry behavior.
-- effect-state transitions and ambiguous replay.
-- inheritance loss and evidence genealogy.
-- bounded collection completeness and correction closure.
-- scoped query witnesses for bounded absence.
-- coherent recovery cuts and tamper detection.
+- independent value, evidence, and admission change propagation;
+- fail-closed serving context and expiry behavior;
+- effect-state transitions and ambiguous replay;
+- inheritance loss and evidence genealogy;
+- bounded collection completeness and correction closure;
+- scoped query witnesses for bounded absence;
+- coherent recovery cuts and tamper detection;
 - intent-bound idempotency and stale-executor fencing.
 
 ## Run the reference tests
@@ -34,15 +47,18 @@ No provider credentials, network calls, model calls, external effects, or third-
 - `codito/` contains the finite executable reference models.
 - `tests/` contains positive and negative contract fixtures.
 - `technical/` contains candidate UCA contracts and architecture dependency data from the ETR-2026-12 production package.
-- `research/` contains the hypothesis registry, proposed engineering backlog, and preregistration template.
+- `research/` contains the source-locked hypothesis registry, proposed engineering backlog, and preregistration template.
 - `interop/rosetta/` contains bounded interoperability probes. These are evidence about a pinned Rosetta implementation, not Codito-owned Rosetta semantics.
 - `docs/rosetta-alignment.md` records the authority boundary for this repository.
+- `docs/serialization-boundaries.md` records a post-ETR research synthesis on serialization, Cognitive IR, and candidate experiments.
 
 ## Research posture
 
 A passing test establishes only the property exercised by that test. It does not establish production safety, benchmark savings, model-learning efficacy, distributed consistency, or Rosetta conformance.
 
 Codito makes UCA claims easier to inspect, falsify, reproduce, and replace when evidence warrants a better mechanism.
+
+Post-ETR research notes do not silently rewrite the source-locked ETR-2026-12 registers. A new idea becomes part of the formal program only after an explicit research or engineering update records its scope and evidence boundary.
 
 ## Source
 
