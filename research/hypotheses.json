@@ -1,1 +1,444 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+[
+  {
+    "id": "H1",
+    "title": "20.2 H1: semantic reconstruction tax",
+    "question": "Does the integrated Bithkuil developmental system reduce the resource cost of acquiring relational and compositional competence relative to declared information-matched controls, and which later controls can distinguish visible representation, semantic initialization, curriculum, and sequence economics?",
+    "comparators": "natural language or ordinary token sequence, generic typed representation, Bithkuil developmental semantic IR under the frozen integrated treatment.",
+    "metrics": "cost to competence by declared resource axis, sample efficiency, parameter efficiency, training compute, inference compute, generalization, transfer, robustness, semantic error, and the frozen pre-step surface/initialization geometry needed for later attribution. For every ternary arm where technically feasible, record the global {-1,0,+1} distribution, zero density by layer, zero density by tensor or parameter class where meaningful, checkpoint trajectories, curriculum-transition deltas, matched-control deltas, B(z) = 2 - z, whether z > 0.375, and compatible serving metrics when available.",
+    "interpretation": "SYS-01 is a package-level system-effect experiment. A positive or negative SYS-01 result does not independently identify semantic initialization, representation, curriculum, token economics, or their interactions. H21 and the later attribution controls own that decomposition.",
+    "source_boundary_condition": "If matched controls show no meaningful gain or the codec cost consumes the benefit, Bithkuil remains an interoperability or analysis tool rather than an efficiency substrate.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.2",
+    "source_record": "LEDGER04:Hypotheses:R2",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-PREPAY048",
+      "B-ISSUE62",
+      "B-ISSUE63"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H2",
+    "title": "20.3 H2: context compilation",
+    "question": "Do provenance-bearing compiled Tapestries outperform raw history and ordinary RAG on task quality per unit cost?",
+    "comparators": "",
+    "metrics": "task success, source faithfulness, latency, tokens, policy violations, stale-state rate, correction propagation, and auditor burden.",
+    "interpretation": "",
+    "source_boundary_condition": "If compiled context is not materially better under matched conditions, reduce the compiler to the smallest useful governance or packaging role.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.3",
+    "source_record": "LEDGER04:Hypotheses:R3",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H3",
+    "title": "20.4 H3: OMoC routing",
+    "question": "Does semantically informed operator selection outperform static agents, one-model baselines, and simpler routers?",
+    "comparators": "",
+    "metrics": "quality, cost, latency, route stability, tier termination rate, escalation rate, escalation accuracy, unnecessary escalation, false-local resolution, routing error, stronger-tier work avoided, and maintenance burden.",
+    "interpretation": "",
+    "source_boundary_condition": "If routing overhead or misrouting exceeds savings and quality gains, use the simpler runtime.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.3",
+    "source_record": "LEDGER04:Hypotheses:R4",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H4",
+    "title": "20.5 H4: typed parallel decisions",
+    "question": "For bounded decision tasks, do Jev/Laya-like parallel typed heads improve calibration, latency, or throughput compared with autoregressive generation?",
+    "comparators": "",
+    "metrics": "",
+    "interpretation": "A type-safe answer can still be wrong.",
+    "source_boundary_condition": "If conventional generation or deterministic methods match quality and cost, typed heads remain optional operators rather than a system thesis.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.3",
+    "source_record": "LEDGER04:Hypotheses:R5",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H5",
+    "title": "20.6 H5: semantic locality and local learned operators",
+    "question": "Do stable semantically typed operands create problem classes where locally inspectable learned transforms, including KANs, provide useful quality, mutability, or auditability?",
+    "comparators": "",
+    "metrics": "",
+    "interpretation": "",
+    "source_boundary_condition": "If MLPs, trees, formulas, or general models dominate, remove the local-function preference. Semantic locality does not entail neural locality.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.3",
+    "source_record": "LEDGER04:Hypotheses:R6",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H6",
+    "title": "20.7 H6: progressive determinization",
+    "question": "Can recurring successful cognition be compiled into cheaper procedures without unacceptable exception loss or maintenance cost?",
+    "comparators": "",
+    "metrics": "cost reduction, latency, quality, exception coverage, stale-procedure defects, rollback cost, and dependency-maintenance burden.",
+    "interpretation": "",
+    "source_boundary_condition": "If maintenance and exception handling consume the gain, keep that cognition probabilistic or generative.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.4",
+    "source_record": "LEDGER04:Hypotheses:R7",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H7",
+    "title": "20.8 H7: federated persistent memory",
+    "question": "Does multi-provider memory improve utility or resilience enough to justify its complexity against strong unified baselines?",
+    "comparators": "",
+    "metrics": "",
+    "interpretation": "",
+    "source_boundary_condition": "If unified governed substrate matches or exceeds federation on relevant workload, federation loses that lane.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.5",
+    "source_record": "LEDGER04:Hypotheses:R8",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-FMN"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H8",
+    "title": "20.9 H8: symmetric recovery",
+    "question": "Can lineage-aware invalidation materially reduce stale downstream influence after source correction?",
+    "comparators": "",
+    "metrics": "descendant discovery recall, repair latency, residual stale influence, false-positive blast radius, and operational cost.",
+    "interpretation": "",
+    "source_boundary_condition": "If dependency tracking is too inaccurate or expensive, narrow persistent promotion or dependency scope rather than pretending recovery works.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.5",
+    "source_record": "LEDGER04:Hypotheses:R9",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-FMN"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": [
+      "C23",
+      "C14 refinement"
+    ]
+  },
+  {
+    "id": "H9",
+    "title": "20.10 H9: metacognitive comparator atlas",
+    "question": "Can frozen comparator geometries produce reproducible, useful, and calibrated analysis of rhetorical, epistemic, strategic, or stylistic features beyond simple baselines?",
+    "comparators": "bag-of-words and ordinary embeddings, supervised classifiers, human ratings, multiple corpora, holdout authors, and adversarial paraphrases.",
+    "metrics": "",
+    "interpretation": "",
+    "source_boundary_condition": "If historical-archetype framing adds no value over simpler feature spaces, retain the measurement system and retire the costume.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.6",
+    "source_record": "LEDGER04:Hypotheses:R10",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H10",
+    "title": "20.11 H10: multimodal semantic gain",
+    "question": "Do prosody, source separation, spatial audio, visual, or sensor features improve interpretation over transcript or text-only baselines?",
+    "comparators": "",
+    "metrics": "disambiguation accuracy, calibration, downstream task success, personhood/privacy cost, latency, and failure under domain shift.",
+    "interpretation": "",
+    "source_boundary_condition": "If a modality adds cost or privacy risk without consistent task value, do not retain it by default.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.8",
+    "source_record": "LEDGER04:Hypotheses:R11",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-INDRA05"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H11",
+    "title": "20.12 H11: world-state interoperability",
+    "question": "",
+    "comparators": "",
+    "metrics": "",
+    "interpretation": "IndraNet Stage 2 already reports a bounded negative architectural result: tested records did not justify a new IndraNet Core because existing standards composition preserved the declared obligations. Next question: Can independent implementations interpret the profile compatibly under live or independently authored conditions? The consequence of a successful test is stronger profile confidence, not retrospective invention of a new Core.",
+    "source_boundary_condition": "",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.8",
+    "source_record": "LEDGER04:Hypotheses:R12",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-INDRA05"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H12",
+    "title": "20.13 H12: bounded evolutionary improvement",
+    "question": "Do evolutionary and LLM-generated method variations produce sustained improvements after independent holdout evaluation and regression controls?",
+    "comparators": "",
+    "metrics": "accepted improvement rate, regression rate, search cost, diversity, delayed defect rate, rollback frequency, and net value.",
+    "interpretation": "",
+    "source_boundary_condition": "If search spends more than it saves or consistently overfits evaluators, reduce or suspend autonomous candidate generation.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.9",
+    "source_record": "LEDGER04:Hypotheses:R13",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H13",
+    "title": "20.14 H13: immediate-edge sufficiency",
+    "question": "Can locally declared dependency frontiers support correct incremental revalidation without routine transitive closure scans?",
+    "comparators": "",
+    "metrics": "missed-dependency defects, direct invalidation fan-out, propagation depth, false rebuild rate, stale reuse, recomputation latency, and dependency-declaration burden.",
+    "interpretation": "",
+    "source_boundary_condition": "If important state repeatedly changes without appearing through declared immediate dependencies, narrow cache eligibility, improve dependency modeling, or abandon local reuse for that class of artifact.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.4",
+    "source_record": "LEDGER04:Hypotheses:R14",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": [
+      "C22"
+    ]
+  },
+  {
+    "id": "H14",
+    "title": "20.15 H14: recursive computation reuse",
+    "question": "Does recursively materializing stable transforms, compositions, and context products reduce average cognitive cost without unacceptable staleness, storage growth, or quality loss?",
+    "comparators": "",
+    "metrics": "cache-hit rate by abstraction layer, recomputation avoided, mean and tail latency, cost per task, materialization growth, eviction rate, revalidation cost, stale-result defects, and novelty-escalation rate.",
+    "interpretation": "",
+    "source_boundary_condition": "If maintenance and materialization cost exceed saved computation, reduce what is persisted or move that layer back toward recomputation.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.4",
+    "source_record": "LEDGER04:Hypotheses:R15",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": [
+      "C22"
+    ]
+  },
+  {
+    "id": "H15",
+    "title": "20.16 H15: economies of cognitive scale",
+    "question": "As authorized usage and node count increase, does shared computational capital reduce marginal cost for recurring non-novel work faster than replication, verification, networking, privacy, and coordination costs increase?",
+    "comparators": "",
+    "metrics": "cross-node hit rate, marginal cost by workload novelty, bytes transferred per saved computation, verification overhead, cache locality, privacy or rights rejection rate, duplicated work avoided, and quality parity with local recomputation.",
+    "interpretation": "",
+    "source_boundary_condition": "If distributed reuse does not beat local recomputation after trust and transfer costs, keep computation local and exchange only higher-value artifacts.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.7",
+    "source_record": "LEDGER04:Hypotheses:R16",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H16",
+    "title": "20.17 H16: cognitive inheritance economy",
+    "question": "Can a successor model or operator recover useful prior competence materially faster and more cheaply by consuming explicit Akasha/Rosetta cognitive capital than by blank-state reconstruction, synthetic replay, or equivalent parametric relearning?",
+    "comparators": "",
+    "metrics": "training tokens, frontier-model tokens, GPU or accelerator time, wall-clock recovery time, inherited task coverage, quality parity, validation effort, regression rate, and fraction of useful prior competence available before new training.",
+    "interpretation": "",
+    "source_boundary_condition": "If explicit inheritance fails to reduce recovery cost or creates unacceptable coupling, staleness, or validation burden, restrict inheritance to artifact classes where it demonstrably wins.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.5",
+    "source_record": "LEDGER04:Hypotheses:R17",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-FMN"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H17",
+    "title": "20.18 H17: structured inheritance versus synthetic replay",
+    "question": "For knowledge already represented as explicit semantic, procedural, or computational artifacts, does direct structured inheritance preserve capability and trust-relevant distinctions more efficiently than regenerating synthetic demonstrations and relearning from them?",
+    "comparators": "",
+    "metrics": "recovery cost, content fidelity, uncertainty retention, provenance retention, authority retention, exception retention, correction retention, task transfer, and maintenance burden.",
+    "interpretation": "",
+    "source_boundary_condition": "If synthetic replay consistently matches or exceeds direct inheritance on quality, cost, portability, and epistemic preservation for a class of knowledge, retain synthetic replay for that class.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.5",
+    "source_record": "LEDGER04:Hypotheses:R18",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-FMN"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H18",
+    "title": "20.19 H18: provenance-native origin and genealogy",
+    "question": "Does explicit origin and derivation provenance provide more reliable downstream control than post-hoc human-versus-AI detection for identifying model-generated, human-authored, sensor-derived, deterministic, mixed, and unknown artifacts?",
+    "comparators": "",
+    "metrics": "origin classification accuracy against known genealogy, unknown-rate honesty, false-human attribution, false-synthetic attribution, provenance survival across transformations, and verification cost.",
+    "interpretation": "",
+    "source_boundary_condition": "If provenance capture is routinely absent, forgeable, or too costly to improve decisions over detector baselines, narrow the claim and treat provenance as one evidence channel rather than the primary mechanism.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.5",
+    "source_record": "LEDGER04:Hypotheses:R19",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-FMN"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H19",
+    "title": "20.20 H19: genealogical corroboration",
+    "question": "Can root-aware evidence aggregation reduce false corroboration when many apparently distinct artifacts descend from the same source?",
+    "comparators": "",
+    "metrics": "Lineage Independence Error, independent-root precision and recall, claim-calibration change, retrieval diversity, and auditor burden.",
+    "interpretation": "",
+    "source_boundary_condition": "If lineage-aware aggregation does not materially improve corroboration judgments or imposes prohibitive overhead, confine it to high-impact research and governance workloads.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.5",
+    "source_record": "LEDGER04:Hypotheses:R20",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-FMN"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H20",
+    "title": "20.21 H20: recursive derivative resilience",
+    "question": "Can lineage-aware corpus construction and inheritance controls reduce copy-of-copy degradation, tail loss, false independence, and recursive self-consumption compared with provenance-blind reuse?",
+    "comparators": "",
+    "metrics": "distribution-tail retention, diversity, source-root coverage, derivation depth, model-family ancestry share, downstream calibration, rare-constraint retention, and task quality across generations.",
+    "interpretation": "",
+    "source_boundary_condition": "If lineage controls do not improve generational stability under matched conditions, they remain audit tools rather than a claimed mitigation for recursive degradation.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.5",
+    "source_record": "LEDGER04:Hypotheses:R21",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-FMN"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": [
+      "C23"
+    ]
+  },
+  {
+    "id": "H21",
+    "title": "20.23 H21: semantic initialization geometry",
+    "question": "Does initial alignment between declared semantic identity and neural coordinates change learning cost beyond visible factorization alone?",
+    "comparators": "Bithkuil + semantic_aligned initialization, Bithkuil + iid_random initialization, Bithkuil + semantic_permuted initialization. Hold the student architecture, semantic worlds, representation codec, tokenizer, curriculum contract, optimizer, and declared resource budget fixed as far as the locked attribution plan permits. semantic_permuted preserves the compiled vector multiset and declared global statistics while breaking token-to-meaning assignment. Measure embedding norms and coordinate distributions; sibling, exclusion, unrelated, and operator-family distances; semantic graph adjacency versus embedding neighborhoods; separability of declared factors; critical distinctions such as UNKNOWN versus FALSE; and geometry drift caused by backend or dtype conversion before optimizer step one.",
+    "metrics": "",
+    "interpretation": "Aligned beating permuted supports a token-to-meaning alignment effect. Aligned and permuted both beating IID random suggests broader structured-geometry benefit. No meaningful difference provides no evidence that initialization geometry matters in the tested regime; representation and curriculum hypotheses remain independently testable.",
+    "source_boundary_condition": "If initialization profiles do not materially change learning cost under the locked attribution design, do not promote semantic initialization into an independent efficiency claim. Retain it only where it remains useful as an engineering prior or experimental factor.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.2",
+    "source_record": "LEDGER04:Hypotheses:R22",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03",
+      "S-PREPAY048",
+      "B-ISSUE62",
+      "B-ISSUE63"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  },
+  {
+    "id": "H22",
+    "title": "20.24 H22: participation economics",
+    "question": "Can a federation sustain high-value correction, verification, computation, and specialist contributions without centralized coercion or allowing payment, popularity, or contribution volume to become semantic authority?",
+    "comparators": "open-public baseline with no explicit reciprocity, reciprocal or consortium exchange, shared-cost, credit, subsidy, or usage-compensation treatment.",
+    "metrics": "contribution rate and quality, independent verification depth, strategic withholding, free-riding, concentration, Sybil or collusion exposure, administrative overhead, privacy or IP exposure, compute access, fork or exit cost, and net resource savings.",
+    "interpretation": "",
+    "source_boundary_condition": "If eliciting or policing contributions costs as much as the shared work saves, or if the mechanism converts wealth or popularity into epistemic authority, restrict the mechanism or federation stage rather than calling the externality solved.",
+    "current_disposition": "PRESERVED; planned experiment, no new efficacy result",
+    "manuscript_section": "12.7",
+    "source_record": "LEDGER04:Hypotheses:R23",
+    "source_ids": [
+      "S-UCA04",
+      "S-LEDGER04",
+      "S-GNOSIS03"
+    ],
+    "source_lock": "ETR12-NATIVE-SL-20260929-02",
+    "continuation_contracts": []
+  }
+]

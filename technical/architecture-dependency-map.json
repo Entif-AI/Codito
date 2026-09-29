@@ -1,1 +1,306 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+[
+  {
+    "family_id": "F01",
+    "family": "Rosetta Core / Packs",
+    "requires": "Source observations; canonicalization profile",
+    "produces_for": "All projections, receipts and interoperable contracts",
+    "manuscript_sections": "2.1-2.10; 11.2-11.5",
+    "source_ids": [
+      "S-CORE",
+      "C-ROSETTA-CORE",
+      "C-ROSETTA-CANON"
+    ],
+    "maturity": "Normative Core; inspected bootstrap subset; full conformance not claimed"
+  },
+  {
+    "family_id": "F02",
+    "family": "GNOSIS / incremental cognition",
+    "requires": "Semantic identity; dependency and invalidation contracts",
+    "produces_for": "Context, memory, operator reuse, computational economics",
+    "manuscript_sections": "1.1-1.8; 4.1-4.9; 11.1",
+    "source_ids": [
+      "S-GNOSIS03",
+      "S-UCA04",
+      "R-ACAR",
+      "R-NAIAD"
+    ],
+    "maturity": "Architectural proposal; illustrative reference harness"
+  },
+  {
+    "family_id": "F03",
+    "family": "Bithkuil / Prepaying Semantics",
+    "requires": "Finite semantics; semantic/token ABI; curriculum and cost ledger",
+    "produces_for": "Typed operators, initialization experiments, learner comparisons",
+    "manuscript_sections": "3.1-3.9; 11.7; 12.2",
+    "source_ids": [
+      "S-PREPAY048",
+      "C-BITH-SEM",
+      "B-PLAN01",
+      "B-ISSUE62",
+      "B-ISSUE63",
+      "I-BITH64",
+      "B-ISSUE65"
+    ],
+    "maturity": "Reference code inspected; current treatment not fully implemented or trialed"
+  },
+  {
+    "family_id": "F04",
+    "family": "Cognitive Tiles",
+    "requires": "Commitment declaration; source and rights lineage",
+    "produces_for": "Tapestries, caches, federation, inheritance",
+    "manuscript_sections": "2.1-2.6; 4.1-4.5",
+    "source_ids": [
+      "S-CORE",
+      "S-TILES",
+      "S-GNOSIS03"
+    ],
+    "maturity": "Core specification plus candidate runtime use"
+  },
+  {
+    "family_id": "F05",
+    "family": "Tapestries / Semantic Latticing",
+    "requires": "Tiles; applicability; selected dependency closure",
+    "produces_for": "Operator plans, compressed recall, reusable working sets",
+    "manuscript_sections": "4.6-4.9; 6.1-6.3",
+    "source_ids": [
+      "S-TILES",
+      "S-UCA04",
+      "S-GNOSIS03"
+    ],
+    "maturity": "Proposal with explicit exact/task/perceptual distinctions"
+  },
+  {
+    "family_id": "F06",
+    "family": "OMoC",
+    "requires": "Task contracts; capability catalog; eligibility and cost",
+    "produces_for": "Execution cohorts, escalation, procedure promotion",
+    "manuscript_sections": "6.1-6.9; 12.3",
+    "source_ids": [
+      "S-GNOSIS03",
+      "R-ROUTELLM",
+      "R-JEV",
+      "R-JEV-EVAL"
+    ],
+    "maturity": "Proposed compiler/routing law; no whole-system deployment"
+  },
+  {
+    "family_id": "F07",
+    "family": "Swarm Gnosis",
+    "requires": "Tile/projection verification; custody; local admission",
+    "produces_for": "Cross-node reuse, challenge, independent recovery",
+    "manuscript_sections": "8.1-8.9; 12.7",
+    "source_ids": [
+      "S-TILES",
+      "S-GNOSIS03",
+      "R-IPFS-PERSIST",
+      "R-LIBP2P-DHT"
+    ],
+    "maturity": "Federation proposal; source lineage not proof of truth"
+  },
+  {
+    "family_id": "F08",
+    "family": "Akasha / agentic memory",
+    "requires": "Sources; typed state; authority; temporal scope",
+    "produces_for": "Recall, salience, procedures, prospective obligations",
+    "manuscript_sections": "5.1-5.10",
+    "source_ids": [
+      "S-FMN",
+      "S-GNOSIS03",
+      "S-UCA04"
+    ],
+    "maturity": "Proposed composition; named providers not qualified by inclusion"
+  },
+  {
+    "family_id": "F09",
+    "family": "Commitment",
+    "requires": "Intent; evidence; alternatives; resources; dissent",
+    "produces_for": "Admitted work epochs and effect requests",
+    "manuscript_sections": "7.1-7.3",
+    "source_ids": [
+      "S-UCA04",
+      "S-GNOSIS03"
+    ],
+    "maturity": "Proposal from author doctrine; decisions remain human-scoped"
+  },
+  {
+    "family_id": "F10",
+    "family": "Guard",
+    "requires": "Commitment; policies; current target and lifecycle state",
+    "produces_for": "Executor eligibility, refusal receipts, re-admission",
+    "manuscript_sections": "7.3-7.7; 11.2-11.3",
+    "source_ids": [
+      "C-GUARD",
+      "S-CORE",
+      "S-UCA04"
+    ],
+    "maturity": "Interfaces inspected; all-executor enforcement not established"
+  },
+  {
+    "family_id": "F11",
+    "family": "Tripwire",
+    "requires": "Signals; policy; separated administrative authority",
+    "produces_for": "Interruption, escalation, preserved evidence",
+    "manuscript_sections": "7.6-7.9",
+    "source_ids": [
+      "S-UCA04",
+      "S-GNOSIS03"
+    ],
+    "maturity": "Proposed supervision; no universal anomaly accuracy claim"
+  },
+  {
+    "family_id": "F12",
+    "family": "Mission Control",
+    "requires": "GitHub/Drive/Gmail native sources; Rosetta lineage",
+    "produces_for": "Operator review, dependencies, receipt-backed changes",
+    "manuscript_sections": "10.1-10.9; 11.1; 11.6",
+    "source_ids": [
+      "S-MC",
+      "S-ROADMAP",
+      "S-TOPICAL",
+      "S-INGEST"
+    ],
+    "maturity": "Live planning sheet inspected; not deployed product evidence"
+  },
+  {
+    "family_id": "F13",
+    "family": "IndraNet",
+    "requires": "Entity/frame/clock/revision/evidence/purpose contracts",
+    "produces_for": "Consumer worlds, Generative Reality, context-bound effects",
+    "manuscript_sections": "9.1-9.10; 12.8",
+    "source_ids": [
+      "S-INDRA05",
+      "S-LEDGER04"
+    ],
+    "maturity": "Current manuscript-reported finite reference; no universal interoperability"
+  },
+  {
+    "family_id": "F14",
+    "family": "Provenance / Receipts / RRP / TruthLint",
+    "requires": "Observations; signatures/profile rules; declared verification",
+    "produces_for": "Audit, review, challenge and recovery",
+    "manuscript_sections": "2.4-2.10; 7.5; 10.2; 11.2-11.3",
+    "source_ids": [
+      "S-CORE",
+      "S-RRP04",
+      "S-UCA04"
+    ],
+    "maturity": "Specified mechanisms and bounded reference reports; no truth oracle"
+  },
+  {
+    "family_id": "F15",
+    "family": "Canonical cache",
+    "requires": "Source/canonical artifacts; revision/rights state",
+    "produces_for": "Cached context and durable current views",
+    "manuscript_sections": "4.3-4.6; 10.2; 11.2-11.4",
+    "source_ids": [
+      "C-CACHE",
+      "I-CACHE1194"
+    ],
+    "maturity": "Map plus JSON backend inspected; serving gate and durable parity open"
+  },
+  {
+    "family_id": "F16",
+    "family": "Source substrate",
+    "requires": "Provider scope, pagination, raw evidence, chronology",
+    "produces_for": "Provenance-safe ingestion and source-aware projections",
+    "manuscript_sections": "2.2; 10.1-10.3; 11.2",
+    "source_ids": [
+      "C-SOURCE",
+      "S-MC"
+    ],
+    "maturity": "Interfaces inspected at pinned commit"
+  },
+  {
+    "family_id": "F17",
+    "family": "Persistent-state governance",
+    "requires": "Admission policy, immutable source identity, correction events",
+    "produces_for": "Safe recall, erasure disposition, successor state",
+    "manuscript_sections": "5.1-5.5; 7.3-7.8; 11.4",
+    "source_ids": [
+      "S-FMN",
+      "S-CORE",
+      "S-UCA04"
+    ],
+    "maturity": "Candidate product-state model; finite tests illustrate distinctions"
+  },
+  {
+    "family_id": "F18",
+    "family": "Cognitive inheritance",
+    "requires": "Lineage, rights, uncertainty, exceptions, dependencies",
+    "produces_for": "Successor competence and measured recovery",
+    "manuscript_sections": "5.6-5.10; 12.5",
+    "source_ids": [
+      "S-FMN",
+      "S-GNOSIS03",
+      "S-UCA04"
+    ],
+    "maturity": "Proposal; repeated-generation experiments planned"
+  },
+  {
+    "family_id": "F19",
+    "family": "Distillation / epistemic inheritance",
+    "requires": "Transformation genealogy; known-origin data; held-out probes",
+    "produces_for": "Transfer evaluation and bounded reuse policy",
+    "manuscript_sections": "5.6-5.10; 12.5",
+    "source_ids": [
+      "R-SUBLIMINAL",
+      "R-SUBLIMINAL-LORA",
+      "S-FMN",
+      "S-LEDGER04"
+    ],
+    "maturity": "Primary studies support risk mechanisms; UCA benefit not measured"
+  },
+  {
+    "family_id": "F20",
+    "family": "Executable governance",
+    "requires": "Typed effect envelopes; trusted enforcement; version locks",
+    "produces_for": "Denied unsafe transitions, auditable effects, evolution",
+    "manuscript_sections": "2.7; 7.3-7.9; 11.3-11.9",
+    "source_ids": [
+      "C-GUARD",
+      "S-CORE",
+      "S-UCA04"
+    ],
+    "maturity": "Candidate mechanisms plus inspected type surface and local illustrations"
+  },
+  {
+    "family_id": "F21",
+    "family": "Human participation / institutional interfaces",
+    "requires": "Explicit roles and permissions, intelligible evidence",
+    "produces_for": "Commitments, qualification, participation and research allocation",
+    "manuscript_sections": "6.2; 7.1-7.3; 12.6-12.9",
+    "source_ids": [
+      "S-UCA04",
+      "R-ACTIONABILITY"
+    ],
+    "maturity": "Design and evaluation proposals; no political ranking or authority score"
+  },
+  {
+    "family_id": "F22",
+    "family": "Agentic messaging",
+    "requires": "Identity, payload digest, expiry, nonce, route and Guard decision",
+    "produces_for": "Cross-runtime receipts and action requests",
+    "manuscript_sections": "8.5-8.8",
+    "source_ids": [
+      "S-MESSAGING",
+      "S-CORE",
+      "S-UCA04"
+    ],
+    "maturity": "Author protocol retained; deployed transport not claimed"
+  },
+  {
+    "family_id": "F23",
+    "family": "Related ETR research",
+    "requires": "ETR source corpus; maturity and provenance distinctions",
+    "produces_for": "Architecture, experimental design, engineering obligations",
+    "manuscript_sections": "Part-specific references; research register",
+    "source_ids": [
+      "S-LEDGER04",
+      "S-RRP04",
+      "S-FMN",
+      "S-INDRA05",
+      "S-PREPAY048"
+    ],
+    "maturity": "Source-reported research and proposed synthesis distinguished"
+  }
+]

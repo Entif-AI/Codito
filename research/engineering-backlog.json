@@ -1,1 +1,122 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+[
+  {
+    "id": "E01",
+    "proposal": "Qualify canonical bytes",
+    "evidence": "C-ROSETTA-CANON; SEAM-02",
+    "acceptance": "Independent lexical/numeric/Unicode vectors; explicit profile compatibility",
+    "depends_on": "None",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E02",
+    "proposal": "Separate evaluation from execution receipts",
+    "evidence": "C-CACHE; Part 11.3",
+    "acceptance": "No recomputation claim without completion evidence; reason enums and fixtures",
+    "depends_on": "E01",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E03",
+    "proposal": "Require serving context",
+    "evidence": "C-CACHE; I-CACHE1194",
+    "acceptance": "Missing principal/scope/policy/source/time denies; half-open expiry; invalid time fails",
+    "depends_on": "E01",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E04",
+    "proposal": "Durable backend parity",
+    "evidence": "I-CACHE1194",
+    "acceptance": "Replay identity/revision/correction/rights fixtures against JSON and durable backend",
+    "depends_on": "E01,E03",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E05",
+    "proposal": "Typed change propagation",
+    "evidence": "ETR12-C04,C05,C08",
+    "acceptance": "Evidence and authority changes propagate even when value is equal; bounded cycle behavior",
+    "depends_on": "E01,E04",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E06",
+    "proposal": "Mission Control bounded ingestion",
+    "evidence": "ETR12-C20,C21; S-MC",
+    "acceptance": "Resumption, missing cursor, truncation, quarantine, duplicate-source tests; zero-model idle",
+    "depends_on": "E04",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E07",
+    "proposal": "One context-bound effect adapter",
+    "evidence": "ETR12-C12,C13,C14",
+    "acceptance": "Approval/request digest binding, expiry, ambiguous acknowledgement, reconcile-before-replay",
+    "depends_on": "E02,E03,E06",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E08",
+    "proposal": "Bithkuil semantic initialization",
+    "evidence": "B-ISSUE62,B-ISSUE63",
+    "acceptance": "Frozen feature/projection profile; geometry survives serialization; updated trial plan",
+    "depends_on": "E01",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E09",
+    "proposal": "Apple-GPU qualification",
+    "evidence": "I-BITH64",
+    "acceptance": "Actual M3 Ultra parity/resource evidence; no native ternary speed claim from emulation",
+    "depends_on": "E08",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E10",
+    "proposal": "Small operator compiler",
+    "evidence": "ETR12-C09,C10,C11",
+    "acceptance": "Obligation ownership, eligible routes, cohort mapping and bounded promotion with rollback",
+    "depends_on": "E03,E05",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E11",
+    "proposal": "Inheritance conservation suite",
+    "evidence": "Part V; H16-H20",
+    "acceptance": "Multi-generation uncertainty/scope/exception/lineage retention and later correction",
+    "depends_on": "E05,E10",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E12",
+    "proposal": "Two-node exchange and correction",
+    "evidence": "ETR12-C15,C16",
+    "acceptance": "Scoped custody, independent failure domains, challenge disposition, partition recovery",
+    "depends_on": "E05,E07",
+    "status": "PROPOSED; no issue created, no implementation authorized"
+  },
+  {
+    "id": "E13",
+    "proposal": "Qualify scoped query witnesses",
+    "evidence": "C22; H13/H14",
+    "acceptance": "Controlled insert/remove/correct/rights/pagination stream; zero missed invalidations under declared complete feed; isolate metadata; measure rebuild cost before selective optimization",
+    "depends_on": "E03,E04,E05",
+    "status": "PROPOSED; no issue created, no production implementation authorized"
+  },
+  {
+    "id": "E14",
+    "proposal": "Qualify coherent restore closure",
+    "evidence": "C23; H8/H20",
+    "acceptance": "Crash injection during capture/upload/index rebuild; authenticated manifest; no stale grant resurrection; reconcile all unknown effects; measure RPO/RTO",
+    "depends_on": "E04,E05,E07,E13",
+    "status": "PROPOSED; no issue created, no production implementation authorized"
+  },
+  {
+    "id": "E15",
+    "proposal": "Bind retry intent and enforce executor fencing",
+    "evidence": "C14; H8",
+    "acceptance": "Durable atomic request-key/digest binding; stale workers denied at actual mutation boundary; late arrival and tombstone expiry fixtures; declare provider limitations",
+    "depends_on": "E03,E04,E07",
+    "status": "PROPOSED; no issue created, no production implementation authorized"
+  }
+]
