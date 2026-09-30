@@ -21,6 +21,24 @@ The broader research question is therefore larger than token throughput:
 
 > Can cognition stop being repeatedly serialized, reconstructed, forgotten, and repurchased at every boundary?
 
+## Salience is orthogonal to serialization
+
+Reducing seriality can make cognition cheaper, more parallel, or more reusable. It does not decide which unresolved signals deserve expensive cognition.
+
+SÍ SÉ SON supplies a separate candidate attention layer based on impact, exigency, and novelty. Its immediate role is to sit after source-preserving ingestion and before expensive context hydration, model inference, research, or human review. It can also recur when aggregate patterns, contradictions, failures, or changed context appear.
+
+The relationship is complementary:
+
+```text
+salience      -> what deserves cognition?
+serialization -> where are we paying avoidable cognitive tax?
+reuse          -> what valid work has already been earned?
+routing        -> which eligible operator should resolve the remainder?
+authority      -> what may become a commitment or effect?
+```
+
+See [Salience metabolism in UCA](salience-metabolism.md).
+
 ## Cognitive IR hypothesis
 
 A longer-term interpretation of UCA treats portable semantic state as an intermediate representation above any one neural execution architecture.

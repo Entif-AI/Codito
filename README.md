@@ -19,6 +19,10 @@ Model architecture can lower the cost of one reasoning episode. UCA also asks wh
 
 The working synthesis, candidate experiments, and Cognitive IR hypothesis are documented in [Serialization boundaries and Cognitive IR](docs/serialization-boundaries.md).
 
+UCA also has an attention-allocation problem. Not every available signal deserves the same cognitive budget. SÍ SÉ SON treats impact, exigency, and novelty as separate salience dimensions between ingestion and expensive cognition. That layer is orthogonal to the four serialization costs: serialization asks how cognition pays, while salience asks what deserves cognition at all.
+
+See [Salience metabolism in UCA](docs/salience-metabolism.md) for the working architecture and research plan.
+
 ## Status
 
 Codito is research software. The current code is a finite reference model extracted from ETR-2026-12. It tests specific architectural distinctions and failure cases. It is not a production cognitive runtime, Rosetta conformance implementation, authorization service, database, or distributed-systems proof.
@@ -51,6 +55,7 @@ No provider credentials, network calls, model calls, external effects, or third-
 - `interop/rosetta/` contains bounded interoperability probes. These are evidence about a pinned Rosetta implementation, not Codito-owned Rosetta semantics.
 - `docs/rosetta-alignment.md` records the authority boundary for this repository.
 - `docs/serialization-boundaries.md` records a post-ETR research synthesis on serialization, Cognitive IR, and candidate experiments.
+- `docs/salience-metabolism.md` records the post-ETR SÍ SÉ SON salience and assimilation research surface.
 
 ## Research posture
 
