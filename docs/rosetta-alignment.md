@@ -20,11 +20,21 @@ The portable Rosetta or UCA artifact must remain independently identifiable. Rep
 
 A qualified adapter should declare enough information to identify its source artifact, adapter version, model target, and known loss or reconstruction contract. These are research requirements for Codito adapters, not new Rosetta Core semantics.
 
+## Salience boundary
+
+Codito may represent salience dimensions, evidence, scopes, aggregate lineage, and evaluation outcomes needed for independent research. A salience assessment does not confer truth, provenance authority, commitment readiness, or effect admission.
+
+Public documentation may define the meanings of impact, exigency, novelty, and observable failure states. Tuned weighting formulas, thresholds, ranking policy, adaptive routing, and other operational selection methods remain separate implementation concerns subject to the public/private boundary.
+
+Osmotic propagation also does not create semantic authority. A belief, principle, or method may spread across workflows or participants while remaining provisional, scoped, contested, or wrong.
+
 ## Initial proof boundary
 
 The first baseline proves only that the included deterministic fixtures behave as asserted. It does not prove distributed execution, database durability, provider semantics, authorization correctness, learned-model performance, physical actuation, or production readiness.
 
 The serialization and Cognitive IR work in `docs/serialization-boundaries.md` is exploratory. The repository does not currently implement a neural IR compiler, latent-prefix adapter, or non-autoregressive semantic reasoner.
+
+The salience and osmotic-learning work in `docs/salience-metabolism.md` is also exploratory. The repository does not currently implement a production salience scorer, attention router, or cross-agent learning mechanism.
 
 ## Rosetta pin
 
