@@ -1,0 +1,438 @@
+{
+  "schema": "codito.rosetta-owner-crosswalk/v0.1",
+  "status": "reconciled_planning_projection",
+  "reconciled_at": "2026-10-02",
+  "normative_promotion": false,
+  "pinned_refs": {
+    "codito": "41ba59d5c821f0faa01813ee65cfd2dd4064b7cf",
+    "rosetta": "9c2006ef2ffc06ae876d4b311112bb803beab897"
+  },
+  "invariants": [
+    "rosetta_core_and_accepted_public_contracts_own_interoperable_meaning",
+    "codito_hypotheses_candidate_contracts_and_reference_code_are_research_evidence",
+    "codito_source_locked_etr_registers_are_not_rewritten_by_this_crosswalk",
+    "protected_operation_is_referenced_only_by_opaque_IPR_ids",
+    "candidate_contract_names_do_not_become_rosetta_kinds_by_implication"
+  ],
+  "engineering_backlog": {
+    "E01": {
+      "disposition": "existing_owner",
+      "public_issues": [
+        528
+      ],
+      "note": "canonical bytes and JCS conformance"
+    },
+    "E02": {
+      "disposition": "existing_owner",
+      "public_issues": [
+        158,
+        1038
+      ],
+      "note": "evaluation, execution and receipt role separation"
+    },
+    "E03": {
+      "disposition": "existing_owner",
+      "public_issues": [
+        1490,
+        994
+      ],
+      "note": "serving context and fail-closed reuse"
+    },
+    "E04": {
+      "disposition": "existing_owner",
+      "public_issues": [
+        793,
+        1194
+      ],
+      "note": "durable backend parity"
+    },
+    "E05": {
+      "disposition": "existing_owner",
+      "public_issues": [
+        1560,
+        1567
+      ],
+      "note": "dependency facets, invalidation and revalidation"
+    },
+    "E06": {
+      "disposition": "application_consumer",
+      "public_issues": [
+        506,
+        799,
+        1141,
+        1121,
+        1140
+      ],
+      "note": "bounded ingestion consumes Source Substrate contracts"
+    },
+    "E07": {
+      "disposition": "existing_owner",
+      "public_issues": [
+        994,
+        1556,
+        1678,
+        1687
+      ],
+      "note": "context-bound effect and ambiguous delivery"
+    },
+    "E08": {
+      "disposition": "research_only_outside_akasha_control_plane",
+      "note": "Bithkuil semantic initialization"
+    },
+    "E09": {
+      "disposition": "research_only_outside_akasha_control_plane",
+      "note": "Apple-GPU Bithkuil qualification"
+    },
+    "E10": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1478,
+        1482,
+        1497,
+        1507
+      ],
+      "protected_authorities": [
+        "IPR-0014",
+        "IPR-0004",
+        "IPR-0032"
+      ],
+      "note": "small operator compiler"
+    },
+    "E11": {
+      "disposition": "research_only_adjacent",
+      "public_issues": [
+        1650,
+        1560
+      ],
+      "note": "cognitive inheritance conservation remains an experimental research lane"
+    },
+    "E12": {
+      "disposition": "existing_owner",
+      "public_issues": [
+        1625,
+        980
+      ],
+      "note": "two-node exchange and correction"
+    },
+    "E13": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1567,
+        1560,
+        1534
+      ],
+      "note": "scoped query witness"
+    },
+    "E14": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1035,
+        1038,
+        1557
+      ],
+      "protected_authorities": [
+        "IPR-0099"
+      ],
+      "note": "coherent restore closure"
+    },
+    "E15": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1556,
+        1051,
+        1678
+      ],
+      "note": "retry intent, idempotency and executor fencing"
+    }
+  },
+  "candidate_contracts": {
+    "C01": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        528,
+        158
+      ],
+      "note": "artifact commitment and canonical identity"
+    },
+    "C02": {
+      "disposition": "core_composition",
+      "public_issues": [
+        158
+      ],
+      "note": "task closure uses existing evidence, Evaluation and Receipt roles"
+    },
+    "C03": {
+      "disposition": "research_only_outside_akasha_control_plane",
+      "note": "Bithkuil semantic feature initializer"
+    },
+    "C04": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1560,
+        1567
+      ],
+      "note": "typed change facets and projection revalidation"
+    },
+    "C05": {
+      "disposition": "research_only_adjacent",
+      "note": "declared cycle solver remains GNOSIS research"
+    },
+    "C06": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1488,
+        1526
+      ],
+      "protected_authorities": [
+        "IPR-0027"
+      ],
+      "note": "compression projection and loss"
+    },
+    "C07": {
+      "disposition": "core_composition",
+      "public_issues": [
+        10,
+        1558
+      ],
+      "note": "multidimensional state must not collapse to one lifecycle label"
+    },
+    "C08": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1560,
+        1625
+      ],
+      "note": "correction epoch and revalidation closure"
+    },
+    "C09": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1478,
+        1482,
+        1497
+      ],
+      "protected_authorities": [
+        "IPR-0014",
+        "IPR-0004",
+        "IPR-0032"
+      ],
+      "note": "proof-carrying route plan"
+    },
+    "C10": {
+      "disposition": "protected_runtime_pattern",
+      "public_issues": [
+        1038,
+        1051
+      ],
+      "protected_authorities": [
+        "IPR-0053",
+        "IPR-0068"
+      ],
+      "note": "dependency-preserving execution cohort"
+    },
+    "C11": {
+      "disposition": "compose_existing_plus_protected_gap_owner",
+      "public_issues": [
+        1475,
+        1502,
+        1483
+      ],
+      "protected_authorities": [
+        "IPR-0011",
+        "IPR-0005",
+        "IPR-0219"
+      ],
+      "note": "procedure promotion and progressive determinization"
+    },
+    "C12": {
+      "disposition": "research_only_adjacent",
+      "note": "commitment epoch remains a UCA candidate contract"
+    },
+    "C13": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        994
+      ],
+      "note": "effect-bound admission"
+    },
+    "C14": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1556,
+        1678,
+        1038
+      ],
+      "note": "effect attempt ledger and ambiguous-ack reconciliation"
+    },
+    "C15": {
+      "disposition": "research_only_adjacent",
+      "note": "custody commitment is not required for current V0"
+    },
+    "C16": {
+      "disposition": "existing_owner",
+      "public_issues": [
+        1625
+      ],
+      "note": "correction challenge"
+    },
+    "C17": {
+      "disposition": "research_only_adjacent",
+      "public_issues": [
+        1558
+      ],
+      "note": "frame-qualified world claim"
+    },
+    "C18": {
+      "disposition": "research_only_adjacent",
+      "note": "receiver reconstruction contract"
+    },
+    "C19": {
+      "disposition": "research_only_adjacent",
+      "note": "derivability certificate"
+    },
+    "C20": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1051,
+        506,
+        1141
+      ],
+      "note": "coverage-bearing collection checkpoint"
+    },
+    "C21": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1122
+      ],
+      "note": "state explanation projection"
+    },
+    "C22": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1567,
+        1560,
+        1534
+      ],
+      "note": "scoped query witness"
+    },
+    "C23": {
+      "disposition": "compose_existing",
+      "public_issues": [
+        1035,
+        1038,
+        1557
+      ],
+      "protected_authorities": [
+        "IPR-0099"
+      ],
+      "note": "recovery closure profile"
+    }
+  },
+  "hypothesis_crosswalk": {
+    "H2": {
+      "public_issues": [
+        1488
+      ],
+      "protected_authorities": [
+        "IPR-0027"
+      ],
+      "role": "context compilation"
+    },
+    "H3": {
+      "public_issues": [
+        1478,
+        1480,
+        1507
+      ],
+      "protected_authorities": [
+        "IPR-0014",
+        "IPR-0018",
+        "IPR-0051"
+      ],
+      "role": "OMoC routing"
+    },
+    "H4": {
+      "public_issues": [
+        1482
+      ],
+      "role": "typed parallel decisions research"
+    },
+    "H6": {
+      "public_issues": [
+        1475,
+        1502,
+        1089
+      ],
+      "protected_authorities": [
+        "IPR-0011",
+        "IPR-0219"
+      ],
+      "role": "progressive determinization"
+    },
+    "H8": {
+      "public_issues": [
+        1560,
+        1625
+      ],
+      "role": "symmetric recovery"
+    },
+    "H13": {
+      "public_issues": [
+        1560,
+        1567,
+        1534
+      ],
+      "role": "immediate-edge sufficiency"
+    },
+    "H14": {
+      "public_issues": [
+        1490,
+        1567
+      ],
+      "protected_authorities": [
+        "IPR-0027"
+      ],
+      "role": "recursive computation reuse"
+    },
+    "H16": {
+      "public_issues": [
+        1650
+      ],
+      "role": "cognitive inheritance economy research"
+    },
+    "H20": {
+      "public_issues": [
+        1650,
+        1625
+      ],
+      "role": "recursive derivative resilience"
+    }
+  },
+  "akasha_control_plane": {
+    "public_programs": [
+      1664,
+      1672
+    ],
+    "public_join_issue": 1685,
+    "public_salience_issue": 1670,
+    "public_graph_view_issue": 1671,
+    "protected_authorities": [
+      "IPR-0218",
+      "IPR-0219"
+    ],
+    "context_compilation": {
+      "public_issue": 1488,
+      "protected_authority": "IPR-0027"
+    }
+  },
+  "concrete_discrepancies": {
+    "CODITO-JCS-001": {
+      "evidence_path": "interop/rosetta/canonicalization_probe.mjs",
+      "public_owner_issue": 528,
+      "affected_consumer_issues": [
+        1666
+      ],
+      "finding": "The current Rosetta helper labels output RFC8785_JCS but JavaScript integer-like property ordering can diverge from JCS lexicographic ordering. The probe is evidence for #528 conformance vectors, not a new Codito semantic contract."
+    }
+  }
+}
