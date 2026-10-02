@@ -51,6 +51,7 @@ No provider credentials, network calls, model calls, external effects, or third-
 - `codito/` contains the finite executable reference models.
 - `tests/` contains positive and negative contract fixtures.
 - `technical/` contains candidate UCA contracts and architecture dependency data from the ETR-2026-12 production package.
+- `technical/rosetta-owner-crosswalk.json` maps Codito engineering items, candidate contracts, and selected hypotheses to current Rosetta owners and opaque protected-authority IDs without rewriting the source-locked research registers.
 - `research/` contains the source-locked hypothesis registry, proposed engineering backlog, and preregistration template.
 - `interop/rosetta/` contains bounded interoperability probes. These are evidence about a pinned Rosetta implementation, not Codito-owned Rosetta semantics.
 - `docs/rosetta-alignment.md` records the authority boundary for this repository.
@@ -70,6 +71,8 @@ Post-ETR research notes do not silently rewrite the source-locked ETR-2026-12 re
 The initial reference model comes from **ETR-2026-12, Entif.AI Unified Cognitive Architecture**, native continuation source lock `ETR12-NATIVE-SL-20260929-02`.
 
 Rosetta reference pin for the initial alignment pass: `1fc05c404d15fa7cc9713e7ee19d87b94316f07a`.
+
+Ownership reconciliation was repeated on 2026-10-02 against Rosetta `9c2006ef2ffc06ae876d4b311112bb803beab897`; see `technical/rosetta-owner-crosswalk.json`.
 
 ## License
 
