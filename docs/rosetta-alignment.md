@@ -1,6 +1,6 @@
 # Rosetta alignment
 
-Codito is an application and research layer over Rosetta semantics. It is not a competing semantic authority.
+Codito is a research and demonstration workspace. It owns no official schema, structure, semantics, serialization, storage/integration/exchange contract, adapter, runtime contract, or operational authority.
 
 ## Authority
 
@@ -8,9 +8,13 @@ The Rosetta v3.0.0 Core Spine owns the meanings of Core artifacts such as `Run`,
 
 The initial Codito reference harness uses ordinary Python types to isolate finite UCA propositions. Those fixture types are test instruments. They are not new `rosetta.*` artifact kinds and do not claim Rosetta conformance.
 
-## Public and protected boundary
+## Ownership boundary
 
-Codito may publish representational contracts, validation fixtures, interoperability mappings, research hypotheses, and failure semantics needed for independent inspection. Operational advantage remains separately governed. Routing algorithms, scoring formulas, promotion logic, context optimization, private inference, and other protected methods do not become public merely because Codito has a public representation for their inputs or outputs.
+Rosetta owns every official schema, data structure, semantic contract, serialization, storage-facing contract, integration mapping, exchange envelope, and adapter. This includes structures used only by Entif or by protected implementations.
+
+Private operation may own algorithms, policy, orchestration, thresholds, ranking, routing, learning strategy, optimization, and other non-interoperability machinery.
+
+Codito owns neither side. It may publish hypotheses, demonstrative candidate shapes, code, probes, and fixtures. Those artifacts remain research references until Rosetta adopts the data-bearing surface or a protected authority adopts the non-interoperability operating method.
 
 ## Compiled adapter boundary
 
@@ -18,7 +22,7 @@ Future Codito research may test model-specific projections of portable UCA artif
 
 The portable Rosetta or UCA artifact must remain independently identifiable. Replacing a model or adapter must not mutate that source artifact or make its meaning depend on one provider's hidden state.
 
-A qualified adapter should declare enough information to identify its source artifact, adapter version, model target, and known loss or reconstruction contract. These are research requirements for Codito adapters, not new Rosetta Core semantics.
+A Codito prototype may demonstrate what an adapter would need to declare. If that adapter becomes an official storage, integration, transformation, model-ingress, or exchange boundary, Rosetta owns the adapter contract and implementation surface. Codito remains a test or publication reference.
 
 ## Salience boundary
 
@@ -54,11 +58,11 @@ Current dispositions:
 
 - context compilation uses Core `Tapestry`, public Rosetta #1488, and protected authority `IPR-0027`;
 - control-plane selection composes existing public routing, budget, planner, specialist, and operator contracts plus their mapped protected authorities;
-- public salience representation is owned by Rosetta #1670; protected SÍ SÉ SON operational policy is mapped to `IPR-0218`;
-- progressive determinization composes public StrategyEpisode, experiment, benchmark, and procedural-promotion contracts; protected counterfactual mechanism-substitution work is mapped to `IPR-0219`;
+- public salience data, semantics, and adapters are owned by Rosetta #1670; protected SÍ SÉ SON estimation/attention/assimilation policy is mapped to `IPR-0218`;
+- counterfactual mechanism-evaluation data is owned by Rosetta #1692 plus the existing experiment/replay/promotion contracts; private candidate-selection, comparison thresholds, and adaptive substitution policy are mapped to `IPR-0219`;
 - Codito C22 remains a research fixture over existing view/frontier, revalidation, and graph-query contracts rather than a new query ontology;
 - Codito C23 remains a research fixture over existing replay, execution-tape, migration/recovery, and protected continuity authority.
 
 The canonicalization interoperability probe has one concrete current finding. The pinned Rosetta helper labels its output `RFC8785_JCS`, but JavaScript integer-like property ordering can diverge from JCS lexicographic ordering. Public Rosetta #528 owns the conformance vectors and any implementation repair. Codito retains the probe as evidence.
 
-Future Codito work should update the crosswalk when a candidate contract gains a canonical owner, when an owner is superseded, or when a genuine gap survives Rosetta and protected-authority review.
+Future Codito work should update the crosswalk when a demonstrative shape gains or changes its Rosetta owner. A Codito shape must not become an official dependency before that Rosetta ownership exists. Operational ideas that do not define data/interoperability may be routed to protected authority separately.
