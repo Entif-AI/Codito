@@ -4,7 +4,7 @@
 
 Codito is the experimental and reference implementation workspace for Entif.AI's **Unified Cognitive Architecture (UCA)**.
 
-Rosetta remains the authority for Rosetta Core semantics. Codito composes and tests those semantics. It does not redefine the Rosetta Core Spine.
+Rosetta owns every official schema, structure, semantic contract, serialization, storage/integration/exchange contract, and adapter. Codito owns nothing official. Its code, candidate shapes, tests, and fixtures are demonstrative research support for publications and Rosetta/private-ip planning.
 
 ## Why Codito
 
@@ -25,7 +25,7 @@ See [Salience metabolism in UCA](docs/salience-metabolism.md) for the working ar
 
 ## Status
 
-Codito is research software. The current code is a finite reference model extracted from ETR-2026-12. It tests specific architectural distinctions and failure cases. It is not a production cognitive runtime, Rosetta conformance implementation, authorization service, database, or distributed-systems proof.
+Codito is research software. The current code is a finite demonstrative model extracted from ETR-2026-12. It tests architectural distinctions and failure cases for publication and design work. It is not an official implementation contract, production cognitive runtime, Rosetta conformance implementation, authorization service, database, adapter authority, or distributed-systems proof.
 
 The initial baseline contains 55 deterministic unit tests with no runtime dependencies beyond Python 3.10 or newer. They cover:
 
@@ -51,7 +51,7 @@ No provider credentials, network calls, model calls, external effects, or third-
 - `codito/` contains the finite executable reference models.
 - `tests/` contains positive and negative contract fixtures.
 - `technical/` contains candidate UCA contracts and architecture dependency data from the ETR-2026-12 production package.
-- `technical/rosetta-owner-crosswalk.json` maps Codito engineering items, candidate contracts, and selected hypotheses to current Rosetta owners and opaque protected-authority IDs without rewriting the source-locked research registers.
+- `technical/rosetta-owner-crosswalk.json` records that Codito owns nothing official and maps demonstrative engineering items, candidate shapes, and selected hypotheses to their Rosetta data owners and, where relevant, private policy authorities.
 - `research/` contains the source-locked hypothesis registry, proposed engineering backlog, and preregistration template.
 - `interop/rosetta/` contains bounded interoperability probes. These are evidence about a pinned Rosetta implementation, not Codito-owned Rosetta semantics.
 - `docs/rosetta-alignment.md` records the authority boundary for this repository.
