@@ -11,3 +11,10 @@ fixtures; raw, structural, path and heuristic controls; source byte spans/digest
 recall/false exclusions, abstention, two boundary placements, actual preflight time
 and packet bytes; explicit VOI and optional bounded scorer; retained negative case.
 Current focus: red behavioral tests. Next safe step: implement offline demonstrator.
+
+Result: 69 offline unittest cases pass. Red missing implementation, transport
+boundary and lost-decorator cases preceded their fixes. Seventy fixture/treatment
+placements retain packet/source bytes, source/transport digests, recall, exclusions
+and actual instrumentation-inclusive nanoseconds. Negative tiny/prefix controls
+and opaque malformed excerpts survive. Provider/model calls are zero.
+Next safe step: review PR, exact log archive, remote final readback; no merge.

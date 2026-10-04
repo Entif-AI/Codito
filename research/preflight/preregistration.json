@@ -1,0 +1,18 @@
+{
+  "status": "DRAFT_PROTOCOL_NOT_REGISTERED",
+  "issue": "https://github.com/Entif-AI/Codito/issues/71",
+  "primary_outcome": "decisive-source-span recall and full packet bytes; time includes instrumentation",
+  "controls": [
+    "raw",
+    "structural",
+    "paths",
+    "heuristic",
+    "layered"
+  ],
+  "boundaries": [
+    "file-to-context",
+    "tool-response-to-agent"
+  ],
+  "stopping_rule": "complete every fixed synthetic placement/treatment; retain harms and overhead",
+  "no_model_claim": true
+}
