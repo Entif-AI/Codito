@@ -1,0 +1,502 @@
+{
+  "format_version": 1,
+  "role": "synthetic-research-only",
+  "budget": 4,
+  "profile": {
+    "id": "toy-equal-projects-v1",
+    "criteria": [
+      "impact",
+      "future",
+      "safety"
+    ],
+    "weights": {
+      "impact": 0.6,
+      "future": 0.3,
+      "safety": 0.1
+    },
+    "dissent_gap": 1,
+    "authority": "explicit authored experimental profile, no organization values"
+  },
+  "candidates": [
+    {
+      "id": "shared",
+      "category": "shared",
+      "cost": 1,
+      "depends": [],
+      "exclusive_group": null,
+      "duplicate_group": null
+    },
+    {
+      "id": "local",
+      "category": "local",
+      "cost": 1,
+      "depends": [
+        "shared"
+      ],
+      "exclusive_group": null,
+      "duplicate_group": null
+    },
+    {
+      "id": "future",
+      "category": "future",
+      "cost": 1,
+      "depends": [],
+      "exclusive_group": null,
+      "duplicate_group": null
+    },
+    {
+      "id": "compete_a",
+      "category": "exclusive",
+      "cost": 2,
+      "depends": [],
+      "exclusive_group": "solution",
+      "duplicate_group": null
+    },
+    {
+      "id": "compete_b",
+      "category": "exclusive",
+      "cost": 2,
+      "depends": [],
+      "exclusive_group": "solution",
+      "duplicate_group": null
+    },
+    {
+      "id": "dup_a",
+      "category": "duplicate",
+      "cost": 1,
+      "depends": [],
+      "exclusive_group": null,
+      "duplicate_group": "common-task"
+    },
+    {
+      "id": "dup_b",
+      "category": "duplicate",
+      "cost": 1,
+      "depends": [],
+      "exclusive_group": null,
+      "duplicate_group": "common-task"
+    },
+    {
+      "id": "externality",
+      "category": "externality",
+      "cost": 1,
+      "depends": [],
+      "exclusive_group": null,
+      "duplicate_group": null
+    },
+    {
+      "id": "hidden",
+      "category": "hidden-dependency",
+      "cost": 1,
+      "depends": [],
+      "exclusive_group": null,
+      "duplicate_group": null
+    }
+  ],
+  "dossiers": {
+    "A": [
+      {
+        "id": "A:0",
+        "project": "A",
+        "approved": true,
+        "scores": {
+          "shared": {
+            "impact": 3,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "A:1",
+        "project": "A",
+        "approved": true,
+        "scores": {
+          "future": {
+            "impact": 0,
+            "future": 2,
+            "safety": 0
+          },
+          "local": {
+            "impact": 8,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "A:2",
+        "project": "A",
+        "approved": true,
+        "scores": {
+          "compete_a": {
+            "impact": 2,
+            "future": 0,
+            "safety": 0
+          },
+          "compete_b": {
+            "impact": 0,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_a": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_b": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "A:3",
+        "project": "A",
+        "approved": true,
+        "scores": {
+          "externality": {
+            "impact": 12,
+            "future": 0,
+            "safety": 0
+          },
+          "hidden": {
+            "impact": 9,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      }
+    ],
+    "B": [
+      {
+        "id": "B:0",
+        "project": "B",
+        "approved": true,
+        "scores": {
+          "shared": {
+            "impact": 3,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "B:1",
+        "project": "B",
+        "approved": true,
+        "scores": {
+          "future": {
+            "impact": 0,
+            "future": 2,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "B:2",
+        "project": "B",
+        "approved": true,
+        "scores": {
+          "compete_a": {
+            "impact": 2,
+            "future": 0,
+            "safety": 0
+          },
+          "compete_b": {
+            "impact": 0,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_a": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_b": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "B:3",
+        "project": "B",
+        "approved": true,
+        "scores": {
+          "externality": {
+            "impact": -12,
+            "future": 0,
+            "safety": -10
+          }
+        },
+        "dependencies": {}
+      }
+    ],
+    "C": [
+      {
+        "id": "C:0",
+        "project": "C",
+        "approved": true,
+        "scores": {
+          "shared": {
+            "impact": 3,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "C:1",
+        "project": "C",
+        "approved": true,
+        "scores": {
+          "future": {
+            "impact": 0,
+            "future": 2,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "C:2",
+        "project": "C",
+        "approved": true,
+        "scores": {
+          "compete_a": {
+            "impact": 0,
+            "future": 0,
+            "safety": 0
+          },
+          "compete_b": {
+            "impact": 2,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_a": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_b": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "C:3",
+        "project": "C",
+        "approved": true,
+        "scores": {
+          "externality": {
+            "impact": -5,
+            "future": 0,
+            "safety": -4
+          }
+        },
+        "dependencies": {}
+      }
+    ],
+    "D": [
+      {
+        "id": "D:0",
+        "project": "D",
+        "approved": true,
+        "scores": {
+          "shared": {
+            "impact": 3,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "D:1",
+        "project": "D",
+        "approved": true,
+        "scores": {
+          "future": {
+            "impact": 0,
+            "future": 2,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "D:2",
+        "project": "D",
+        "approved": true,
+        "scores": {
+          "compete_a": {
+            "impact": 0,
+            "future": 0,
+            "safety": 0
+          },
+          "compete_b": {
+            "impact": 2,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_a": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_b": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "D:3",
+        "project": "D",
+        "approved": true,
+        "scores": {},
+        "dependencies": {}
+      }
+    ],
+    "E": [
+      {
+        "id": "E:0",
+        "project": "E",
+        "approved": true,
+        "scores": {
+          "shared": {
+            "impact": 3,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "E:1",
+        "project": "E",
+        "approved": true,
+        "scores": {
+          "future": {
+            "impact": 0,
+            "future": 2,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "E:2",
+        "project": "E",
+        "approved": true,
+        "scores": {
+          "compete_a": {
+            "impact": 0,
+            "future": 0,
+            "safety": 0
+          },
+          "compete_b": {
+            "impact": 2,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_a": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          },
+          "dup_b": {
+            "impact": 1,
+            "future": 0,
+            "safety": 0
+          }
+        },
+        "dependencies": {}
+      },
+      {
+        "id": "E:3",
+        "project": "E",
+        "approved": true,
+        "scores": {
+          "hidden": {
+            "impact": 2,
+            "future": 1,
+            "safety": 0
+          }
+        },
+        "dependencies": {
+          "hidden": [
+            "shared"
+          ]
+        }
+      }
+    ]
+  },
+  "truth": {
+    "shared": {
+      "quality": 9,
+      "requires": [],
+      "source_ref": "authored-outcome:shared"
+    },
+    "local": {
+      "quality": 6,
+      "requires": [
+        "shared"
+      ],
+      "source_ref": "authored-outcome:local"
+    },
+    "future": {
+      "quality": 4,
+      "requires": [],
+      "source_ref": "authored-outcome:future"
+    },
+    "compete_a": {
+      "quality": 4,
+      "requires": [],
+      "source_ref": "authored-outcome:compete_a"
+    },
+    "compete_b": {
+      "quality": 8,
+      "requires": [],
+      "source_ref": "authored-outcome:compete_b"
+    },
+    "dup_a": {
+      "quality": 2,
+      "requires": [],
+      "source_ref": "authored-outcome:dup_a"
+    },
+    "dup_b": {
+      "quality": 2,
+      "requires": [],
+      "source_ref": "authored-outcome:dup_b"
+    },
+    "externality": {
+      "quality": -12,
+      "requires": [],
+      "source_ref": "authored-outcome:externality"
+    },
+    "hidden": {
+      "quality": 10,
+      "requires": [
+        "shared"
+      ],
+      "source_ref": "authored-outcome:hidden"
+    }
+  }
+}

@@ -14,3 +14,10 @@ bytes and clearly labeled review/myopia proxies. Offline TDD and full unit suite
 Strong-model comparator remains unavailable unless an actual provider is qualified.
 
 Current focus: red behavioral tests. Next safe step: implement the experiment.
+
+Result: 66 offline tests pass, including weighted/Pareto behavior, hidden prerequisites,
+fixed budgets, evidence aperture, truth isolation and seed-sensitivity controls.
+33 runs and measured runtime are in research/decision-ecology/results.json.
+25% Pareto can lose strongly in this authored fixture. No optimal-aperture claim.
+Strong-model comparator not run. Source and protocol digests are retained.
+Next safe step: review PR, exact worklog archive on #70, final remote readback.
