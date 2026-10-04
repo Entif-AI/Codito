@@ -12,3 +12,10 @@ controls; independent source roots for scouts; stale/copy/rare/noisy/frequency/
 rights failures; actual inspected source bytes, visit/edge counts and local time;
 cold start, change adaptation and negative recall/rework results. Offline TDD.
 Current focus: red behavioral tests. Next safe step: implement fixture experiment.
+
+Result: 66 offline unittest cases pass. Eleven focused tests prove decay,
+task/version invalidation, scout/source independence, graph immutability and rights
+filtering. 147 authored treatments preserve failing/harmful paths as well as
+recall gains. Semantic/vector comparator is not run; lexical control is distinct.
+Actual instrumented bytes/visits/time and all fixture facts/telemetry are retained.
+Next safe step: review PR, exact issue log archive and remote final readback.

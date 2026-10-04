@@ -1,0 +1,3263 @@
+{
+  "role": "authored-research-fixtures",
+  "fixtures": [
+    {
+      "id": "rare-decisive",
+      "graph": {
+        "family": "ast-code",
+        "nodes": [
+          {
+            "id": "entry",
+            "label": "module entry",
+            "text": "from parser import parse",
+            "evidence_root": "file:entry",
+            "allowed": true
+          },
+          {
+            "id": "hot",
+            "label": "popular parser",
+            "text": "def popular(): return legacy_path",
+            "evidence_root": "file:parser",
+            "allowed": true
+          },
+          {
+            "id": "noise",
+            "label": "logging helper",
+            "text": "def debug(): return noisy_output",
+            "evidence_root": "file:parser",
+            "allowed": true
+          },
+          {
+            "id": "shared",
+            "label": "source dependency",
+            "text": "def normalize(): return canonical_bytes",
+            "evidence_root": "file:normalize",
+            "allowed": true
+          },
+          {
+            "id": "rare",
+            "label": "repair serializer boundary",
+            "text": "def repair(): preserve_decisive_source",
+            "evidence_root": "file:serializer",
+            "allowed": true
+          },
+          {
+            "id": "unused",
+            "label": "unused helper",
+            "text": "def obsolete(): return None",
+            "evidence_root": "file:obsolete",
+            "allowed": true
+          }
+        ],
+        "edges": [
+          [
+            "entry",
+            "hot",
+            "derived-ast"
+          ],
+          [
+            "entry",
+            "noise",
+            "derived-ast"
+          ],
+          [
+            "entry",
+            "shared",
+            "source-fact"
+          ],
+          [
+            "shared",
+            "rare",
+            "source-fact"
+          ],
+          [
+            "noise",
+            "unused",
+            "inferred"
+          ]
+        ]
+      },
+      "graph_digest": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce",
+      "heat": {
+        "visits": [
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "rare",
+            "task": "repair",
+            "at": 18,
+            "success": true,
+            "evidence_root": "validated:rare",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          }
+        ]
+      },
+      "targets": [
+        "rare"
+      ],
+      "start": "entry",
+      "task": "repair",
+      "query": "repair",
+      "now": 20
+    },
+    {
+      "id": "stale-hot",
+      "graph": {
+        "family": "operational-view",
+        "nodes": [
+          {
+            "id": "entry",
+            "label": "run",
+            "text": "run begins at approved snapshot",
+            "evidence_root": "episode:entry",
+            "allowed": true
+          },
+          {
+            "id": "hot",
+            "label": "frequent tool response",
+            "text": "repeated stale response is not completion",
+            "evidence_root": "episode:hot",
+            "allowed": true
+          },
+          {
+            "id": "noise",
+            "label": "diagnostic event",
+            "text": "low-value status repeats",
+            "evidence_root": "episode:noise",
+            "allowed": true
+          },
+          {
+            "id": "shared",
+            "label": "action and observation",
+            "text": "postcondition must be observed",
+            "evidence_root": "episode:shared",
+            "allowed": true
+          },
+          {
+            "id": "rare",
+            "label": "repair receipt challenge",
+            "text": "decisive late failure challenges earlier success",
+            "evidence_root": "episode:rare",
+            "allowed": true
+          },
+          {
+            "id": "unused",
+            "label": "old evaluation",
+            "text": "superseded evaluation retained",
+            "evidence_root": "episode:unused",
+            "allowed": true
+          },
+          {
+            "id": "review",
+            "label": "review outcome",
+            "text": "review contradicts one preliminary result",
+            "evidence_root": "episode:review",
+            "allowed": true
+          }
+        ],
+        "edges": [
+          [
+            "entry",
+            "hot",
+            "source-fact"
+          ],
+          [
+            "hot",
+            "noise",
+            "source-fact"
+          ],
+          [
+            "entry",
+            "shared",
+            "source-fact"
+          ],
+          [
+            "shared",
+            "rare",
+            "source-fact"
+          ],
+          [
+            "rare",
+            "review",
+            "source-fact"
+          ],
+          [
+            "noise",
+            "unused",
+            "inferred"
+          ]
+        ]
+      },
+      "graph_digest": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22",
+      "heat": {
+        "visits": [
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": true,
+            "evidence_root": "old:episode",
+            "graph_version": "prior-graph-version"
+          }
+        ]
+      },
+      "targets": [
+        "rare"
+      ],
+      "start": "entry",
+      "task": "repair",
+      "query": "repair",
+      "now": 20
+    },
+    {
+      "id": "copied-prior",
+      "graph": {
+        "family": "ast-code",
+        "nodes": [
+          {
+            "id": "entry",
+            "label": "module entry",
+            "text": "from parser import parse",
+            "evidence_root": "file:entry",
+            "allowed": true
+          },
+          {
+            "id": "hot",
+            "label": "popular parser",
+            "text": "def popular(): return legacy_path",
+            "evidence_root": "file:parser",
+            "allowed": true
+          },
+          {
+            "id": "noise",
+            "label": "logging helper",
+            "text": "def debug(): return noisy_output",
+            "evidence_root": "file:parser",
+            "allowed": true
+          },
+          {
+            "id": "shared",
+            "label": "source dependency",
+            "text": "def normalize(): return canonical_bytes",
+            "evidence_root": "file:normalize",
+            "allowed": true
+          },
+          {
+            "id": "rare",
+            "label": "repair serializer boundary",
+            "text": "def repair(): preserve_decisive_source",
+            "evidence_root": "file:serializer",
+            "allowed": true
+          },
+          {
+            "id": "unused",
+            "label": "unused helper",
+            "text": "def obsolete(): return None",
+            "evidence_root": "file:obsolete",
+            "allowed": true
+          }
+        ],
+        "edges": [
+          [
+            "entry",
+            "hot",
+            "derived-ast"
+          ],
+          [
+            "entry",
+            "noise",
+            "derived-ast"
+          ],
+          [
+            "entry",
+            "shared",
+            "source-fact"
+          ],
+          [
+            "shared",
+            "rare",
+            "source-fact"
+          ],
+          [
+            "noise",
+            "unused",
+            "inferred"
+          ]
+        ]
+      },
+      "graph_digest": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce",
+      "heat": {
+        "visits": [
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "rare",
+            "task": "repair",
+            "at": 18,
+            "success": true,
+            "evidence_root": "validated:rare",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          }
+        ]
+      },
+      "targets": [
+        "rare"
+      ],
+      "start": "entry",
+      "task": "repair",
+      "query": "repair",
+      "now": 20
+    },
+    {
+      "id": "noisy-agent",
+      "graph": {
+        "family": "operational-view",
+        "nodes": [
+          {
+            "id": "entry",
+            "label": "run",
+            "text": "run begins at approved snapshot",
+            "evidence_root": "episode:entry",
+            "allowed": true
+          },
+          {
+            "id": "hot",
+            "label": "frequent tool response",
+            "text": "repeated stale response is not completion",
+            "evidence_root": "episode:hot",
+            "allowed": true
+          },
+          {
+            "id": "noise",
+            "label": "diagnostic event",
+            "text": "low-value status repeats",
+            "evidence_root": "episode:noise",
+            "allowed": true
+          },
+          {
+            "id": "shared",
+            "label": "action and observation",
+            "text": "postcondition must be observed",
+            "evidence_root": "episode:shared",
+            "allowed": true
+          },
+          {
+            "id": "rare",
+            "label": "repair receipt challenge",
+            "text": "decisive late failure challenges earlier success",
+            "evidence_root": "episode:rare",
+            "allowed": true
+          },
+          {
+            "id": "unused",
+            "label": "old evaluation",
+            "text": "superseded evaluation retained",
+            "evidence_root": "episode:unused",
+            "allowed": true
+          },
+          {
+            "id": "review",
+            "label": "review outcome",
+            "text": "review contradicts one preliminary result",
+            "evidence_root": "episode:review",
+            "allowed": true
+          }
+        ],
+        "edges": [
+          [
+            "entry",
+            "hot",
+            "source-fact"
+          ],
+          [
+            "hot",
+            "noise",
+            "source-fact"
+          ],
+          [
+            "entry",
+            "shared",
+            "source-fact"
+          ],
+          [
+            "shared",
+            "rare",
+            "source-fact"
+          ],
+          [
+            "rare",
+            "review",
+            "source-fact"
+          ],
+          [
+            "noise",
+            "unused",
+            "inferred"
+          ]
+        ]
+      },
+      "graph_digest": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22",
+      "heat": {
+        "visits": [
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "rare",
+            "task": "repair",
+            "at": 18,
+            "success": true,
+            "evidence_root": "validated:rare",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          },
+          {
+            "node": "noise",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "noisy:agent",
+            "graph_version": "686b6c8d6e2939b21188f2988fad6313fe07c20612aeba3f60f8a10922cbda22"
+          }
+        ]
+      },
+      "targets": [
+        "rare"
+      ],
+      "start": "entry",
+      "task": "repair",
+      "query": "repair",
+      "now": 20
+    },
+    {
+      "id": "frequent-low-value",
+      "graph": {
+        "family": "ast-code",
+        "nodes": [
+          {
+            "id": "entry",
+            "label": "module entry",
+            "text": "from parser import parse",
+            "evidence_root": "file:entry",
+            "allowed": true
+          },
+          {
+            "id": "hot",
+            "label": "popular parser",
+            "text": "def popular(): return legacy_path",
+            "evidence_root": "file:parser",
+            "allowed": true
+          },
+          {
+            "id": "noise",
+            "label": "logging helper",
+            "text": "def debug(): return noisy_output",
+            "evidence_root": "file:parser",
+            "allowed": true
+          },
+          {
+            "id": "shared",
+            "label": "source dependency",
+            "text": "def normalize(): return canonical_bytes",
+            "evidence_root": "file:normalize",
+            "allowed": true
+          },
+          {
+            "id": "rare",
+            "label": "repair serializer boundary",
+            "text": "def repair(): preserve_decisive_source",
+            "evidence_root": "file:serializer",
+            "allowed": true
+          },
+          {
+            "id": "unused",
+            "label": "unused helper",
+            "text": "def obsolete(): return None",
+            "evidence_root": "file:obsolete",
+            "allowed": true
+          }
+        ],
+        "edges": [
+          [
+            "entry",
+            "hot",
+            "derived-ast"
+          ],
+          [
+            "entry",
+            "noise",
+            "derived-ast"
+          ],
+          [
+            "entry",
+            "shared",
+            "source-fact"
+          ],
+          [
+            "shared",
+            "rare",
+            "source-fact"
+          ],
+          [
+            "noise",
+            "unused",
+            "inferred"
+          ]
+        ]
+      },
+      "graph_digest": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce",
+      "heat": {
+        "visits": [
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "rare",
+            "task": "repair",
+            "at": 18,
+            "success": true,
+            "evidence_root": "validated:rare",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          },
+          {
+            "node": "noise",
+            "task": "other-task",
+            "at": 19,
+            "success": true,
+            "evidence_root": "unrelated:root",
+            "graph_version": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce"
+          }
+        ]
+      },
+      "targets": [
+        "rare"
+      ],
+      "start": "entry",
+      "task": "repair",
+      "query": "repair",
+      "now": 20
+    },
+    {
+      "id": "rights-fence",
+      "graph": {
+        "family": "operational-view",
+        "nodes": [
+          {
+            "id": "entry",
+            "label": "run",
+            "text": "run begins at approved snapshot",
+            "evidence_root": "episode:entry",
+            "allowed": true
+          },
+          {
+            "id": "hot",
+            "label": "frequent tool response",
+            "text": "repeated stale response is not completion",
+            "evidence_root": "episode:hot",
+            "allowed": false
+          },
+          {
+            "id": "noise",
+            "label": "diagnostic event",
+            "text": "low-value status repeats",
+            "evidence_root": "episode:noise",
+            "allowed": true
+          },
+          {
+            "id": "shared",
+            "label": "action and observation",
+            "text": "postcondition must be observed",
+            "evidence_root": "episode:shared",
+            "allowed": true
+          },
+          {
+            "id": "rare",
+            "label": "repair receipt challenge",
+            "text": "decisive late failure challenges earlier success",
+            "evidence_root": "episode:rare",
+            "allowed": true
+          },
+          {
+            "id": "unused",
+            "label": "old evaluation",
+            "text": "superseded evaluation retained",
+            "evidence_root": "episode:unused",
+            "allowed": true
+          },
+          {
+            "id": "review",
+            "label": "review outcome",
+            "text": "review contradicts one preliminary result",
+            "evidence_root": "episode:review",
+            "allowed": true
+          }
+        ],
+        "edges": [
+          [
+            "entry",
+            "hot",
+            "source-fact"
+          ],
+          [
+            "hot",
+            "noise",
+            "source-fact"
+          ],
+          [
+            "entry",
+            "shared",
+            "source-fact"
+          ],
+          [
+            "shared",
+            "rare",
+            "source-fact"
+          ],
+          [
+            "rare",
+            "review",
+            "source-fact"
+          ],
+          [
+            "noise",
+            "unused",
+            "inferred"
+          ]
+        ]
+      },
+      "graph_digest": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3",
+      "heat": {
+        "visits": [
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "hot",
+            "task": "repair",
+            "at": 19,
+            "success": false,
+            "evidence_root": "copied:mistake",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          },
+          {
+            "node": "rare",
+            "task": "repair",
+            "at": 18,
+            "success": true,
+            "evidence_root": "validated:rare",
+            "graph_version": "b1d20c53f2eeb012c7cc2aef032130e53a682e367b2b4ac3cd1bcbd9b5d217a3"
+          }
+        ]
+      },
+      "targets": [
+        "rare"
+      ],
+      "start": "entry",
+      "task": "repair",
+      "query": "repair",
+      "now": 20
+    },
+    {
+      "id": "cold-start",
+      "graph": {
+        "family": "ast-code",
+        "nodes": [
+          {
+            "id": "entry",
+            "label": "module entry",
+            "text": "from parser import parse",
+            "evidence_root": "file:entry",
+            "allowed": true
+          },
+          {
+            "id": "hot",
+            "label": "popular parser",
+            "text": "def popular(): return legacy_path",
+            "evidence_root": "file:parser",
+            "allowed": true
+          },
+          {
+            "id": "noise",
+            "label": "logging helper",
+            "text": "def debug(): return noisy_output",
+            "evidence_root": "file:parser",
+            "allowed": true
+          },
+          {
+            "id": "shared",
+            "label": "source dependency",
+            "text": "def normalize(): return canonical_bytes",
+            "evidence_root": "file:normalize",
+            "allowed": true
+          },
+          {
+            "id": "rare",
+            "label": "repair serializer boundary",
+            "text": "def repair(): preserve_decisive_source",
+            "evidence_root": "file:serializer",
+            "allowed": true
+          },
+          {
+            "id": "unused",
+            "label": "unused helper",
+            "text": "def obsolete(): return None",
+            "evidence_root": "file:obsolete",
+            "allowed": true
+          }
+        ],
+        "edges": [
+          [
+            "entry",
+            "hot",
+            "derived-ast"
+          ],
+          [
+            "entry",
+            "noise",
+            "derived-ast"
+          ],
+          [
+            "entry",
+            "shared",
+            "source-fact"
+          ],
+          [
+            "shared",
+            "rare",
+            "source-fact"
+          ],
+          [
+            "noise",
+            "unused",
+            "inferred"
+          ]
+        ]
+      },
+      "graph_digest": "83b53dfb6e6ef3854ab32b24f23463bab957249c1825e5b1c3e1b8a2ee50a4ce",
+      "heat": {
+        "visits": []
+      },
+      "targets": [
+        "rare"
+      ],
+      "start": "entry",
+      "task": "repair",
+      "query": "repair",
+      "now": 20
+    }
+  ]
+}
