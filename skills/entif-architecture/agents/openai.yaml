@@ -1,0 +1,10 @@
+interface:
+  display_name: Entif Architecture
+  short_description: Deep Chat-first architecture, planning, risk, review, and agent-interface routing
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

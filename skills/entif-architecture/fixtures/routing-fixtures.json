@@ -1,0 +1,206 @@
+[
+  {
+    "id": "idea-feature",
+    "prompt": "Turn this new backend idea into an implementation-ready feature contract. No UI work.",
+    "expected_modules": [
+      "intake/idea",
+      "product/requirements",
+      "specification/impact",
+      "specification/desired-state",
+      "architecture/system",
+      "work-shaping/decompose",
+      "planning/specops"
+    ],
+    "forbidden_modules": [
+      "implementation/typescript",
+      "review/interrogate"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "broad-epic",
+    "prompt": "Break this broad GitHub epic into durable outcomes and a temporal plan DAG.",
+    "expected_modules": [
+      "work-shaping/decompose",
+      "specification/impact",
+      "planning/specops"
+    ],
+    "forbidden_modules": [
+      "implementation/typescript"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "specified-bug",
+    "prompt": "Fix a bug already covered by accepted spec with a regression test.",
+    "expected_modules": [
+      "work-shaping/classify",
+      "planning/specops",
+      "implementation/testing"
+    ],
+    "forbidden_modules": [
+      "product/requirements",
+      "intake/idea"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "spike",
+    "prompt": "Spike this feasibility experiment before deciding whether to adopt it.",
+    "expected_modules": [
+      "intake/research-posture",
+      "investigate/spike"
+    ],
+    "forbidden_modules": [
+      "specification/desired-state"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "how",
+    "prompt": "How does the current cache invalidation subsystem work?",
+    "expected_modules": [
+      "investigate/how"
+    ],
+    "forbidden_modules": [
+      "product/requirements",
+      "architecture/system"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "why",
+    "prompt": "Why is this boundary shaped this way, and what could break if I change it?",
+    "expected_modules": [
+      "investigate/why",
+      "risk/blast-radius"
+    ],
+    "forbidden_modules": [
+      "product/requirements"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "systemic",
+    "prompt": "Run a systemic risk pre-mortem on the whole operating network.",
+    "expected_modules": [
+      "risk/systemic"
+    ],
+    "forbidden_modules": [
+      "implementation/testing"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "typescript",
+    "prompt": "Implement this TypeScript boundary parser safely.",
+    "expected_modules": [
+      "implementation/typescript"
+    ],
+    "forbidden_modules": [
+      "product/requirements"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "api-codegen",
+    "prompt": "Set up OpenAPI codegen without stale generated hooks.",
+    "expected_modules": [
+      "implementation/typescript/api-codegen"
+    ],
+    "forbidden_modules": [
+      "product/requirements"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": [
+      "agent-interface-axi"
+    ]
+  },
+  {
+    "id": "js-ecosystem",
+    "prompt": "Check current npm package versions and JavaScript ecosystem paradigms before this upgrade.",
+    "expected_modules": [
+      "implementation/javascript/ecosystem"
+    ],
+    "forbidden_modules": [
+      "product/requirements"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "precommit",
+    "prompt": "Do a pre-commit review before commit and verify this diff.",
+    "expected_modules": [
+      "review/implementation/precommit"
+    ],
+    "forbidden_modules": [
+      "product/requirements"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "review",
+    "prompt": "Adversarially review this architecture with a multi-model review.",
+    "expected_modules": [
+      "review/interrogate"
+    ],
+    "forbidden_modules": [
+      "implementation/testing"
+    ],
+    "expected_shared": [],
+    "expected_doctrine": []
+  },
+  {
+    "id": "rosetta",
+    "prompt": "Change a Rosetta semantic artifact and check Core Spine alignment.",
+    "expected_modules": [
+      "specification/impact",
+      "specification/desired-state",
+      "architecture/rosetta-alignment"
+    ],
+    "forbidden_modules": [],
+    "expected_shared": [
+      "rosetta-spine-alignment"
+    ],
+    "expected_doctrine": []
+  },
+  {
+    "id": "uiux",
+    "prompt": "Design the interaction flow, wireframes, and visual states for this screen.",
+    "expected_modules": [],
+    "forbidden_modules": [
+      "product/requirements",
+      "architecture/system"
+    ],
+    "expected_shared": [
+      "entif-feature-design"
+    ],
+    "expected_doctrine": []
+  },
+  {
+    "id": "axi-mcp",
+    "prompt": "Design a new agent-facing MCP interface for repeated JSON-heavy calls.",
+    "expected_modules": [
+      "architecture/contracts"
+    ],
+    "forbidden_modules": [
+      "implementation/testing"
+    ],
+    "expected_shared": [
+      "entif-axi"
+    ],
+    "expected_doctrine": [
+      "agent-interface-axi"
+    ]
+  }
+]

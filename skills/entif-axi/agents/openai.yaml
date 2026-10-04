@@ -1,0 +1,3 @@
+interface:
+  display_name: Entif AXI
+  short_description: AXI-first agent interface design and scaffolding

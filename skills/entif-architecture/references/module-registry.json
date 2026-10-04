@@ -1,0 +1,505 @@
+{
+  "schema": "entif.architecture.modules/v1",
+  "modules": [
+    {
+      "id": "intake/idea",
+      "path": "references/modules/intake/idea.md",
+      "domain": "intake",
+      "purpose": "Ground a new or ambiguous idea before commitment.",
+      "triggers": "idea, ambiguous problem, opportunity, novel feature",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "intake/research-posture",
+      "path": "references/modules/intake/research-posture.md",
+      "domain": "intake",
+      "purpose": "Classify exploratory work without fabricating desired state.",
+      "triggers": "research donor, proving work, uncertain desired state",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "other",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "intake/problem-frame",
+      "path": "references/modules/intake/problem-frame.md",
+      "domain": "intake",
+      "purpose": "Turn an unclear request into a bounded problem/outcome contract.",
+      "triggers": "problem framing, outcome definition, scope ambiguity",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "product/requirements",
+      "path": "references/modules/product/requirements.md",
+      "domain": "product",
+      "purpose": "Define implementation-neutral product intent and acceptance contracts.",
+      "triggers": "PRD, requirements, actor/problem/outcome",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "product/scope",
+      "path": "references/modules/product/scope.md",
+      "domain": "product",
+      "purpose": "Bound the smallest useful vertical slice.",
+      "triggers": "scope, non-goals, deferred work, thin slice",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "product/acceptance-contract",
+      "path": "references/modules/product/acceptance-contract.md",
+      "domain": "product",
+      "purpose": "Express falsifiable, implementation-neutral acceptance conditions.",
+      "triggers": "acceptance criteria, done contract, requirement identifiers",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "specification/impact",
+      "path": "references/modules/specification/impact.md",
+      "domain": "specification",
+      "purpose": "Classify whether accepted desired state is covered, amended, created, or blocked.",
+      "triggers": "spec impact, normative change, conformance",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "specification/desired-state",
+      "path": "references/modules/specification/desired-state.md",
+      "domain": "specification",
+      "purpose": "Author or amend declarative AXI/SpecOps desired-state specifications.",
+      "triggers": "specification, desired state, what must remain true",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "cli",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "specification/principles",
+      "path": "references/modules/specification/principles.md",
+      "domain": "specification",
+      "purpose": "Promote durable governing principles without duplicating them across specs.",
+      "triggers": "principle promotion, governing principle",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "specification/drift",
+      "path": "references/modules/specification/drift.md",
+      "domain": "specification",
+      "purpose": "Audit implementation/spec divergence.",
+      "triggers": "spec drift, conformance audit, implementation mismatch",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "specification/closeout",
+      "path": "references/modules/specification/closeout.md",
+      "domain": "specification",
+      "purpose": "Close/freeze desired-state motion after verified implementation.",
+      "triggers": "spec closeout, plan freeze, completed desired state",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "cli",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "architecture/system",
+      "path": "references/modules/architecture/system.md",
+      "domain": "architecture",
+      "purpose": "Define grounded technical system shape and ownership.",
+      "triggers": "architecture, system boundary, service/module/component design",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "architecture/checkpoint",
+      "path": "references/modules/architecture/checkpoint.md",
+      "domain": "architecture",
+      "purpose": "Present an explicit architecture checkpoint for consequential changes.",
+      "triggers": "architecture checkpoint, approval gate, one-way door",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "architecture/contracts",
+      "path": "references/modules/architecture/contracts.md",
+      "domain": "architecture",
+      "purpose": "Design APIs, events, messages, schemas, errors, and agent-facing interfaces.",
+      "triggers": "API contract, event, message, schema, integration interface",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "rest",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "architecture/data-state",
+      "path": "references/modules/architecture/data-state.md",
+      "domain": "architecture",
+      "purpose": "Define authoritative state, lifecycle, persistence, and migrations.",
+      "triggers": "state ownership, persistence, schema lifecycle, migration",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "architecture/security-trust",
+      "path": "references/modules/architecture/security-trust.md",
+      "domain": "architecture",
+      "purpose": "Define trust, identity, tenancy, secrets, privacy, and threat boundaries.",
+      "triggers": "security, trust, auth, tenancy, privacy, secret",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "architecture/concurrency-reliability",
+      "path": "references/modules/architecture/concurrency-reliability.md",
+      "domain": "architecture",
+      "purpose": "Define concurrency, consistency, retries, idempotency, replay, recovery, and backpressure.",
+      "triggers": "concurrency, retry, idempotency, replay, partition, recovery",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "architecture/performance-resources",
+      "path": "references/modules/architecture/performance-resources.md",
+      "domain": "architecture",
+      "purpose": "Set performance/resource budgets and scaling constraints.",
+      "triggers": "latency, throughput, memory, cpu, quota, scale",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "architecture/observability",
+      "path": "references/modules/architecture/observability.md",
+      "domain": "architecture",
+      "purpose": "Define evidence, telemetry, health, and failure observability.",
+      "triggers": "observability, telemetry, logging, metrics, traces",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "architecture/rosetta-alignment",
+      "path": "references/modules/architecture/rosetta-alignment.md",
+      "domain": "architecture",
+      "purpose": "Gate materially Rosetta-semantic/interoperability changes.",
+      "triggers": "Rosetta semantic, Core Spine, interoperability",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "work-shaping/classify",
+      "path": "references/modules/work-shaping/classify.md",
+      "domain": "work-shaping",
+      "purpose": "Classify durable GitHub work shape before decomposition or execution.",
+      "triggers": "triage, work shape, atomic vs broad",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "rest",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "work-shaping/durable-issue-boundary",
+      "path": "references/modules/work-shaping/durable-issue-boundary.md",
+      "domain": "work-shaping",
+      "purpose": "Decide whether another GitHub issue is a durable unit.",
+      "triggers": "child issue, ownership seam, blocker, deliverable",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "rest",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "work-shaping/decompose",
+      "path": "references/modules/work-shaping/decompose.md",
+      "domain": "work-shaping",
+      "purpose": "Recursively decompose broad work to durable outcomes.",
+      "triggers": "decompose epic, child issues, issue tree",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "rest",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "work-shaping/prioritize",
+      "path": "references/modules/work-shaping/prioritize.md",
+      "domain": "work-shaping",
+      "purpose": "Groom and prioritize bounded durable work.",
+      "triggers": "prioritize, backlog, cascade, rank issues",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "rest",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "planning/specops",
+      "path": "references/modules/planning/specops.md",
+      "domain": "planning",
+      "purpose": "Translate settled desired state into temporal SpecOps motion.",
+      "triggers": "implementation plan, SpecOps, plan DAG",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "cli",
+      "axi_candidate": "true"
+    },
+    {
+      "id": "planning/dag",
+      "path": "references/modules/planning/dag.md",
+      "domain": "planning",
+      "purpose": "Model temporal dependencies, awaits, specs, issues, PR, and validation.",
+      "triggers": "depends, awaits, DAG, plan relationships",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "cli",
+      "axi_candidate": "true"
+    },
+    {
+      "id": "planning/readiness",
+      "path": "references/modules/planning/readiness.md",
+      "domain": "planning",
+      "purpose": "Determine next legal work from authority and plan state.",
+      "triggers": "ready, next work, execution readiness",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "cli",
+      "axi_candidate": "true"
+    },
+    {
+      "id": "planning/blockers",
+      "path": "references/modules/planning/blockers.md",
+      "domain": "planning",
+      "purpose": "Represent external and authority blockers explicitly.",
+      "triggers": "blocked, dependency, await, authority gap",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "cli",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "planning/validation",
+      "path": "references/modules/planning/validation.md",
+      "domain": "planning",
+      "purpose": "Bind temporal work to explicit verification criteria.",
+      "triggers": "validation plan, proof criteria, verification handoff",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "investigate/how",
+      "path": "references/modules/investigate/how.md",
+      "domain": "investigate",
+      "purpose": "Explain runtime/codebase behavior and ownership.",
+      "triggers": "how does, where does, subsystem walkthrough",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "investigate/why",
+      "path": "references/modules/investigate/why.md",
+      "domain": "investigate",
+      "purpose": "Recover rationale and forcing functions before change.",
+      "triggers": "why is, why does, rationale, lineage",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "investigate/root-cause",
+      "path": "references/modules/investigate/root-cause.md",
+      "domain": "investigate",
+      "purpose": "Trace symptoms to the causal source before fixing.",
+      "triggers": "root cause, reproduce, debugging cause",
+      "preferred_surface": "either",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "investigate/premise",
+      "path": "references/modules/investigate/premise.md",
+      "domain": "investigate",
+      "purpose": "Challenge a shared premise after repeated fixes fail.",
+      "triggers": "repeated failed fixes, attack premise",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "investigate/spike",
+      "path": "references/modules/investigate/spike.md",
+      "domain": "investigate",
+      "purpose": "Run disposable empirical feasibility work only when research cannot answer the question.",
+      "triggers": "spike, prototype, feasibility experiment",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "risk/blast-radius",
+      "path": "references/modules/risk/blast-radius.md",
+      "domain": "risk",
+      "purpose": "Find non-obvious downstream breakage from a proposed change.",
+      "triggers": "blast radius, what could break",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "risk/dependency",
+      "path": "references/modules/risk/dependency.md",
+      "domain": "risk",
+      "purpose": "Assess dependency/provider/version/license/provenance risk.",
+      "triggers": "dependency risk, provider, license, provenance, version",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "rest",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "risk/migration",
+      "path": "references/modules/risk/migration.md",
+      "domain": "risk",
+      "purpose": "Assess migration/cutover/rollback risk.",
+      "triggers": "migration risk, cutover, rollback, compatibility",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "risk/systemic",
+      "path": "references/modules/risk/systemic.md",
+      "domain": "risk",
+      "purpose": "Run second-order systemic pre-mortem across composing components and organizations.",
+      "triggers": "systemic risk, pre-mortem, blind spots, whole system",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "review/interrogate",
+      "path": "references/modules/review/interrogate.md",
+      "domain": "review",
+      "purpose": "Run adversarial multi-model review when warranted.",
+      "triggers": "interrogate, adversarial review, multi-model review",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "review/architecture-review",
+      "path": "references/modules/review/architecture-review.md",
+      "domain": "review",
+      "purpose": "Review an architecture contract against authority, requirements, risk, and proof seams.",
+      "triggers": "architecture review, design review",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "review/implementation/precommit",
+      "path": "references/modules/review/implementation/precommit.md",
+      "domain": "review",
+      "purpose": "Run implementation-bound pre-commit verification.",
+      "triggers": "pre-commit review, review before commit, verify diff",
+      "preferred_surface": "codex",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "implementation/testing",
+      "path": "references/modules/implementation/testing.md",
+      "domain": "implementation",
+      "purpose": "Apply pragmatic TDD/regression-test doctrine when a cheap local target exists.",
+      "triggers": "TDD, regression test, failing test",
+      "preferred_surface": "codex",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "implementation/typescript",
+      "path": "references/modules/implementation/typescript.md",
+      "domain": "implementation",
+      "purpose": "Apply TypeScript type-system discipline.",
+      "triggers": "TypeScript, .ts, .tsx, schema-derived types",
+      "preferred_surface": "codex",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "implementation/migration",
+      "path": "references/modules/implementation/migration.md",
+      "domain": "implementation",
+      "purpose": "Execute planned migrations toward the target architecture.",
+      "triggers": "implementation migration, migrate callers, delete legacy",
+      "preferred_surface": "codex",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "implementation/proof",
+      "path": "references/modules/implementation/proof.md",
+      "domain": "implementation",
+      "purpose": "Verify the real artifact/state before claiming done.",
+      "triggers": "prove it works, executable proof, validation",
+      "preferred_surface": "codex",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "implementation/javascript/ecosystem",
+      "path": "references/modules/implementation/javascript/ecosystem.md",
+      "domain": "implementation",
+      "purpose": "Apply current JavaScript/TypeScript ecosystem paradigms for the installed major.",
+      "triggers": "JavaScript framework, npm package, framework version",
+      "preferred_surface": "either",
+      "agent_interface_kind": "npm",
+      "axi_candidate": "true"
+    },
+    {
+      "id": "implementation/typescript/api-codegen",
+      "path": "references/modules/implementation/typescript/api-codegen.md",
+      "domain": "implementation",
+      "purpose": "Choose and wire current typesafe API codegen patterns.",
+      "triggers": "OpenAPI codegen, GraphQL codegen, gql.tada, generated hooks",
+      "preferred_surface": "codex",
+      "agent_interface_kind": "rest",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "delivery/verification",
+      "path": "references/modules/delivery/verification.md",
+      "domain": "delivery",
+      "purpose": "Route proof obligations to canonical repo/product verification capabilities.",
+      "triggers": "verification harness, live verification, control skill",
+      "preferred_surface": "codex",
+      "agent_interface_kind": "none",
+      "axi_candidate": "false"
+    },
+    {
+      "id": "delivery/pr-closeout",
+      "path": "references/modules/delivery/pr-closeout.md",
+      "domain": "delivery",
+      "purpose": "Route accepted implementation into canonical PR finalization.",
+      "triggers": "PR closeout, finalization, archive, merge evidence",
+      "preferred_surface": "either",
+      "agent_interface_kind": "rest",
+      "axi_candidate": "conditional"
+    },
+    {
+      "id": "delivery/plan-freeze",
+      "path": "references/modules/delivery/plan-freeze.md",
+      "domain": "delivery",
+      "purpose": "Freeze completed temporal motion as historical evidence.",
+      "triggers": "plan freeze, completed plan, historical motion",
+      "preferred_surface": "chat",
+      "agent_interface_kind": "cli",
+      "axi_candidate": "true"
+    }
+  ]
+}

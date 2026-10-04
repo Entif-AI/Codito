@@ -1,0 +1,15 @@
+schema_version: 0.1
+project: entif-rosetta
+authority_mode: internal_both
+public_authorities:
+  - docs/governance/PUBLIC_COMMONS_AND_PRIVATE_OPERATION_BOUNDARY.md
+  - docs/governance/AUTHORITY_CLOSURE_AND_REQUIREMENTS_TRACEABILITY.md
+  - docs/governance/PUBLIC_PRIVATE_AUTHORITY_BRIDGE.yaml
+protected_authority_resolution: required
+protected_authority_entrypoints:
+  - PRIVATE_OPERATIONAL_REQUIREMENTS_SPINE.md
+  - PRIVATE_PUBLIC_AUTHORITY_MAP.yaml
+external_write_posture: classification_required
+authority_preflight: required
+postflight_validation: required
+authority_map_update_on_relationship_change: required

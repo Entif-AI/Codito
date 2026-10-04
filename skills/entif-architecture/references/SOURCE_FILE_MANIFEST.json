@@ -1,0 +1,14 @@
+{
+  "schema": "entif.architecture.source-provenance/v1",
+  "issue_contracts": [
+    "Entif-AI/Codito#62",
+    "Entif-AI/Codito#63",
+    "Entif-AI/Codito#64"
+  ],
+  "source_policy": "Target package is self-contained. Legacy installed Skills remain external parity authorities during migration; exact retirement requires parity and rollback evidence.",
+  "external_sources": [
+    "current installed entif-architecture and source Skills named in MIGRATION_INVENTORY.md",
+    "https://axi.md/",
+    "https://github.com/CodyEngel/axi-axi"
+  ]
+}
