@@ -12,3 +12,10 @@ support, local-only/naive/scoped/correlated/stale/poisoned controls, recipient l
 validation, dissent and correction invalidation, retained harm/reconstructability
 proxies and actual serialized bytes/local time. No privacy-budget or signer claim.
 Current focus: red behavioral tests. Next safe step: implement the finite experiment.
+
+Result: 69 offline unittest cases pass, including 14 new gate/lineage/outcome
+behaviors. Twenty-four treatments preserve local stages, exports, gate refusal,
+local validation, independent terminal outcomes, harm, correction and measured
+bytes/local CPU time. A correct naive terminal suggestion does not validate its
+privacy judgment. No network/provider/model use or formal privacy guarantee.
+Next safe step: review PR, exact worklog archive and final remote readback.

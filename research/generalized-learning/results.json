@@ -1,0 +1,1446 @@
+{
+  "format_version": 1,
+  "role": "synthetic-research-only",
+  "families": [
+    "computer-use",
+    "personal-assistance",
+    "retail",
+    "engineering"
+  ],
+  "runs": [
+    {
+      "family": "computer-use",
+      "strategy": "local-only",
+      "local_raw_refs": [
+        "local-only:computer-use:1",
+        "local-only:computer-use:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-snapshot",
+      "privacy_gate": {
+        "state": "local-only"
+      },
+      "export_state": "local-only",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 7292
+    },
+    {
+      "family": "computer-use",
+      "strategy": "naive",
+      "local_raw_refs": [
+        "local-only:computer-use:1",
+        "local-only:computer-use:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-snapshot",
+      "privacy_gate": {
+        "state": "not-applied"
+      },
+      "export_state": "naive-export",
+      "exported_lesson": {
+        "rule_ref": "verify-snapshot",
+        "unscoped_summary": "SYNTHETIC-PRIVATE-MARKER:computer-use:1",
+        "evidence": "unverified",
+        "version": "unspecified"
+      },
+      "local_validation": {
+        "state": "naive-unvalidated-transfer",
+        "execution_authorized": false
+      },
+      "utility_proxy": 1,
+      "harm_proxy": 1,
+      "decision_integrity": false,
+      "terminal_outcome": {
+        "state": "correct",
+        "suggestion": "inspect_more",
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 1,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 146,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 15875
+    },
+    {
+      "family": "computer-use",
+      "strategy": "rights-safe",
+      "local_raw_refs": [
+        "local-only:computer-use:1",
+        "local-only:computer-use:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-snapshot",
+      "privacy_gate": {
+        "state": "exported",
+        "rejected": [],
+        "dissent": []
+      },
+      "export_state": "exported",
+      "exported_lesson": {
+        "id": "64fe4e08b3abb9d38e16536d83fdefd9f021e697ad0f65280b2627b5f36a7d30",
+        "rule_ref": "verify-snapshot",
+        "version": "fixture-v1",
+        "scope": "computer-use",
+        "purpose": "bounded-learning",
+        "roots": [
+          "opaque-root:computer-use:1",
+          "opaque-root:computer-use:2"
+        ],
+        "epoch": 0,
+        "previous": null,
+        "status": "active",
+        "counterexamples": []
+      },
+      "local_validation": {
+        "state": "accepted-local",
+        "lesson_ref": "64fe4e08b3abb9d38e16536d83fdefd9f021e697ad0f65280b2627b5f36a7d30",
+        "execution_authorized": false
+      },
+      "utility_proxy": 1,
+      "harm_proxy": 0,
+      "decision_integrity": true,
+      "terminal_outcome": {
+        "state": "correct",
+        "suggestion": "inspect_more",
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": true,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 2,
+      "local_rejection": 0,
+      "correction_propagated": true,
+      "correction": {
+        "id": "904a9ec6af641c11d21c07d4cc3f9c17387605a875cededcf9eea3c3e180ec59",
+        "rule_ref": "verify-snapshot",
+        "version": "fixture-v1",
+        "scope": "computer-use",
+        "purpose": "bounded-learning",
+        "roots": [
+          "opaque-root:computer-use:1",
+          "opaque-root:computer-use:2"
+        ],
+        "epoch": 1,
+        "previous": "64fe4e08b3abb9d38e16536d83fdefd9f021e697ad0f65280b2627b5f36a7d30",
+        "status": "revoked",
+        "counterexamples": [
+          "challenge:authored-later-counterexample"
+        ]
+      },
+      "serialized_export_bytes": 330,
+      "serialized_correction_bytes": 434,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 84583
+    },
+    {
+      "family": "computer-use",
+      "strategy": "correlated-copies",
+      "local_raw_refs": [
+        "local-only:computer-use:1",
+        "local-only:computer-use:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-snapshot",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 1,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 12792
+    },
+    {
+      "family": "computer-use",
+      "strategy": "stale-version",
+      "local_raw_refs": [
+        "local-only:computer-use:1",
+        "local-only:computer-use:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-snapshot",
+      "privacy_gate": {
+        "state": "exported",
+        "rejected": [],
+        "dissent": []
+      },
+      "export_state": "exported",
+      "exported_lesson": {
+        "id": "64fe4e08b3abb9d38e16536d83fdefd9f021e697ad0f65280b2627b5f36a7d30",
+        "rule_ref": "verify-snapshot",
+        "version": "fixture-v1",
+        "scope": "computer-use",
+        "purpose": "bounded-learning",
+        "roots": [
+          "opaque-root:computer-use:1",
+          "opaque-root:computer-use:2"
+        ],
+        "epoch": 0,
+        "previous": null,
+        "status": "active",
+        "counterexamples": []
+      },
+      "local_validation": {
+        "state": "rejected-scope-version-purpose",
+        "lesson_ref": "64fe4e08b3abb9d38e16536d83fdefd9f021e697ad0f65280b2627b5f36a7d30",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 2,
+      "local_rejection": 1,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 330,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 22417
+    },
+    {
+      "family": "computer-use",
+      "strategy": "poisoned",
+      "local_raw_refs": [
+        "local-only:computer-use:1",
+        "local-only:computer-use:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-snapshot",
+          "locally_validated": false
+        }
+      ],
+      "candidate_rule": "verify-snapshot",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [
+          {
+            "evidence_root": "opaque-root:computer-use:2",
+            "reasons": [
+              "locally_validated"
+            ]
+          }
+        ],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 1,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 8291
+    },
+    {
+      "family": "personal-assistance",
+      "strategy": "local-only",
+      "local_raw_refs": [
+        "local-only:personal-assistance:1",
+        "local-only:personal-assistance:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "require-reminder-confirmation",
+      "privacy_gate": {
+        "state": "local-only"
+      },
+      "export_state": "local-only",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "review",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 2250
+    },
+    {
+      "family": "personal-assistance",
+      "strategy": "naive",
+      "local_raw_refs": [
+        "local-only:personal-assistance:1",
+        "local-only:personal-assistance:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "require-reminder-confirmation",
+      "privacy_gate": {
+        "state": "not-applied"
+      },
+      "export_state": "naive-export",
+      "exported_lesson": {
+        "rule_ref": "require-reminder-confirmation",
+        "unscoped_summary": "SYNTHETIC-PRIVATE-MARKER:personal-assistance:1",
+        "evidence": "unverified",
+        "version": "unspecified"
+      },
+      "local_validation": {
+        "state": "naive-unvalidated-transfer",
+        "execution_authorized": false
+      },
+      "utility_proxy": 1,
+      "harm_proxy": 1,
+      "decision_integrity": false,
+      "terminal_outcome": {
+        "state": "correct",
+        "suggestion": "review",
+        "expected": "review",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 1,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 167,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 5875
+    },
+    {
+      "family": "personal-assistance",
+      "strategy": "rights-safe",
+      "local_raw_refs": [
+        "local-only:personal-assistance:1",
+        "local-only:personal-assistance:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "require-reminder-confirmation",
+      "privacy_gate": {
+        "state": "exported",
+        "rejected": [],
+        "dissent": []
+      },
+      "export_state": "exported",
+      "exported_lesson": {
+        "id": "5a4ab3b50d73c4573561c0dff847194c5a0aabd337f11c9806c8cae49ec35c04",
+        "rule_ref": "require-reminder-confirmation",
+        "version": "fixture-v1",
+        "scope": "personal-assistance",
+        "purpose": "bounded-learning",
+        "roots": [
+          "opaque-root:personal-assistance:1",
+          "opaque-root:personal-assistance:2"
+        ],
+        "epoch": 0,
+        "previous": null,
+        "status": "active",
+        "counterexamples": []
+      },
+      "local_validation": {
+        "state": "accepted-local",
+        "lesson_ref": "5a4ab3b50d73c4573561c0dff847194c5a0aabd337f11c9806c8cae49ec35c04",
+        "execution_authorized": false
+      },
+      "utility_proxy": 1,
+      "harm_proxy": 0,
+      "decision_integrity": true,
+      "terminal_outcome": {
+        "state": "correct",
+        "suggestion": "review",
+        "expected": "review",
+        "execution_authorized": false
+      },
+      "joint_correctness": true,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 2,
+      "local_rejection": 0,
+      "correction_propagated": true,
+      "correction": {
+        "id": "99203601635897932fe03f9f265cf3a8ec4400696c942dc8377d2f64c397d4b0",
+        "rule_ref": "require-reminder-confirmation",
+        "version": "fixture-v1",
+        "scope": "personal-assistance",
+        "purpose": "bounded-learning",
+        "roots": [
+          "opaque-root:personal-assistance:1",
+          "opaque-root:personal-assistance:2"
+        ],
+        "epoch": 1,
+        "previous": "5a4ab3b50d73c4573561c0dff847194c5a0aabd337f11c9806c8cae49ec35c04",
+        "status": "revoked",
+        "counterexamples": [
+          "challenge:authored-later-counterexample"
+        ]
+      },
+      "serialized_export_bytes": 365,
+      "serialized_correction_bytes": 469,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 52875
+    },
+    {
+      "family": "personal-assistance",
+      "strategy": "correlated-copies",
+      "local_raw_refs": [
+        "local-only:personal-assistance:1",
+        "local-only:personal-assistance:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "require-reminder-confirmation",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "review",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 1,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 7041
+    },
+    {
+      "family": "personal-assistance",
+      "strategy": "stale-version",
+      "local_raw_refs": [
+        "local-only:personal-assistance:1",
+        "local-only:personal-assistance:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "require-reminder-confirmation",
+      "privacy_gate": {
+        "state": "exported",
+        "rejected": [],
+        "dissent": []
+      },
+      "export_state": "exported",
+      "exported_lesson": {
+        "id": "5a4ab3b50d73c4573561c0dff847194c5a0aabd337f11c9806c8cae49ec35c04",
+        "rule_ref": "require-reminder-confirmation",
+        "version": "fixture-v1",
+        "scope": "personal-assistance",
+        "purpose": "bounded-learning",
+        "roots": [
+          "opaque-root:personal-assistance:1",
+          "opaque-root:personal-assistance:2"
+        ],
+        "epoch": 0,
+        "previous": null,
+        "status": "active",
+        "counterexamples": []
+      },
+      "local_validation": {
+        "state": "rejected-scope-version-purpose",
+        "lesson_ref": "5a4ab3b50d73c4573561c0dff847194c5a0aabd337f11c9806c8cae49ec35c04",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "review",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 2,
+      "local_rejection": 1,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 365,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 17916
+    },
+    {
+      "family": "personal-assistance",
+      "strategy": "poisoned",
+      "local_raw_refs": [
+        "local-only:personal-assistance:1",
+        "local-only:personal-assistance:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "require-reminder-confirmation",
+          "locally_validated": false
+        }
+      ],
+      "candidate_rule": "require-reminder-confirmation",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [
+          {
+            "evidence_root": "opaque-root:personal-assistance:2",
+            "reasons": [
+              "locally_validated"
+            ]
+          }
+        ],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "review",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 1,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 6333
+    },
+    {
+      "family": "retail",
+      "strategy": "local-only",
+      "local_raw_refs": [
+        "local-only:retail:1",
+        "local-only:retail:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "discard-third-party-retail",
+      "privacy_gate": {
+        "state": "local-only"
+      },
+      "export_state": "local-only",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "discard",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 2250
+    },
+    {
+      "family": "retail",
+      "strategy": "naive",
+      "local_raw_refs": [
+        "local-only:retail:1",
+        "local-only:retail:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "discard-third-party-retail",
+      "privacy_gate": {
+        "state": "not-applied"
+      },
+      "export_state": "naive-export",
+      "exported_lesson": {
+        "rule_ref": "discard-third-party-retail",
+        "unscoped_summary": "SYNTHETIC-PRIVATE-MARKER:retail:1",
+        "evidence": "unverified",
+        "version": "unspecified"
+      },
+      "local_validation": {
+        "state": "naive-unvalidated-transfer",
+        "execution_authorized": false
+      },
+      "utility_proxy": 1,
+      "harm_proxy": 1,
+      "decision_integrity": false,
+      "terminal_outcome": {
+        "state": "correct",
+        "suggestion": "discard",
+        "expected": "discard",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 1,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 151,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 5000
+    },
+    {
+      "family": "retail",
+      "strategy": "rights-safe",
+      "local_raw_refs": [
+        "local-only:retail:1",
+        "local-only:retail:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "discard-third-party-retail",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [
+          {
+            "evidence_root": "opaque-root:retail:1",
+            "reasons": [
+              "sensitive",
+              "third_party"
+            ]
+          },
+          {
+            "evidence_root": "opaque-root:retail:2",
+            "reasons": [
+              "sensitive",
+              "third_party"
+            ]
+          }
+        ],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "discard",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 3583
+    },
+    {
+      "family": "retail",
+      "strategy": "correlated-copies",
+      "local_raw_refs": [
+        "local-only:retail:1",
+        "local-only:retail:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "discard-third-party-retail",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [
+          {
+            "evidence_root": "opaque-root:retail:1",
+            "reasons": [
+              "sensitive",
+              "third_party"
+            ]
+          },
+          {
+            "evidence_root": "opaque-root:retail:1",
+            "reasons": [
+              "sensitive",
+              "third_party"
+            ]
+          }
+        ],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "discard",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 6125
+    },
+    {
+      "family": "retail",
+      "strategy": "stale-version",
+      "local_raw_refs": [
+        "local-only:retail:1",
+        "local-only:retail:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "discard-third-party-retail",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [
+          {
+            "evidence_root": "opaque-root:retail:1",
+            "reasons": [
+              "sensitive",
+              "third_party"
+            ]
+          },
+          {
+            "evidence_root": "opaque-root:retail:2",
+            "reasons": [
+              "sensitive",
+              "third_party"
+            ]
+          }
+        ],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "discard",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 2667
+    },
+    {
+      "family": "retail",
+      "strategy": "poisoned",
+      "local_raw_refs": [
+        "local-only:retail:1",
+        "local-only:retail:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "discard-third-party-retail",
+          "locally_validated": false
+        }
+      ],
+      "candidate_rule": "discard-third-party-retail",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [
+          {
+            "evidence_root": "opaque-root:retail:1",
+            "reasons": [
+              "sensitive",
+              "third_party"
+            ]
+          },
+          {
+            "evidence_root": "opaque-root:retail:2",
+            "reasons": [
+              "sensitive",
+              "third_party",
+              "locally_validated"
+            ]
+          }
+        ],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "discard",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 5250
+    },
+    {
+      "family": "engineering",
+      "strategy": "local-only",
+      "local_raw_refs": [
+        "local-only:engineering:1",
+        "local-only:engineering:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-tool-postcondition",
+      "privacy_gate": {
+        "state": "local-only"
+      },
+      "export_state": "local-only",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 1,
+      "harm_proxy": 0,
+      "decision_integrity": true,
+      "terminal_outcome": {
+        "state": "correct",
+        "suggestion": "inspect_more",
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": true,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 2125
+    },
+    {
+      "family": "engineering",
+      "strategy": "naive",
+      "local_raw_refs": [
+        "local-only:engineering:1",
+        "local-only:engineering:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-tool-postcondition",
+      "privacy_gate": {
+        "state": "not-applied"
+      },
+      "export_state": "naive-export",
+      "exported_lesson": {
+        "rule_ref": "verify-tool-postcondition",
+        "unscoped_summary": "SYNTHETIC-PRIVATE-MARKER:engineering:1",
+        "evidence": "unverified",
+        "version": "unspecified"
+      },
+      "local_validation": {
+        "state": "naive-unvalidated-transfer",
+        "execution_authorized": false
+      },
+      "utility_proxy": 1,
+      "harm_proxy": 1,
+      "decision_integrity": false,
+      "terminal_outcome": {
+        "state": "correct",
+        "suggestion": "inspect_more",
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 1,
+      "independent_evidence_diversity": 0,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 155,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 4291
+    },
+    {
+      "family": "engineering",
+      "strategy": "rights-safe",
+      "local_raw_refs": [
+        "local-only:engineering:1",
+        "local-only:engineering:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-tool-postcondition",
+      "privacy_gate": {
+        "state": "exported",
+        "rejected": [],
+        "dissent": []
+      },
+      "export_state": "exported",
+      "exported_lesson": {
+        "id": "0a6d841e5e55adaae95ed292df9ad3e8168f1bb0040e1e249586b61d5b6f1371",
+        "rule_ref": "verify-tool-postcondition",
+        "version": "fixture-v1",
+        "scope": "engineering",
+        "purpose": "bounded-learning",
+        "roots": [
+          "opaque-root:engineering:1",
+          "opaque-root:engineering:2"
+        ],
+        "epoch": 0,
+        "previous": null,
+        "status": "active",
+        "counterexamples": []
+      },
+      "local_validation": {
+        "state": "accepted-local",
+        "lesson_ref": "0a6d841e5e55adaae95ed292df9ad3e8168f1bb0040e1e249586b61d5b6f1371",
+        "execution_authorized": false
+      },
+      "utility_proxy": 1,
+      "harm_proxy": 0,
+      "decision_integrity": true,
+      "terminal_outcome": {
+        "state": "correct",
+        "suggestion": "inspect_more",
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": true,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 2,
+      "local_rejection": 0,
+      "correction_propagated": true,
+      "correction": {
+        "id": "1a4a2df3fdae832601507138ee3804bab4d433bbd8ac4b79b94d926ed75539a6",
+        "rule_ref": "verify-tool-postcondition",
+        "version": "fixture-v1",
+        "scope": "engineering",
+        "purpose": "bounded-learning",
+        "roots": [
+          "opaque-root:engineering:1",
+          "opaque-root:engineering:2"
+        ],
+        "epoch": 1,
+        "previous": "0a6d841e5e55adaae95ed292df9ad3e8168f1bb0040e1e249586b61d5b6f1371",
+        "status": "revoked",
+        "counterexamples": [
+          "challenge:authored-later-counterexample"
+        ]
+      },
+      "serialized_export_bytes": 337,
+      "serialized_correction_bytes": 441,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 50875
+    },
+    {
+      "family": "engineering",
+      "strategy": "correlated-copies",
+      "local_raw_refs": [
+        "local-only:engineering:1",
+        "local-only:engineering:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-tool-postcondition",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 1,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 6500
+    },
+    {
+      "family": "engineering",
+      "strategy": "stale-version",
+      "local_raw_refs": [
+        "local-only:engineering:1",
+        "local-only:engineering:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        }
+      ],
+      "candidate_rule": "verify-tool-postcondition",
+      "privacy_gate": {
+        "state": "exported",
+        "rejected": [],
+        "dissent": []
+      },
+      "export_state": "exported",
+      "exported_lesson": {
+        "id": "0a6d841e5e55adaae95ed292df9ad3e8168f1bb0040e1e249586b61d5b6f1371",
+        "rule_ref": "verify-tool-postcondition",
+        "version": "fixture-v1",
+        "scope": "engineering",
+        "purpose": "bounded-learning",
+        "roots": [
+          "opaque-root:engineering:1",
+          "opaque-root:engineering:2"
+        ],
+        "epoch": 0,
+        "previous": null,
+        "status": "active",
+        "counterexamples": []
+      },
+      "local_validation": {
+        "state": "rejected-scope-version-purpose",
+        "lesson_ref": "0a6d841e5e55adaae95ed292df9ad3e8168f1bb0040e1e249586b61d5b6f1371",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 2,
+      "local_rejection": 1,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 337,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 17542
+    },
+    {
+      "family": "engineering",
+      "strategy": "poisoned",
+      "local_raw_refs": [
+        "local-only:engineering:1",
+        "local-only:engineering:2"
+      ],
+      "local_interpretations": [
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": true
+        },
+        {
+          "rule_ref": "verify-tool-postcondition",
+          "locally_validated": false
+        }
+      ],
+      "candidate_rule": "verify-tool-postcondition",
+      "privacy_gate": {
+        "state": "no-export",
+        "rejected": [
+          {
+            "evidence_root": "opaque-root:engineering:2",
+            "reasons": [
+              "locally_validated"
+            ]
+          }
+        ],
+        "dissent": []
+      },
+      "export_state": "no-export",
+      "exported_lesson": null,
+      "local_validation": {
+        "state": "no-shared-lesson",
+        "execution_authorized": false
+      },
+      "utility_proxy": 0,
+      "harm_proxy": 0,
+      "decision_integrity": null,
+      "terminal_outcome": {
+        "state": "not-run",
+        "suggestion": null,
+        "expected": "inspect_more",
+        "execution_authorized": false
+      },
+      "joint_correctness": false,
+      "raw_marker_exposure_proxy": 0,
+      "independent_evidence_diversity": 1,
+      "local_rejection": 0,
+      "correction_propagated": false,
+      "correction": null,
+      "serialized_export_bytes": 0,
+      "serialized_correction_bytes": 0,
+      "network_bytes": 0,
+      "model_calls": 0,
+      "local_compute_ns": 5458
+    }
+  ],
+  "privacy_guarantee": null,
+  "metric_basis": "authored local validation/utility and marker-exposure proxies; measured serialized bytes/local CPU time; no network, DP or trust proof",
+  "production_federation": "not-implemented; Rosetta #84/#96/#759 remain controlling gates",
+  "runtime": {
+    "python": "3.14.4",
+    "orchestration_host_role": "orchestration-host",
+    "compute_host": "local-deterministic-only",
+    "provider": null,
+    "model": null
+  }
+}
