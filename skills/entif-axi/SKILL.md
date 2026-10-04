@@ -18,6 +18,8 @@ Record one:
 
 Evaluate agent consumers, source interface, frequency/scale, token/context/round-trip/error costs, bounded output, empty states, pagination/truncation, idempotency, discoverability, security/authority, and verification.
 
+Search for an existing suitable AXI first. Known recurring candidates include `gh-axi` for GitHub, `npm-axi` for npm, canonical SpecOps for specification/planning operations, and `playwright-axi` for browser automation. Verify the current AXI catalog before relying on an exact package/version.
+
 If a suitable AXI exists, prefer it. If not and repeated use is material, use upstream `CodyEngel/axi-axi` as the default scaffolder unless superseded.
 
 ## axi-axi golden path

@@ -9,7 +9,11 @@
       "triggers": "idea, ambiguous problem, opportunity, novel feature",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "intake/research-posture",
@@ -19,7 +23,11 @@
       "triggers": "research donor, proving work, uncertain desired state",
       "preferred_surface": "chat",
       "agent_interface_kind": "other",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "intake/problem-frame",
@@ -29,7 +37,11 @@
       "triggers": "problem framing, outcome definition, scope ambiguity",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "product/requirements",
@@ -39,7 +51,11 @@
       "triggers": "PRD, requirements, actor/problem/outcome",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "product/scope",
@@ -49,7 +65,11 @@
       "triggers": "scope, non-goals, deferred work, thin slice",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "product/acceptance-contract",
@@ -59,7 +79,11 @@
       "triggers": "acceptance criteria, done contract, requirement identifiers",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "specification/impact",
@@ -69,7 +93,11 @@
       "triggers": "spec impact, normative change, conformance",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "specification/desired-state",
@@ -79,7 +107,11 @@
       "triggers": "specification, desired state, what must remain true",
       "preferred_surface": "chat",
       "agent_interface_kind": "cli",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "SpecOps",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "specification/principles",
@@ -89,7 +121,11 @@
       "triggers": "principle promotion, governing principle",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "specification/drift",
@@ -99,7 +135,11 @@
       "triggers": "spec drift, conformance audit, implementation mismatch",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "specification/closeout",
@@ -109,7 +149,11 @@
       "triggers": "spec closeout, plan freeze, completed desired state",
       "preferred_surface": "chat",
       "agent_interface_kind": "cli",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "SpecOps",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "architecture/system",
@@ -119,7 +163,11 @@
       "triggers": "architecture, system boundary, service/module/component design",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "architecture/checkpoint",
@@ -129,7 +177,11 @@
       "triggers": "architecture checkpoint, approval gate, one-way door",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "architecture/contracts",
@@ -139,7 +191,11 @@
       "triggers": "API contract, event, message, schema, integration interface",
       "preferred_surface": "chat",
       "agent_interface_kind": "rest",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "none until an agent consumer is established; then run the Agent Interface Gate",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "architecture/data-state",
@@ -149,7 +205,11 @@
       "triggers": "state ownership, persistence, schema lifecycle, migration",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "architecture/security-trust",
@@ -159,7 +219,11 @@
       "triggers": "security, trust, auth, tenancy, privacy, secret",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "architecture/concurrency-reliability",
@@ -169,7 +233,11 @@
       "triggers": "concurrency, retry, idempotency, replay, partition, recovery",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "architecture/performance-resources",
@@ -179,7 +247,11 @@
       "triggers": "latency, throughput, memory, cpu, quota, scale",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "architecture/observability",
@@ -189,7 +261,11 @@
       "triggers": "observability, telemetry, logging, metrics, traces",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "architecture/rosetta-alignment",
@@ -199,7 +275,11 @@
       "triggers": "Rosetta semantic, Core Spine, interoperability",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "work-shaping/classify",
@@ -209,7 +289,11 @@
       "triggers": "triage, work shape, atomic vs broad",
       "preferred_surface": "chat",
       "agent_interface_kind": "rest",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "gh-axi",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "work-shaping/durable-issue-boundary",
@@ -219,7 +303,11 @@
       "triggers": "child issue, ownership seam, blocker, deliverable",
       "preferred_surface": "chat",
       "agent_interface_kind": "rest",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "gh-axi",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "work-shaping/decompose",
@@ -229,7 +317,11 @@
       "triggers": "decompose epic, child issues, issue tree",
       "preferred_surface": "chat",
       "agent_interface_kind": "rest",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "gh-axi",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "work-shaping/prioritize",
@@ -239,7 +331,11 @@
       "triggers": "prioritize, backlog, cascade, rank issues",
       "preferred_surface": "chat",
       "agent_interface_kind": "rest",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "gh-axi",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "planning/specops",
@@ -249,7 +345,11 @@
       "triggers": "implementation plan, SpecOps, plan DAG",
       "preferred_surface": "chat",
       "agent_interface_kind": "cli",
-      "axi_candidate": "true"
+      "axi_candidate": "true",
+      "preferred_axi": "SpecOps",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "planning/dag",
@@ -259,7 +359,11 @@
       "triggers": "depends, awaits, DAG, plan relationships",
       "preferred_surface": "chat",
       "agent_interface_kind": "cli",
-      "axi_candidate": "true"
+      "axi_candidate": "true",
+      "preferred_axi": "SpecOps",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "planning/readiness",
@@ -269,7 +373,11 @@
       "triggers": "ready, next work, execution readiness",
       "preferred_surface": "chat",
       "agent_interface_kind": "cli",
-      "axi_candidate": "true"
+      "axi_candidate": "true",
+      "preferred_axi": "SpecOps",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "planning/blockers",
@@ -279,7 +387,11 @@
       "triggers": "blocked, dependency, await, authority gap",
       "preferred_surface": "chat",
       "agent_interface_kind": "cli",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "SpecOps",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "planning/validation",
@@ -289,7 +401,11 @@
       "triggers": "validation plan, proof criteria, verification handoff",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "investigate/how",
@@ -299,7 +415,11 @@
       "triggers": "how does, where does, subsystem walkthrough",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "investigate/why",
@@ -309,7 +429,11 @@
       "triggers": "why is, why does, rationale, lineage",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "investigate/root-cause",
@@ -319,7 +443,11 @@
       "triggers": "root cause, reproduce, debugging cause",
       "preferred_surface": "either",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "investigate/premise",
@@ -329,7 +457,11 @@
       "triggers": "repeated failed fixes, attack premise",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "investigate/spike",
@@ -339,7 +471,11 @@
       "triggers": "spike, prototype, feasibility experiment",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "risk/blast-radius",
@@ -349,7 +485,11 @@
       "triggers": "blast radius, what could break",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "risk/dependency",
@@ -359,7 +499,11 @@
       "triggers": "dependency risk, provider, license, provenance, version",
       "preferred_surface": "chat",
       "agent_interface_kind": "rest",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "service-specific existing AXI when available",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "risk/migration",
@@ -369,7 +513,11 @@
       "triggers": "migration risk, cutover, rollback, compatibility",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "risk/systemic",
@@ -379,7 +527,11 @@
       "triggers": "systemic risk, pre-mortem, blind spots, whole system",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "review/interrogate",
@@ -389,7 +541,11 @@
       "triggers": "interrogate, adversarial review, multi-model review",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "review/architecture-review",
@@ -399,7 +555,11 @@
       "triggers": "architecture review, design review",
       "preferred_surface": "chat",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "review/implementation/precommit",
@@ -409,7 +569,11 @@
       "triggers": "pre-commit review, review before commit, verify diff",
       "preferred_surface": "codex",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "implementation/testing",
@@ -419,7 +583,11 @@
       "triggers": "TDD, regression test, failing test",
       "preferred_surface": "codex",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "implementation/typescript",
@@ -429,7 +597,11 @@
       "triggers": "TypeScript, .ts, .tsx, schema-derived types",
       "preferred_surface": "codex",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "implementation/migration",
@@ -439,7 +611,11 @@
       "triggers": "implementation migration, migrate callers, delete legacy",
       "preferred_surface": "codex",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "implementation/proof",
@@ -449,7 +625,11 @@
       "triggers": "prove it works, executable proof, validation",
       "preferred_surface": "codex",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "implementation/javascript/ecosystem",
@@ -459,7 +639,11 @@
       "triggers": "JavaScript framework, npm package, framework version",
       "preferred_surface": "either",
       "agent_interface_kind": "npm",
-      "axi_candidate": "true"
+      "axi_candidate": "true",
+      "preferred_axi": "npm-axi",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "implementation/typescript/api-codegen",
@@ -469,7 +653,11 @@
       "triggers": "OpenAPI codegen, GraphQL codegen, gql.tada, generated hooks",
       "preferred_surface": "codex",
       "agent_interface_kind": "rest",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "none until the integration is materially agent-facing; then run the Agent Interface Gate",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "delivery/verification",
@@ -479,7 +667,11 @@
       "triggers": "verification harness, live verification, control skill",
       "preferred_surface": "codex",
       "agent_interface_kind": "none",
-      "axi_candidate": "false"
+      "axi_candidate": "false",
+      "preferred_axi": "none",
+      "axi_disposition_default": "NOT_AGENT_FACING",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "delivery/pr-closeout",
@@ -489,7 +681,11 @@
       "triggers": "PR closeout, finalization, archive, merge evidence",
       "preferred_surface": "either",
       "agent_interface_kind": "rest",
-      "axi_candidate": "conditional"
+      "axi_candidate": "conditional",
+      "preferred_axi": "gh-axi",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     },
     {
       "id": "delivery/plan-freeze",
@@ -499,7 +695,11 @@
       "triggers": "plan freeze, completed plan, historical motion",
       "preferred_surface": "chat",
       "agent_interface_kind": "cli",
-      "axi_candidate": "true"
+      "axi_candidate": "true",
+      "preferred_axi": "SpecOps",
+      "axi_disposition_default": "USE_EXISTING_AXI",
+      "axi_scaffolder": "axi-axi when SCAFFOLD_NEW_AXI is chosen",
+      "raw_interface_fallback": "requires Agent Interface Gate rationale or immaterial usage"
     }
   ]
 }

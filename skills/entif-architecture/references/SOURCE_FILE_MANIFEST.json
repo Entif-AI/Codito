@@ -1,13 +1,668 @@
 {
-  "schema": "entif.architecture.source-provenance/v1",
+  "schema": "entif.architecture.source-provenance/v2",
   "issue_contracts": [
     "Entif-AI/Codito#62",
     "Entif-AI/Codito#63",
     "Entif-AI/Codito#64"
   ],
-  "source_policy": "Target package is self-contained. Legacy installed Skills remain external parity authorities during migration; exact retirement requires parity and rollback evidence.",
-  "external_sources": [
-    "current installed entif-architecture and source Skills named in MIGRATION_INVENTORY.md",
+  "note": "Legacy parity inventory copied from the installed Entif Architecture package inspected during migration. Additional Drive-sourced candidate Skills are dispositioned in MIGRATION_INVENTORY.md after direct source-contract inspection.",
+  "legacy_source_files": [
+    {
+      "skill": "entif-issue-decomposition",
+      "path": "PROJECT_GOVERNANCE.yaml",
+      "sha256": "7451d2e1b63c3fe614cd8a514d9ecd44d0cab1fc1c1682aa67c6aaaf146c28c3",
+      "bytes": 612
+    },
+    {
+      "skill": "entif-issue-decomposition",
+      "path": "SKILL.md",
+      "sha256": "66bf33211b398c8c55c9418e34f897adce9dc91ebc4c7f62a84aca50a0a5e007",
+      "bytes": 4630
+    },
+    {
+      "skill": "entif-issue-decomposition",
+      "path": "agents/openai.yaml",
+      "sha256": "e7fe33bd26df8c15d3f2e54793e745b3dff48b4c0a3f8dee96fde05c42b15b9e",
+      "bytes": 758
+    },
+    {
+      "skill": "entif-issue-decomposition",
+      "path": "assets/icon.svg",
+      "sha256": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
+      "bytes": 2182
+    },
+    {
+      "skill": "entif-issue-decomposition",
+      "path": "references/WORKABILITY.md",
+      "sha256": "6a30a08f30637bc0a0db397aed05c9bed4e0cf73708e8ffb23a07b8ddf9c1112",
+      "bytes": 926
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "PROJECT_GOVERNANCE.yaml",
+      "sha256": "86c4e52e85b98d6a64b49e44f7c438b98a0114a7fb983c61e2eca30c105c3fdb",
+      "bytes": 852
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "SKILL.md",
+      "sha256": "fff072529f33dd0378322f0d5d06b6d684a8c243d488bdd56f7526ec84e1603e",
+      "bytes": 7650
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "agents/openai.yaml",
+      "sha256": "02230d9a9d6e320a899e588fdea7e3e504c4b5d88d1b99f6e1908f1fee3d4964",
+      "bytes": 286
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "assets/icon.svg",
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "references/ARCHITECTURE_ARTIFACTS.md",
+      "sha256": "06b4249783555aa8305ea9a84af7fbc605f4d0002674894a28c1753a9a39afb1",
+      "bytes": 2817
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "references/ARCHITECTURE_WORKFLOW.md",
+      "sha256": "2c4f44452d06b0370b8845c21fe397471ceafd0a108ea9d53c33a3d8b7b2033d",
+      "bytes": 4656
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "references/FEEDBACK_AND_LOCK.md",
+      "sha256": "20a2c6c6ef6711ff34d4ce8b1e92a60406ddd50a31510adfe6f9c972da37455f",
+      "bytes": 3739
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "references/ROSETTA_REPRESENTATION_GATE.md",
+      "sha256": "fa0495612f4f8fa91ba7d3702142a00e557233a8ad9622fe445ab464494d584d",
+      "bytes": 3901
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "references/SPEC_KIT_BOUNDARY.md",
+      "sha256": "8ac836d04fe5b2dc63d24b14cfa41a236d6b2fd79d86ba896067a429a1dadb2a",
+      "bytes": 1038
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "references/SYSTEM_GROUNDING.md",
+      "sha256": "3ee5dbe07a3d1e23c7fc95f7127a3a6e5b0b89cdc28000170f1ed15bfd2e098c",
+      "bytes": 2397
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "references/THREAT_RELIABILITY_AND_QUALITY.md",
+      "sha256": "379873cb6d884510dd86df50ba511ef77e46095d4fed3c3d260d7a531b6509e1",
+      "bytes": 6947
+    },
+    {
+      "skill": "entif-feature-architecture",
+      "path": "scripts/validate_architecture_contract.py",
+      "sha256": "4b66c965482f48018de6e54848282bd58a9e2ec66a42e5bfb8752812b5ba7603",
+      "bytes": 7105
+    },
+    {
+      "skill": "entif-product-requirements",
+      "path": "PROJECT_GOVERNANCE.yaml",
+      "sha256": "7e2a9436e5d36c2e709679300d1b358ad71d83267a6dcad989be18f2ad88111b",
+      "bytes": 751
+    },
+    {
+      "skill": "entif-product-requirements",
+      "path": "SKILL.md",
+      "sha256": "f3a5f822d5c9901b299ae540710dd028521e446a7da602b514824b54a2592066",
+      "bytes": 5961
+    },
+    {
+      "skill": "entif-product-requirements",
+      "path": "agents/openai.yaml",
+      "sha256": "b46e4c613391bed5202f9445247f5ba827737ffeec14ac00fba1e1ad3f432ae1",
+      "bytes": 303
+    },
+    {
+      "skill": "entif-product-requirements",
+      "path": "assets/icon.svg",
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210
+    },
+    {
+      "skill": "entif-product-requirements",
+      "path": "references/FEEDBACK_AND_LOCK.md",
+      "sha256": "7e3b04dded1ca6ac43b3d09fb8683174bca4fd4f6f82d0fddd535b9e1388f5c8",
+      "bytes": 2219
+    },
+    {
+      "skill": "entif-product-requirements",
+      "path": "references/PRODUCT_ARTIFACT_CONTRACT.md",
+      "sha256": "9da6c8b91f2690aad38c0e0a242626f79673122a1b96babd52a5c72857316cee",
+      "bytes": 2997
+    },
+    {
+      "skill": "entif-product-requirements",
+      "path": "references/PRODUCT_WORKFLOW.md",
+      "sha256": "6d48fb3c1e8e238a40bb594dec957de678833adada2b5302a8a42c55b886b056",
+      "bytes": 3621
+    },
+    {
+      "skill": "entif-product-requirements",
+      "path": "references/SCOPE_GOVERNANCE.md",
+      "sha256": "5bbbc14669008d96658d20015235d51f15433fd06a32cad8d103b900a60c8ec9",
+      "bytes": 2688
+    },
+    {
+      "skill": "entif-product-requirements",
+      "path": "scripts/validate_product_prd.py",
+      "sha256": "7f5411f9ffa724a0cc31eb4a05a2cac12a1d5bcae3fb6331baa0fe2ffb7b5ab2",
+      "bytes": 5452
+    },
+    {
+      "skill": "entif-idea-incubator",
+      "path": "PROJECT_GOVERNANCE.yaml",
+      "sha256": "a866a716c93e83a4df5c576507086c482e9ddfe3771174d0a0d6b6619a3ec0a3",
+      "bytes": 694
+    },
+    {
+      "skill": "entif-idea-incubator",
+      "path": "SKILL.md",
+      "sha256": "1ed26ecbaeaacce88d7236f53a0f403198a47fe57429cb6e2280abbddf91021b",
+      "bytes": 11668
+    },
+    {
+      "skill": "entif-idea-incubator",
+      "path": "agents/openai.yaml",
+      "sha256": "fcc142a68afac7af470437a4246d218044b17246a19173bb92d102b18594e9d8",
+      "bytes": 281
+    },
+    {
+      "skill": "entif-idea-incubator",
+      "path": "assets/icon.svg",
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420
+    },
+    {
+      "skill": "entif-idea-incubator",
+      "path": "references/ISSUE_CONTRACTS.md",
+      "sha256": "21e438bce9b5d6aa27793670ac977d22624c28e7763622bc860b0ae5b7299a9d",
+      "bytes": 3393
+    },
+    {
+      "skill": "entif-idea-incubator",
+      "path": "references/QUALIFICATION_RUBRIC.md",
+      "sha256": "aeb1a7605f41027936e4c1348a60c4fef6644678e87c5a6cc81872a37335f480",
+      "bytes": 3634
+    },
+    {
+      "skill": "entif-idea-incubator",
+      "path": "references/ROSETTA_HANDOFF.md",
+      "sha256": "264aaad5497a1d7b0a769ca6dbc61de3f81cf4a5701313b0d9d8b084d6d6a9b4",
+      "bytes": 3364
+    },
+    {
+      "skill": "github-work-shape-triage",
+      "path": "SKILL.md",
+      "sha256": "58a6ed6952bdce289197de0fdd7f4d495d739cb44cde74446e5b6d01eee7166e",
+      "bytes": 2434
+    },
+    {
+      "skill": "github-work-shape-triage",
+      "path": "agents/openai.yaml",
+      "sha256": "17b1232275968f5776c5f1630d7b4808be26713529caf52592d99361dc959e70",
+      "bytes": 269
+    },
+    {
+      "skill": "github-work-shape-triage",
+      "path": "assets/icon.svg",
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420
+    },
+    {
+      "skill": "github-work-shape-triage",
+      "path": "references/output-schema.json",
+      "sha256": "0daab78edad4cdfa8e7d13e44ef3862e59eb00b1e2804f61f170064e4d8a4cba",
+      "bytes": 380
+    },
+    {
+      "skill": "github-work-shape-triage",
+      "path": "references/rubric.md",
+      "sha256": "617d23acc93739d2e348c1c70429dce24dd82541e87d2f77b008c248c5a98b37",
+      "bytes": 1266
+    },
+    {
+      "skill": "github-work-shape-triage",
+      "path": "references/states.md",
+      "sha256": "24042df05c51b30ec6bae2fadef86900cae962d9af8381b47f1ce598ad20a35f",
+      "bytes": 1299
+    },
+    {
+      "skill": "github-work-shape-triage",
+      "path": "scripts/validate_triage.py",
+      "sha256": "dca49b8f78e15bc7f1b6b1ea855f21cc48c8f021790b943313df7804992b364f",
+      "bytes": 894
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "SKILL.md",
+      "sha256": "d4969aa61ede8001da54bf5fc1806b65c8bce15512b79c7a8f79ff5f4511d947",
+      "bytes": 7531
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "agents/openai.yaml",
+      "sha256": "679bba2b6cb734fa68265f9d1fc433ced79c52128423504b85b0264b530feebc",
+      "bytes": 289
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "assets/icon.svg",
+      "sha256": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
+      "bytes": 2182
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "references/cascade-protocol.md",
+      "sha256": "1140657c1d087fb90fa42d11c875a80a96fad75d84c22695d18a21b7d15df2c6",
+      "bytes": 2760
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "references/json-formats.md",
+      "sha256": "2de88e9345fc7bce0abd50b982622e49244df5eadb769b58005d64ee4b9138ae",
+      "bytes": 3103
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "references/prompts.md",
+      "sha256": "389e95c6249458e8416bd7935890df12703b65b6d53dd6de5d7436f2af72426b",
+      "bytes": 5893
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "references/ranking-rubric.md",
+      "sha256": "405f8231a6521179b044fafe758c261623a17115fa62e90f5e96a57072394b85",
+      "bytes": 8381
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "references/scoring-matrix.md",
+      "sha256": "8079e096f453a41744a7998c07d8dec701d00bfb9f2e427d298cae6468f7c467",
+      "bytes": 8214
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "scripts/cascade_state.py",
+      "sha256": "8e4133f77b09efc04223b3411b17a1c647a148b6eeef10e52ac587ec95f6016b",
+      "bytes": 8835
+    },
+    {
+      "skill": "github-issue-cascade",
+      "path": "scripts/score_issues.py",
+      "sha256": "4c06be51ee93df7cc6a08981b6d363f9c7e3d449483b71c113e61e02efa1cd37",
+      "bytes": 7556
+    },
+    {
+      "skill": "figure-it-out",
+      "path": "SKILL.md",
+      "sha256": "0eb9485f0e7d84fee56b5d0f0af0faf4635e3ca87c8cba3970c01293b76ecc19",
+      "bytes": 4059
+    },
+    {
+      "skill": "figure-it-out",
+      "path": "agents/openai.yaml",
+      "sha256": "a37eb91af1e9bb0c1209c3277ab3932252f9f21c5824220eeceb9af3583d925f",
+      "bytes": 578
+    },
+    {
+      "skill": "figure-it-out",
+      "path": "assets/icon.svg",
+      "sha256": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
+      "bytes": 2182
+    },
+    {
+      "skill": "how",
+      "path": "SKILL.md",
+      "sha256": "d31805589c7f6a63a6db6c9fadebbd79fb9660682cf1654e9b2e5e1e7cd30bc0",
+      "bytes": 3077
+    },
+    {
+      "skill": "how",
+      "path": "agents/openai.yaml",
+      "sha256": "b63e07f070e40673347ff4ef847a77f05f5d3327d189fb7197c12349e3e1ddb6",
+      "bytes": 524
+    },
+    {
+      "skill": "how",
+      "path": "assets/icon.svg",
+      "sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+      "bytes": 2094
+    },
+    {
+      "skill": "how",
+      "path": "references/explainer-prompt.md",
+      "sha256": "ddb89cebefc24e2b54517a331aedfe045b6971e101f45c71b8cef4cccff45bff",
+      "bytes": 3085
+    },
+    {
+      "skill": "how",
+      "path": "references/explorer-prompt.md",
+      "sha256": "a3b44a6e5bb16a6d4d1cac19db8ed5322ffd5f5f5d45baca4e73990ca096f8be",
+      "bytes": 2684
+    },
+    {
+      "skill": "interrogate",
+      "path": "SKILL.md",
+      "sha256": "59d498c3e9848a24b2d105eb3f05b808aa4152adf4cb1de7bbb6aff4f4cd9b68",
+      "bytes": 5054
+    },
+    {
+      "skill": "interrogate",
+      "path": "agents/openai.yaml",
+      "sha256": "23fb434a02e2dcb10dd68c2e95950b27727bf37c6e4db53f3435ff098b2210e0",
+      "bytes": 458
+    },
+    {
+      "skill": "interrogate",
+      "path": "assets/icon.svg",
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738
+    },
+    {
+      "skill": "interrogate",
+      "path": "references/code-quality-review.md",
+      "sha256": "79162fda183eafd40d51661fbb5e151c7ba250f89e506ba17f5bd135dcbd50a8",
+      "bytes": 5217
+    },
+    {
+      "skill": "interrogate",
+      "path": "references/lead-judgment.md",
+      "sha256": "6e5bdf5670eb34017692e9b6c546f36ac7552e6bb9f3f2f3429164fcc46a9361",
+      "bytes": 3465
+    },
+    {
+      "skill": "interrogate",
+      "path": "references/reviewer-prompt.md",
+      "sha256": "e0598e254792b56de39bb16b1e6db559b03a522fdc54b98f942d254090920ae6",
+      "bytes": 2491
+    },
+    {
+      "skill": "interrogate",
+      "path": "references/rubric.md",
+      "sha256": "a85aa801abbaf14434f00579440abc0d8e2723227ba8bf57de7cca8d6e7d2f25",
+      "bytes": 5025
+    },
+    {
+      "skill": "why",
+      "path": "SKILL.md",
+      "sha256": "2a852ec8680920109d2b56538b027c52867896a597250ac5d18a13e0b42e5b06",
+      "bytes": 10360
+    },
+    {
+      "skill": "why",
+      "path": "agents/openai.yaml",
+      "sha256": "81a07bedbd8078f220338831eb8f2b8f288ab33bc56eac9de1ee702c2520a994",
+      "bytes": 648
+    },
+    {
+      "skill": "why",
+      "path": "assets/icon.svg",
+      "sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+      "bytes": 2094
+    },
+    {
+      "skill": "why",
+      "path": "references/epistemics.md",
+      "sha256": "fcc0f559c072832c869a5ada72434b4849320a637ae63c09e8ee14f7ad787059",
+      "bytes": 7749
+    },
+    {
+      "skill": "why",
+      "path": "references/investigator-prompt.md",
+      "sha256": "6892956a7ab0b5ee6c4babaf4f793703abe89b350ea7cb9463b4a56eea1c8266",
+      "bytes": 6985
+    },
+    {
+      "skill": "why",
+      "path": "references/source-playbook.md",
+      "sha256": "9ae9dcb9d09111c9facc68510331c5aba4aed9b1b057314ff1fc0e166ad3993a",
+      "bytes": 1363
+    },
+    {
+      "skill": "why",
+      "path": "references/sources/code-archaeology.md",
+      "sha256": "8c14aa382f0de40829b2668d43e3f54814480bb93a486c9282ada4003f6b9dbd",
+      "bytes": 3489
+    },
+    {
+      "skill": "why",
+      "path": "references/sources/databricks.md",
+      "sha256": "236ede7aab6454662a992db088a5393537a5233a4c26719c93188f9e174488f6",
+      "bytes": 6994
+    },
+    {
+      "skill": "why",
+      "path": "references/sources/datadog.md",
+      "sha256": "ebe9c07bac28e47757ee7f16fb93b0c01d427a08c501957d047f395a2f37b7e7",
+      "bytes": 5323
+    },
+    {
+      "skill": "why",
+      "path": "references/sources/incident-postmortem.md",
+      "sha256": "a899470f05f86029630a13a2696491cc708ca7b56a6e822a69ff6e954d6ff8cf",
+      "bytes": 1973
+    },
+    {
+      "skill": "why",
+      "path": "references/sources/linear.md",
+      "sha256": "01304e7f1badfcfb78babbb0edcadeb3cc8dd3f713793420cdff24ba190f907c",
+      "bytes": 2996
+    },
+    {
+      "skill": "why",
+      "path": "references/sources/notion.md",
+      "sha256": "3bcfa695c49dfad4ac036d5d7181c12585f55ac04f1936198d16ab75a2788997",
+      "bytes": 2853
+    },
+    {
+      "skill": "why",
+      "path": "references/sources/sentry.md",
+      "sha256": "6f292bc4fb1548e956f95e1900b9481abf5134254419f1cd9edec95428c82d73",
+      "bytes": 4947
+    },
+    {
+      "skill": "why",
+      "path": "references/sources/slack.md",
+      "sha256": "58fee61d024b3700b407e7acbed367944720ff05adfddb6954d36c88368f3ba7",
+      "bytes": 3105
+    },
+    {
+      "skill": "why",
+      "path": "references/synthesizer-prompt.md",
+      "sha256": "733a3e9cf897b1aca56aaddeae01a3832e4bfed024c2f602db2d1bf807d7a73b",
+      "bytes": 7984
+    },
+    {
+      "skill": "blast-radius",
+      "path": "SKILL.md",
+      "sha256": "5f02db9101ccf26c20254718f0fcd5c2c7ac5d4292b0e0923d0944ac47237aff",
+      "bytes": 3851
+    },
+    {
+      "skill": "blast-radius",
+      "path": "agents/openai.yaml",
+      "sha256": "c0372b88fac03c07db24118206cf84170eef1e50da4514ef7528604cd18aaf77",
+      "bytes": 495
+    },
+    {
+      "skill": "blast-radius",
+      "path": "assets/icon.svg",
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "CARD.manifest.json",
+      "sha256": "ee2bfee22e476dedb189bad0fad009e0809b053bd4eb341847d8262caf66f6d1",
+      "bytes": 1163
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "CARD.md",
+      "sha256": "322555f890625bf4ca4007d3ad82f0c78141ea7c93bd717bdebabf10cc240b9a",
+      "bytes": 3193
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "CARD.md.sigstore",
+      "sha256": "7aa6c9db6da98c7106fb58bbf417b012047db379baa665b2e910662f4e3af094",
+      "bytes": 4421
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "CARD.svg",
+      "sha256": "5959da50e034edde6bfbf818124cc97d7683a5b76ca2357ed3c1e3b21ed0e87c",
+      "bytes": 9487
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "SKILL.md",
+      "sha256": "09feb85857fa1234efd6fa323bef5a5eaf7bb7d5290462ff4e4a511b9b523fc7",
+      "bytes": 5595
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "agents/openai.yaml",
+      "sha256": "881c6c483b0dfe2d5f53e5f9bc575935165ce5f942c798a3ea714976f0290680",
+      "bytes": 940
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "assets/icon.svg",
+      "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+      "bytes": 2922
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "permissions.yaml",
+      "sha256": "d2b0a93a8780f464e82ae6f485f30aef85256a7016f3cae0c7f560c017497efa",
+      "bytes": 358
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "references/evidence.md",
+      "sha256": "675931b5bf636abb8172dfef72636c619f2db3334ed22e865bdd39f1258d1dcd",
+      "bytes": 5670
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "references/examples.md",
+      "sha256": "31321ac415ed1f454d69291067d46786f814d05a9206a0448e3700947f9ed26f",
+      "bytes": 4495
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "references/index.md",
+      "sha256": "9ba302b0a9cbcfbdcfcd5a44680780fa4d0bc7a583fb4e831bd69675d1d39af6",
+      "bytes": 979
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "references/log.md",
+      "sha256": "4c943dcd6f3d88bda98df7d9d85303b3b789ccb86782f080613beee39c239ef3",
+      "bytes": 1046
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "references/repairs.md",
+      "sha256": "d280b73cbe4d716712d4661c5fec518e5170271667daf1e7a30c4166b054764b",
+      "bytes": 7884
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "references/scope-rails.md",
+      "sha256": "f522e1d24f07e981bf1b88469feb463cf00543137461c82e26a4dd5c9de9e27a",
+      "bytes": 4124
+    },
+    {
+      "skill": "breadcrumbs",
+      "path": "references/smells.md",
+      "sha256": "11c0419bcd6e6a6708a9e30d5bd08e5e8cf81675bfc0c3674eea122602a8120c",
+      "bytes": 5915
+    },
+    {
+      "skill": "rosetta-spine-alignment",
+      "path": "SKILL.md",
+      "sha256": "8b6d8df96d360fadc4df38c5b0162a1ea41ee10871d32534fdba04b3ccb6e5fe",
+      "bytes": 10949
+    },
+    {
+      "skill": "rosetta-spine-alignment",
+      "path": "agents/openai.yaml",
+      "sha256": "45eabcfdbb59194ac5e0e1ee488a73fefceee74d832e818a46f9a92334343d28",
+      "bytes": 424
+    },
+    {
+      "skill": "rosetta-spine-alignment",
+      "path": "assets/icon.svg",
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738
+    },
+    {
+      "skill": "rosetta-spine-alignment",
+      "path": "references/alignment-dossier.md",
+      "sha256": "771a6b77d8b05fbf7412c9ea0e7b55b3e173cb30ef65e6f0cba1cd950ce9c2e2",
+      "bytes": 6086
+    },
+    {
+      "skill": "tdd",
+      "path": "SKILL.md",
+      "sha256": "eeb868e2dfebee528d730a67d7b17498fac4bb85dec2e38bc5c5176aca4d5d2f",
+      "bytes": 3143
+    },
+    {
+      "skill": "tdd",
+      "path": "agents/openai.yaml",
+      "sha256": "750697a631ac64da1c1c905183e2f206eab618de17469687f81757ea4259dd78",
+      "bytes": 440
+    },
+    {
+      "skill": "tdd",
+      "path": "assets/icon.svg",
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738
+    },
+    {
+      "skill": "typescript-best-practices",
+      "path": "SKILL.md",
+      "sha256": "28f9e61710e205f6f3c5476f333483cff0e988f6a5b639e2faad536344b40c5e",
+      "bytes": 2684
+    },
+    {
+      "skill": "typescript-best-practices",
+      "path": "agents/openai.yaml",
+      "sha256": "ee48c6317bd7c6fa98f8f9a62be967a772b74c65a0fbec956ebf557dc7da5886",
+      "bytes": 309
+    },
+    {
+      "skill": "typescript-best-practices",
+      "path": "assets/icon.svg",
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738
+    },
+    {
+      "skill": "typescript-best-practices",
+      "path": "references/patterns.md",
+      "sha256": "62e9cd32d2fa066a35d0d1349aac22dce31a48ad7d5eaf142570770cfe707384",
+      "bytes": 8860
+    }
+  ],
+  "external_authorities": [
     "https://axi.md/",
     "https://github.com/CodyEngel/axi-axi"
   ]
