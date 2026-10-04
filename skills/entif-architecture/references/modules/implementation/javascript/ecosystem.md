@@ -5,7 +5,7 @@
 - **Preferred surface:** `either`
 - **Agent interface kind:** `npm`
 - **AXI candidate:** `true`
-- **AXI disposition default:** `SCAFFOLD_NEW_AXI`
+- **AXI disposition default:** `USE_EXISTING_AXI`
 - **Preferred AXI:** `npm-axi`
 - **AXI scaffolder:** `axi-axi` when a new AXI is justified
 - **Raw interface fallback:** allowed only when the Agent Interface Gate records why it is preferable or usage is immaterial

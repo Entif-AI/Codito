@@ -5,8 +5,8 @@
 - **Preferred surface:** `codex`
 - **Agent interface kind:** `rest`
 - **AXI candidate:** `conditional`
-- **AXI disposition default:** `SCAFFOLD_NEW_AXI`
-- **Preferred AXI:** `conditional existing AXI`
+- **AXI disposition default:** `NOT_AGENT_FACING`
+- **Preferred AXI:** `none until the integration is materially agent-facing; then run the Agent Interface Gate`
 - **AXI scaffolder:** `axi-axi` when a new AXI is justified
 - **Raw interface fallback:** allowed only when the Agent Interface Gate records why it is preferable or usage is immaterial
 - **Authority sensitivity:** inherit parent preflight; resolve stronger module-specific authority where applicable
