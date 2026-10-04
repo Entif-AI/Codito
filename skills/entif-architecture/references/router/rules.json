@@ -1,0 +1,245 @@
+{
+  "schema": "entif.architecture.router/v1",
+  "rules": [
+    {
+      "id": "uiux",
+      "contains_any": [
+        "wireframe",
+        "visual states",
+        "interaction flow",
+        "ui/ux",
+        "screen design"
+      ],
+      "modules": [],
+      "shared": [
+        "entif-feature-design"
+      ],
+      "terminal": true
+    },
+    {
+      "id": "how",
+      "starts_with_any": [
+        "how ",
+        "where "
+      ],
+      "contains_any": [
+        "how does"
+      ],
+      "modules": [
+        "investigate/how"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "why-change",
+      "contains_all": [
+        "why",
+        "change"
+      ],
+      "modules": [
+        "investigate/why",
+        "risk/blast-radius"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "systemic",
+      "contains_any": [
+        "systemic risk",
+        "pre-mortem",
+        "whole operating network",
+        "blind-spot review"
+      ],
+      "modules": [
+        "risk/systemic"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "axi-interface",
+      "contains_any": [
+        "agent-facing mcp",
+        "agent facing mcp",
+        "new rest integration",
+        "agent-facing rest",
+        "agent api",
+        "json interface for agents",
+        "agent-facing json"
+      ],
+      "modules": [
+        "architecture/contracts"
+      ],
+      "shared": [
+        "entif-axi"
+      ],
+      "doctrine": [
+        "agent-interface-axi"
+      ],
+      "terminal": true
+    },
+    {
+      "id": "spike",
+      "contains_any": [
+        "spike this",
+        "quick prototype",
+        "feasibility experiment",
+        "experimentally before deciding"
+      ],
+      "modules": [
+        "intake/research-posture",
+        "investigate/spike"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "precommit",
+      "contains_any": [
+        "pre-commit review",
+        "review before commit",
+        "verify this diff before commit"
+      ],
+      "modules": [
+        "review/implementation/precommit"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "api-codegen",
+      "contains_any": [
+        "openapi codegen",
+        "graphql codegen",
+        "gql.tada",
+        "generated hooks"
+      ],
+      "modules": [
+        "implementation/typescript/api-codegen"
+      ],
+      "shared": [],
+      "doctrine": [
+        "agent-interface-axi"
+      ],
+      "terminal": true
+    },
+    {
+      "id": "js-ecosystem",
+      "contains_any": [
+        "javascript ecosystem",
+        "framework version",
+        "npm package versions",
+        "upgrade next.js",
+        "upgrade react"
+      ],
+      "modules": [
+        "implementation/javascript/ecosystem"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "rosetta",
+      "contains_all": [
+        "rosetta",
+        "semantic"
+      ],
+      "modules": [
+        "specification/impact",
+        "specification/desired-state",
+        "architecture/rosetta-alignment"
+      ],
+      "shared": [
+        "rosetta-spine-alignment"
+      ],
+      "terminal": true
+    },
+    {
+      "id": "specified-bug",
+      "contains_any": [
+        "bug already covered",
+        "regression test",
+        "fix a bug"
+      ],
+      "modules": [
+        "work-shaping/classify",
+        "planning/specops",
+        "implementation/testing"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "broad-epic",
+      "contains_any": [
+        "broad github epic",
+        "durable outcomes"
+      ],
+      "modules": [
+        "work-shaping/decompose",
+        "specification/impact",
+        "planning/specops"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "new-feature",
+      "contains_any": [
+        "new backend idea",
+        "implementation-ready feature contract"
+      ],
+      "modules": [
+        "intake/idea",
+        "product/requirements",
+        "specification/impact",
+        "specification/desired-state",
+        "architecture/system",
+        "work-shaping/decompose",
+        "planning/specops"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "typescript",
+      "contains_any": [
+        "typescript",
+        ".ts",
+        ".tsx"
+      ],
+      "modules": [
+        "implementation/typescript"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "interrogate",
+      "contains_any": [
+        "adversarially review",
+        "multi-model review",
+        "challenge this architecture"
+      ],
+      "modules": [
+        "review/interrogate"
+      ],
+      "shared": [],
+      "terminal": true
+    },
+    {
+      "id": "blast",
+      "contains_any": [
+        "what could break",
+        "blast radius"
+      ],
+      "modules": [
+        "risk/blast-radius"
+      ],
+      "shared": [],
+      "terminal": true
+    }
+  ]
+}
