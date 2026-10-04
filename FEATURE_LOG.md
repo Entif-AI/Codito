@@ -16,6 +16,16 @@ exact/case-normalized and alias collisions; scoped namespace behavior; historica
 key reuse; malformed records; provisional ADI/MCA; canonical-home decision packet.
 Tests first, then offline full unittest suite and skill validators.
 
-Current focus: failing namespace-registry tests before implementation.
-Next safe step: implement the bounded process demonstrator, retain red/green logs,
-then create a review PR with the unresolved canonical-home item.
+Current focus: implementation complete for the bounded candidate tooling.
+Red: namespace import failed before implementation; the protected-withheld collision
+fixture then failed and exposed unknown-scope handling. Both now pass.
+Green: 66 unittest cases, architecture validator and 15 routing fixtures pass.
+Rosetta governance:authority also passes at the verified Rosetta baseline.
+Census: 47 accessible public repositories, 1,129 issues, 119 numbered prefixes,
+340 matching issues and 10 repeated-key groups. Protected coverage is unknown.
+Artifacts: codito/namespace_registry.py; tests/test_namespace_registry.py;
+research/issue-namespaces/{census.json,candidate-registry.json,README.md,collect.py}.
+Remaining: canonical owner/home is NEEDS_HUMAN_DECISION; protected inventory and
+manual review of unmatched title forms remain explicit gaps. No allocation made.
+Next safe step: open a review PR, archive exact worklog bytes on #67, remove the
+branch-local log and verify final remote HEAD. No merge or issue closure.
