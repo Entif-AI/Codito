@@ -1,0 +1,17 @@
+{
+  "status": "DRAFT_PROTOCOL_NOT_REGISTERED",
+  "issue": "https://github.com/Entif-AI/Codito/issues/69",
+  "primary_outcomes": [
+    "local terminal utility",
+    "privacy/false-transfer harm",
+    "raw marker exposure proxy"
+  ],
+  "source_ownership": [
+    "Rosetta#1504",
+    "Rosetta#84",
+    "Rosetta#96",
+    "Rosetta#759"
+  ],
+  "stopping_rule": "all four families and six fixed controls; preserve rejected export and harmful naive outcomes",
+  "privacy_claim": "no formal guarantee; deterministic supplied-gate/marker fixture only"
+}

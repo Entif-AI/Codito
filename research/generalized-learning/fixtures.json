@@ -1,0 +1,217 @@
+{
+  "role": "authored-research-fixtures",
+  "families": [
+    {
+      "family": "computer-use",
+      "episodes": [
+        {
+          "local_id": "local-only:computer-use:1",
+          "family": "computer-use",
+          "rule_ref": "verify-snapshot",
+          "version": "fixture-v1",
+          "scope": "computer-use",
+          "purpose": "bounded-learning",
+          "evidence_root": "opaque-root:computer-use:1",
+          "consent": true,
+          "rights": true,
+          "sensitive": false,
+          "third_party": false,
+          "locally_validated": true,
+          "raw_authored_text": "SYNTHETIC-PRIVATE-MARKER:computer-use:1"
+        },
+        {
+          "local_id": "local-only:computer-use:2",
+          "family": "computer-use",
+          "rule_ref": "verify-snapshot",
+          "version": "fixture-v1",
+          "scope": "computer-use",
+          "purpose": "bounded-learning",
+          "evidence_root": "opaque-root:computer-use:2",
+          "consent": true,
+          "rights": true,
+          "sensitive": false,
+          "third_party": false,
+          "locally_validated": true,
+          "raw_authored_text": "SYNTHETIC-PRIVATE-MARKER:computer-use:2"
+        }
+      ],
+      "profile": {
+        "purpose": "bounded-learning",
+        "minimum_independent_roots": 2,
+        "posture": "explicit toy support criterion, no anonymity or production privacy threshold"
+      },
+      "recipient": {
+        "version": "fixture-v1",
+        "scope": "computer-use",
+        "purpose": "bounded-learning",
+        "validation": {
+          "verify-snapshot": true
+        }
+      },
+      "local_only_has_rule": false,
+      "terminal_state": {
+        "snapshot_current": false
+      },
+      "expected_suggestion": "inspect_more"
+    },
+    {
+      "family": "personal-assistance",
+      "episodes": [
+        {
+          "local_id": "local-only:personal-assistance:1",
+          "family": "personal-assistance",
+          "rule_ref": "require-reminder-confirmation",
+          "version": "fixture-v1",
+          "scope": "personal-assistance",
+          "purpose": "bounded-learning",
+          "evidence_root": "opaque-root:personal-assistance:1",
+          "consent": true,
+          "rights": true,
+          "sensitive": false,
+          "third_party": false,
+          "locally_validated": true,
+          "raw_authored_text": "SYNTHETIC-PRIVATE-MARKER:personal-assistance:1"
+        },
+        {
+          "local_id": "local-only:personal-assistance:2",
+          "family": "personal-assistance",
+          "rule_ref": "require-reminder-confirmation",
+          "version": "fixture-v1",
+          "scope": "personal-assistance",
+          "purpose": "bounded-learning",
+          "evidence_root": "opaque-root:personal-assistance:2",
+          "consent": true,
+          "rights": true,
+          "sensitive": false,
+          "third_party": false,
+          "locally_validated": true,
+          "raw_authored_text": "SYNTHETIC-PRIVATE-MARKER:personal-assistance:2"
+        }
+      ],
+      "profile": {
+        "purpose": "bounded-learning",
+        "minimum_independent_roots": 2,
+        "posture": "explicit toy support criterion, no anonymity or production privacy threshold"
+      },
+      "recipient": {
+        "version": "fixture-v1",
+        "scope": "personal-assistance",
+        "purpose": "bounded-learning",
+        "validation": {
+          "require-reminder-confirmation": true
+        }
+      },
+      "local_only_has_rule": false,
+      "terminal_state": {
+        "confirmed": false
+      },
+      "expected_suggestion": "review"
+    },
+    {
+      "family": "retail",
+      "episodes": [
+        {
+          "local_id": "local-only:retail:1",
+          "family": "retail",
+          "rule_ref": "discard-third-party-retail",
+          "version": "fixture-v1",
+          "scope": "retail",
+          "purpose": "bounded-learning",
+          "evidence_root": "opaque-root:retail:1",
+          "consent": true,
+          "rights": true,
+          "sensitive": true,
+          "third_party": true,
+          "locally_validated": true,
+          "raw_authored_text": "SYNTHETIC-PRIVATE-MARKER:retail:1"
+        },
+        {
+          "local_id": "local-only:retail:2",
+          "family": "retail",
+          "rule_ref": "discard-third-party-retail",
+          "version": "fixture-v1",
+          "scope": "retail",
+          "purpose": "bounded-learning",
+          "evidence_root": "opaque-root:retail:2",
+          "consent": true,
+          "rights": true,
+          "sensitive": true,
+          "third_party": true,
+          "locally_validated": true,
+          "raw_authored_text": "SYNTHETIC-PRIVATE-MARKER:retail:2"
+        }
+      ],
+      "profile": {
+        "purpose": "bounded-learning",
+        "minimum_independent_roots": 2,
+        "posture": "explicit toy support criterion, no anonymity or production privacy threshold"
+      },
+      "recipient": {
+        "version": "fixture-v1",
+        "scope": "retail",
+        "purpose": "bounded-learning",
+        "validation": {
+          "discard-third-party-retail": true
+        }
+      },
+      "local_only_has_rule": false,
+      "terminal_state": {
+        "third_party": true
+      },
+      "expected_suggestion": "discard"
+    },
+    {
+      "family": "engineering",
+      "episodes": [
+        {
+          "local_id": "local-only:engineering:1",
+          "family": "engineering",
+          "rule_ref": "verify-tool-postcondition",
+          "version": "fixture-v1",
+          "scope": "engineering",
+          "purpose": "bounded-learning",
+          "evidence_root": "opaque-root:engineering:1",
+          "consent": true,
+          "rights": true,
+          "sensitive": false,
+          "third_party": false,
+          "locally_validated": true,
+          "raw_authored_text": "SYNTHETIC-PRIVATE-MARKER:engineering:1"
+        },
+        {
+          "local_id": "local-only:engineering:2",
+          "family": "engineering",
+          "rule_ref": "verify-tool-postcondition",
+          "version": "fixture-v1",
+          "scope": "engineering",
+          "purpose": "bounded-learning",
+          "evidence_root": "opaque-root:engineering:2",
+          "consent": true,
+          "rights": true,
+          "sensitive": false,
+          "third_party": false,
+          "locally_validated": true,
+          "raw_authored_text": "SYNTHETIC-PRIVATE-MARKER:engineering:2"
+        }
+      ],
+      "profile": {
+        "purpose": "bounded-learning",
+        "minimum_independent_roots": 2,
+        "posture": "explicit toy support criterion, no anonymity or production privacy threshold"
+      },
+      "recipient": {
+        "version": "fixture-v1",
+        "scope": "engineering",
+        "purpose": "bounded-learning",
+        "validation": {
+          "verify-tool-postcondition": true
+        }
+      },
+      "local_only_has_rule": true,
+      "terminal_state": {
+        "tool_postcondition_observed": false
+      },
+      "expected_suggestion": "inspect_more"
+    }
+  ]
+}
