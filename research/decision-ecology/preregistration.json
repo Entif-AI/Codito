@@ -1,0 +1,24 @@
+{
+  "status": "DRAFT_PROTOCOL_NOT_REGISTERED",
+  "issue": "https://github.com/Entif-AI/Codito/issues/70",
+  "fixture_digest": "5a220124410d5689f32fda60610f26af3236ef59c51d66590e271a36e4ca9be3",
+  "seeds": [
+    3,
+    11,
+    29
+  ],
+  "apertures": [
+    0,
+    0.25,
+    0.5,
+    1
+  ],
+  "methods": [
+    "weighted",
+    "pareto"
+  ],
+  "primary_outcome": "authored selected-work quality under fixed budget",
+  "stopping_rule": "complete all declared finite runs; retain negative results",
+  "independence": "synthetic task is one fixture; seeds are sensitivity controls, not independent real-world trials",
+  "analysis_posture": "public authored outcomes; no sealed holdout; no significance/generalization claim"
+}
