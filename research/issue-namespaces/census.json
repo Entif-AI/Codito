@@ -1,0 +1,4025 @@
+{
+  "issue_count": 1129,
+  "coverage": [
+    {
+      "repository": "Entif-AI/Rosetta",
+      "status": "complete",
+      "issue_count": 994
+    },
+    {
+      "repository": "Entif-AI/Codito",
+      "status": "complete",
+      "issue_count": 71
+    },
+    {
+      "repository": "Entif-AI/IndraNet",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/Bithkuil",
+      "status": "complete",
+      "issue_count": 64
+    },
+    {
+      "repository": "Entif-AI/acryl",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/anti-mage",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/armaraos-sbh",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/ainativelang",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/TradingAgents",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/codesight",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/ai-plugin-scanner",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/neural-memory",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/plannotator",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/cavekit",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/lossless-claw-enhanced",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/codex-multi-auth",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/mempalace",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/awesome-codex-plugins",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/token-optimizer",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/MetaClaw",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/oh-my-codex",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/claude-certified-architect",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/prism-mcp",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/papersflow-codex-plugin",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/Ix",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/technical-change-skill",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/repo-forensics",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/claude-howto",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/sitemd",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/explain-openclaw",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/ai-maestro",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/muninndb",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/claude-architect-exam-guide",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/task-scheduler-codex-plugin",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/punderstruck",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/awesome-openclaw-usecases",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/ClawdisAI",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/vexor",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/awesome-eng-mgr",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/auto-build-in-public",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/aerosolve",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/prontoqa",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/llm-chinese-english",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/keyword-research-tool",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/blackportal-delta",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/Brave-Gemini-Research-MCP-Server",
+      "status": "complete",
+      "issue_count": 0
+    },
+    {
+      "repository": "Entif-AI/jhu-concise-cot",
+      "status": "complete",
+      "issue_count": 0
+    }
+  ],
+  "namespaces": [
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 102,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/102",
+          "state": "closed",
+          "observed_slug": "AC",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 189,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/189",
+          "state": "closed",
+          "observed_slug": "AC",
+          "ordinal": "003"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ACP",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 243,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/243",
+          "state": "open",
+          "observed_slug": "ACP",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 258,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/258",
+          "state": "open",
+          "observed_slug": "ACP",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 265,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/265",
+          "state": "open",
+          "observed_slug": "ACP",
+          "ordinal": "004"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ACPX",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 249,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/249",
+          "state": "open",
+          "observed_slug": "ACPX",
+          "ordinal": "003"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ADA-MCP",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 201,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/201",
+          "state": "open",
+          "observed_slug": "ADA-MCP",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ADAPT",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1121,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1121",
+          "state": "closed",
+          "observed_slug": "ADAPT",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1140,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1140",
+          "state": "open",
+          "observed_slug": "ADAPT",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1141,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1141",
+          "state": "closed",
+          "observed_slug": "ADAPT",
+          "ordinal": "000"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AGR",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 269,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/269",
+          "state": "open",
+          "observed_slug": "AGR",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 271,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/271",
+          "state": "open",
+          "observed_slug": "AGR",
+          "ordinal": "002"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AIBADGER-DONOR",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1711,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1711",
+          "state": "open",
+          "observed_slug": "AIBADGER-DONOR",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AINL",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1031,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1031",
+          "state": "open",
+          "observed_slug": "AINL",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1033,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1033",
+          "state": "open",
+          "observed_slug": "AINL",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1037,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1037",
+          "state": "closed",
+          "observed_slug": "AINL",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1038,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1038",
+          "state": "open",
+          "observed_slug": "AINL",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1039,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1039",
+          "state": "open",
+          "observed_slug": "AINL",
+          "ordinal": "005"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AKASHA-AXI-MEM",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1722,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1722",
+          "state": "open",
+          "observed_slug": "AKASHA-AXI-MEM",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AKASHA-FALKOR",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1734,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1734",
+          "state": "open",
+          "observed_slug": "AKASHA-FALKOR",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AM",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 220,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/220",
+          "state": "closed",
+          "observed_slug": "AM",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 223,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/223",
+          "state": "closed",
+          "observed_slug": "AM",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 226,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/226",
+          "state": "open",
+          "observed_slug": "AM",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 703,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/703",
+          "state": "open",
+          "observed_slug": "AM",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 706,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/706",
+          "state": "closed",
+          "observed_slug": "AM",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 709,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/709",
+          "state": "open",
+          "observed_slug": "AM",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 711,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/711",
+          "state": "closed",
+          "observed_slug": "AM",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 714,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/714",
+          "state": "open",
+          "observed_slug": "AM",
+          "ordinal": "010"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 716,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/716",
+          "state": "open",
+          "observed_slug": "AM",
+          "ordinal": "011"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 718,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/718",
+          "state": "closed",
+          "observed_slug": "AM",
+          "ordinal": "012"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1029,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1029",
+          "state": "closed",
+          "observed_slug": "AM",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1142,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1142",
+          "state": "closed",
+          "observed_slug": "AM",
+          "ordinal": "007"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "APC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 439,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/439",
+          "state": "open",
+          "observed_slug": "APC",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 443,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/443",
+          "state": "open",
+          "observed_slug": "APC",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 445,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/445",
+          "state": "open",
+          "observed_slug": "APC",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 449,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/449",
+          "state": "closed",
+          "observed_slug": "APC",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 451,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/451",
+          "state": "closed",
+          "observed_slug": "APC",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 453,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/453",
+          "state": "closed",
+          "observed_slug": "APC",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 455,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/455",
+          "state": "closed",
+          "observed_slug": "APC",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 457,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/457",
+          "state": "open",
+          "observed_slug": "APC",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 459,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/459",
+          "state": "closed",
+          "observed_slug": "APC",
+          "ordinal": "010"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1193,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1193",
+          "state": "open",
+          "observed_slug": "APC",
+          "ordinal": "008"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "API",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1115,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1115",
+          "state": "closed",
+          "observed_slug": "API",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AR",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 166,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/166",
+          "state": "closed",
+          "observed_slug": "AR",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 218,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/218",
+          "state": "closed",
+          "observed_slug": "AR",
+          "ordinal": "002"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ARCH",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1111,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1111",
+          "state": "open",
+          "observed_slug": "ARCH",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AXI-BASE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1712,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1712",
+          "state": "closed",
+          "observed_slug": "AXI-BASE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AXI-GITHUB",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1714,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1714",
+          "state": "closed",
+          "observed_slug": "AXI-GITHUB",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AXI-NPM",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1715,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1715",
+          "state": "closed",
+          "observed_slug": "AXI-NPM",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "AXI-QUOTA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1713,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1713",
+          "state": "closed",
+          "observed_slug": "AXI-QUOTA",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "BE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 722,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/722",
+          "state": "open",
+          "observed_slug": "BE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "BIP",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 396,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/396",
+          "state": "closed",
+          "observed_slug": "BIP",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 402,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/402",
+          "state": "open",
+          "observed_slug": "BIP",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 406,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/406",
+          "state": "closed",
+          "observed_slug": "BIP",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 410,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/410",
+          "state": "open",
+          "observed_slug": "BIP",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 415,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/415",
+          "state": "open",
+          "observed_slug": "BIP",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 421,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/421",
+          "state": "open",
+          "observed_slug": "BIP",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 431,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/431",
+          "state": "open",
+          "observed_slug": "BIP",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 466,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/466",
+          "state": "open",
+          "observed_slug": "BIP",
+          "ordinal": "008"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "BROWSER-LIVE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1681,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1681",
+          "state": "open",
+          "observed_slug": "BROWSER-LIVE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CACHE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1120,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1120",
+          "state": "closed",
+          "observed_slug": "CACHE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CCF",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 262,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/262",
+          "state": "open",
+          "observed_slug": "CCF",
+          "ordinal": "010"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 727,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/727",
+          "state": "open",
+          "observed_slug": "CCF",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 733,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/733",
+          "state": "open",
+          "observed_slug": "CCF",
+          "ordinal": "009"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CHASE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1645,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1645",
+          "state": "open",
+          "observed_slug": "CHASE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CODEXLESS-DONOR",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1703,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1703",
+          "state": "open",
+          "observed_slug": "CODEXLESS-DONOR",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "COG",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1129,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1129",
+          "state": "open",
+          "observed_slug": "COG",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1130,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1130",
+          "state": "open",
+          "observed_slug": "COG",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1131,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1131",
+          "state": "open",
+          "observed_slug": "COG",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1134,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1134",
+          "state": "open",
+          "observed_slug": "COG",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1135,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1135",
+          "state": "open",
+          "observed_slug": "COG",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1137,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1137",
+          "state": "open",
+          "observed_slug": "COG",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1138,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1138",
+          "state": "open",
+          "observed_slug": "COG",
+          "ordinal": "010"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CONF",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1205,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1205",
+          "state": "open",
+          "observed_slug": "CONF",
+          "ordinal": "002"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CONS",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 312,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/312",
+          "state": "open",
+          "observed_slug": "CONS",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 317,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/317",
+          "state": "open",
+          "observed_slug": "CONS",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 319,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/319",
+          "state": "open",
+          "observed_slug": "CONS",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 322,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/322",
+          "state": "open",
+          "observed_slug": "CONS",
+          "ordinal": "004"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CONTEXT-SCHEMA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1729,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1729",
+          "state": "open",
+          "observed_slug": "CONTEXT-SCHEMA",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "COS-DONOR",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1688,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1688",
+          "state": "open",
+          "observed_slug": "COS-DONOR",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "COUNTERFACTUAL-SCHEMA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1695,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1695",
+          "state": "open",
+          "observed_slug": "COUNTERFACTUAL-SCHEMA",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CT",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 84,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/84",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 96,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/96",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 105,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/105",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 107,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/107",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 109,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/109",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 117,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/117",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 141,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/141",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 143,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/143",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 145,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/145",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 148,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/148",
+          "state": "open",
+          "observed_slug": "CT",
+          "ordinal": "010"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CTS",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 737,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/737",
+          "state": "open",
+          "observed_slug": "CTS",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 741,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/741",
+          "state": "closed",
+          "observed_slug": "CTS",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 745,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/745",
+          "state": "open",
+          "observed_slug": "CTS",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 747,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/747",
+          "state": "open",
+          "observed_slug": "CTS",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 749,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/749",
+          "state": "open",
+          "observed_slug": "CTS",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 757,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/757",
+          "state": "closed",
+          "observed_slug": "CTS",
+          "ordinal": "015"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 759,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/759",
+          "state": "open",
+          "observed_slug": "CTS",
+          "ordinal": "016"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1231,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1231",
+          "state": "open",
+          "observed_slug": "CTS",
+          "ordinal": "013"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "CW",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 325,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/325",
+          "state": "open",
+          "observed_slug": "CW",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 328,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/328",
+          "state": "open",
+          "observed_slug": "CW",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 334,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/334",
+          "state": "open",
+          "observed_slug": "CW",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 337,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/337",
+          "state": "open",
+          "observed_slug": "CW",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 339,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/339",
+          "state": "open",
+          "observed_slug": "CW",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 343,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/343",
+          "state": "open",
+          "observed_slug": "CW",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 345,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/345",
+          "state": "open",
+          "observed_slug": "CW",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 347,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/347",
+          "state": "open",
+          "observed_slug": "CW",
+          "ordinal": "008"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "DCP",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 349,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/349",
+          "state": "open",
+          "observed_slug": "DCP",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "DEMO",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1116,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1116",
+          "state": "open",
+          "observed_slug": "DEMO",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "DF",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 89,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/89",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 238,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/238",
+          "state": "closed",
+          "observed_slug": "DF",
+          "ordinal": "013"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 427,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/427",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 614,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/614",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 690,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/690",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 762,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/762",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 764,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/764",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 766,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/766",
+          "state": "closed",
+          "observed_slug": "DF",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 768,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/768",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 770,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/770",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "010"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 772,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/772",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "011"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 774,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/774",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "012"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 776,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/776",
+          "state": "open",
+          "observed_slug": "DF",
+          "ordinal": "014"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "DGM",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1060,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1060",
+          "state": "closed",
+          "observed_slug": "DGM",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1061,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1061",
+          "state": "open",
+          "observed_slug": "DGM",
+          "ordinal": "002"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "DI",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 23,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/23",
+          "state": "closed",
+          "observed_slug": "DI",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 31,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/31",
+          "state": "closed",
+          "observed_slug": "DI",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 32,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/32",
+          "state": "closed",
+          "observed_slug": "DI",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 33,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/33",
+          "state": "open",
+          "observed_slug": "DI",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 34,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/34",
+          "state": "closed",
+          "observed_slug": "DI",
+          "ordinal": "010"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 39,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/39",
+          "state": "closed",
+          "observed_slug": "DI",
+          "ordinal": "011"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 45,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/45",
+          "state": "closed",
+          "observed_slug": "DI",
+          "ordinal": "012"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "E2E",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 150,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/150",
+          "state": "open",
+          "observed_slug": "E2E",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 152,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/152",
+          "state": "open",
+          "observed_slug": "E2E",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 154,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/154",
+          "state": "closed",
+          "observed_slug": "E2E",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 156,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/156",
+          "state": "open",
+          "observed_slug": "E2E",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 158,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/158",
+          "state": "open",
+          "observed_slug": "E2E",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "EAL",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 781,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/781",
+          "state": "open",
+          "observed_slug": "EAL",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "EDG",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1295,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1295",
+          "state": "open",
+          "observed_slug": "EDG",
+          "ordinal": "006"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "EEH",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 373,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/373",
+          "state": "open",
+          "observed_slug": "EEH",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 375,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/375",
+          "state": "open",
+          "observed_slug": "EEH",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 377,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/377",
+          "state": "open",
+          "observed_slug": "EEH",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1233,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1233",
+          "state": "open",
+          "observed_slug": "EEH",
+          "ordinal": "004"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "EMER",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 381,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/381",
+          "state": "open",
+          "observed_slug": "EMER",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 387,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/387",
+          "state": "open",
+          "observed_slug": "EMER",
+          "ordinal": "004"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "EML",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 471,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/471",
+          "state": "open",
+          "observed_slug": "EML",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 481,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/481",
+          "state": "closed",
+          "observed_slug": "EML",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 483,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/483",
+          "state": "open",
+          "observed_slug": "EML",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 488,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/488",
+          "state": "open",
+          "observed_slug": "EML",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 498,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/498",
+          "state": "open",
+          "observed_slug": "EML",
+          "ordinal": "013"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ENG-AKASHA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1726,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1726",
+          "state": "open",
+          "observed_slug": "ENG-AKASHA",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ENTIF-DEV",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1701,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1701",
+          "state": "closed",
+          "observed_slug": "ENTIF-DEV",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ENTIF-SDD-BROWNFIELD",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1706,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1706",
+          "state": "closed",
+          "observed_slug": "ENTIF-SDD-BROWNFIELD",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ENTIF-SDD-COMPOSE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1707,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1707",
+          "state": "closed",
+          "observed_slug": "ENTIF-SDD-COMPOSE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ENTIF-SDD-CONVERGE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1708,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1708",
+          "state": "closed",
+          "observed_slug": "ENTIF-SDD-CONVERGE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ENTIF-SDD-ISSUESYNC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1709,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1709",
+          "state": "closed",
+          "observed_slug": "ENTIF-SDD-ISSUESYNC",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ENTIF-SDD-VENEERS",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1710,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1710",
+          "state": "closed",
+          "observed_slug": "ENTIF-SDD-VENEERS",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ENTIF-v0",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 267,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/267",
+          "state": "open",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "016"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 363,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/363",
+          "state": "open",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 823,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/823",
+          "state": "open",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 829,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/829",
+          "state": "closed",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 832,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/832",
+          "state": "closed",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 836,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/836",
+          "state": "open",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "010"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 840,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/840",
+          "state": "open",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "011"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 842,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/842",
+          "state": "open",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "012"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 845,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/845",
+          "state": "closed",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "013"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 851,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/851",
+          "state": "closed",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "015"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 854,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/854",
+          "state": "closed",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "017"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 861,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/861",
+          "state": "open",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "018"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 870,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/870",
+          "state": "open",
+          "observed_slug": "ENTIF-v0",
+          "ordinal": "020"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "EPI",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1126,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1126",
+          "state": "open",
+          "observed_slug": "EPI",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ESA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 504,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/504",
+          "state": "open",
+          "observed_slug": "ESA",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 508,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/508",
+          "state": "open",
+          "observed_slug": "ESA",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 513,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/513",
+          "state": "open",
+          "observed_slug": "ESA",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 515,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/515",
+          "state": "open",
+          "observed_slug": "ESA",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1223,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1223",
+          "state": "open",
+          "observed_slug": "ESA",
+          "ordinal": "005"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ETR",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1603,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1603",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1604,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1604",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1605,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1605",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1606,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1606",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1607,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1607",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1608,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1608",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1609,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1609",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1610,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1610",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1611,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1611",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1612,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1612",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1613,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1613",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1614,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1614",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1615,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1615",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1616,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1616",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1617,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1617",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1618,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1618",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1619,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1619",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1620,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1620",
+          "state": "open",
+          "observed_slug": "ETR",
+          "ordinal": "2026"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "FRAME",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1123,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1123",
+          "state": "open",
+          "observed_slug": "FRAME",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "GRAPHVIEW",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1671,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1671",
+          "state": "open",
+          "observed_slug": "GRAPHVIEW",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "GRAPHVIEW-SCHEMA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1728,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1728",
+          "state": "open",
+          "observed_slug": "GRAPHVIEW-SCHEMA",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "HEA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 519,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/519",
+          "state": "open",
+          "observed_slug": "HEA",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 521,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/521",
+          "state": "open",
+          "observed_slug": "HEA",
+          "ordinal": "003"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "HEADLESS-INTEROP",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1672,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1672",
+          "state": "open",
+          "observed_slug": "HEADLESS-INTEROP",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "HF",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 526,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/526",
+          "state": "open",
+          "observed_slug": "HF",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 532,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/532",
+          "state": "closed",
+          "observed_slug": "HF",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 536,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/536",
+          "state": "open",
+          "observed_slug": "HF",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 538,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/538",
+          "state": "open",
+          "observed_slug": "HF",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 540,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/540",
+          "state": "closed",
+          "observed_slug": "HF",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 542,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/542",
+          "state": "open",
+          "observed_slug": "HF",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 544,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/544",
+          "state": "open",
+          "observed_slug": "HF",
+          "ordinal": "009"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "IMPACT-REVALIDATION-SCHEMA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1730,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1730",
+          "state": "open",
+          "observed_slug": "IMPACT-REVALIDATION-SCHEMA",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ING",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1068,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1068",
+          "state": "open",
+          "observed_slug": "ING",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "INSPECT",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1122,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1122",
+          "state": "open",
+          "observed_slug": "INSPECT",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1200,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1200",
+          "state": "open",
+          "observed_slug": "INSPECT",
+          "ordinal": "002"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "JCS",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1693,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1693",
+          "state": "open",
+          "observed_slug": "JCS",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "LSC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 549,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/549",
+          "state": "open",
+          "observed_slug": "LSC",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 551,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/551",
+          "state": "open",
+          "observed_slug": "LSC",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 555,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/555",
+          "state": "open",
+          "observed_slug": "LSC",
+          "ordinal": "005"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "MAC-AX",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1682,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1682",
+          "state": "open",
+          "observed_slug": "MAC-AX",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "MAC-COMP",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1683,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1683",
+          "state": "open",
+          "observed_slug": "MAC-COMP",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "MAC-NAV",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1676,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1676",
+          "state": "open",
+          "observed_slug": "MAC-NAV",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "MATERIALIZED-VIEW-SCHEMA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1731,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1731",
+          "state": "open",
+          "observed_slug": "MATERIALIZED-VIEW-SCHEMA",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "MCST",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 558,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/558",
+          "state": "open",
+          "observed_slug": "MCST",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 560,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/560",
+          "state": "open",
+          "observed_slug": "MCST",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 565,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/565",
+          "state": "open",
+          "observed_slug": "MCST",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 569,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/569",
+          "state": "open",
+          "observed_slug": "MCST",
+          "ordinal": "005"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "MEM",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1219,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1219",
+          "state": "open",
+          "observed_slug": "MEM",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1220,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1220",
+          "state": "open",
+          "observed_slug": "MEM",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1221,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1221",
+          "state": "open",
+          "observed_slug": "MEM",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1222,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1222",
+          "state": "open",
+          "observed_slug": "MEM",
+          "ordinal": "004"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "MHC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 571,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/571",
+          "state": "closed",
+          "observed_slug": "MHC",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 573,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/573",
+          "state": "open",
+          "observed_slug": "MHC",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 575,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/575",
+          "state": "open",
+          "observed_slug": "MHC",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 577,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/577",
+          "state": "open",
+          "observed_slug": "MHC",
+          "ordinal": "004"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "MOL",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 175,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/175",
+          "state": "open",
+          "observed_slug": "MOL",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 178,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/178",
+          "state": "open",
+          "observed_slug": "MOL",
+          "ordinal": "004"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "OMNI-INTEROP",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1704,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1704",
+          "state": "open",
+          "observed_slug": "OMNI-INTEROP",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "PACK",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1118,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1118",
+          "state": "open",
+          "observed_slug": "PACK",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "PETRI",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 911,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/911",
+          "state": "open",
+          "observed_slug": "PETRI",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "PRD",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 790,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/790",
+          "state": "open",
+          "observed_slug": "PRD",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 793,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/793",
+          "state": "open",
+          "observed_slug": "PRD",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 795,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/795",
+          "state": "open",
+          "observed_slug": "PRD",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 799,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/799",
+          "state": "open",
+          "observed_slug": "PRD",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 801,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/801",
+          "state": "open",
+          "observed_slug": "PRD",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 805,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/805",
+          "state": "open",
+          "observed_slug": "PRD",
+          "ordinal": "008"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "PSD",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 583,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/583",
+          "state": "open",
+          "observed_slug": "PSD",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 585,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/585",
+          "state": "open",
+          "observed_slug": "PSD",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 587,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/587",
+          "state": "open",
+          "observed_slug": "PSD",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1139,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1139",
+          "state": "open",
+          "observed_slug": "PSD",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "REC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 921,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/921",
+          "state": "open",
+          "observed_slug": "REC",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "REE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 592,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/592",
+          "state": "open",
+          "observed_slug": "REE",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 594,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/594",
+          "state": "open",
+          "observed_slug": "REE",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 596,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/596",
+          "state": "open",
+          "observed_slug": "REE",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 598,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/598",
+          "state": "open",
+          "observed_slug": "REE",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 600,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/600",
+          "state": "open",
+          "observed_slug": "REE",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 602,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/602",
+          "state": "open",
+          "observed_slug": "REE",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 604,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/604",
+          "state": "open",
+          "observed_slug": "REE",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 606,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/606",
+          "state": "open",
+          "observed_slug": "REE",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 608,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/608",
+          "state": "closed",
+          "observed_slug": "REE",
+          "ordinal": "010"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 610,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/610",
+          "state": "open",
+          "observed_slug": "REE",
+          "ordinal": "011"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "RLD",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1066,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1066",
+          "state": "open",
+          "observed_slug": "RLD",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "RLM",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 624,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/624",
+          "state": "open",
+          "observed_slug": "RLM",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 626,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/626",
+          "state": "open",
+          "observed_slug": "RLM",
+          "ordinal": "003"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ROCK",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 69,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/69",
+          "state": "closed",
+          "observed_slug": "ROCK",
+          "ordinal": "3111"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 71,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/71",
+          "state": "open",
+          "observed_slug": "ROCK",
+          "ordinal": "3111"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 74,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/74",
+          "state": "open",
+          "observed_slug": "ROCK",
+          "ordinal": "3111"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 77,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/77",
+          "state": "open",
+          "observed_slug": "ROCK",
+          "ordinal": "3111"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 79,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/79",
+          "state": "open",
+          "observed_slug": "ROCK",
+          "ordinal": "3111"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ROS",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 932,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/932",
+          "state": "open",
+          "observed_slug": "ROS",
+          "ordinal": "006"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "ROSETTA-v3",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 240,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/240",
+          "state": "open",
+          "observed_slug": "ROSETTA-v3",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 563,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/563",
+          "state": "open",
+          "observed_slug": "ROSETTA-v3",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 907,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/907",
+          "state": "open",
+          "observed_slug": "ROSETTA-v3",
+          "ordinal": "009"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 930,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/930",
+          "state": "open",
+          "observed_slug": "ROSETTA-v3",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 934,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/934",
+          "state": "open",
+          "observed_slug": "ROSETTA-v3",
+          "ordinal": "010"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "RS",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1113,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1113",
+          "state": "closed",
+          "observed_slug": "RS",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1114,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1114",
+          "state": "closed",
+          "observed_slug": "RS",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "RS-CATALOG",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1700,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1700",
+          "state": "closed",
+          "observed_slug": "RS-CATALOG",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "RS-CORE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1180,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1180",
+          "state": "closed",
+          "observed_slug": "RS-CORE",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1699,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1699",
+          "state": "closed",
+          "observed_slug": "RS-CORE",
+          "ordinal": "003"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "RUN-COMPLETE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1727,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1727",
+          "state": "open",
+          "observed_slug": "RUN-COMPLETE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SAC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 940,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/940",
+          "state": "open",
+          "observed_slug": "SAC",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 961,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/961",
+          "state": "open",
+          "observed_slug": "SAC",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1070,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1070",
+          "state": "open",
+          "observed_slug": "SAC",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1071,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1071",
+          "state": "open",
+          "observed_slug": "SAC",
+          "ordinal": "003"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SALIENCE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1670,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1670",
+          "state": "open",
+          "observed_slug": "SALIENCE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SALIENCE-SCHEMA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1694,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1694",
+          "state": "open",
+          "observed_slug": "SALIENCE-SCHEMA",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SBA",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 341,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/341",
+          "state": "open",
+          "observed_slug": "SBA",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 946,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/946",
+          "state": "closed",
+          "observed_slug": "SBA",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 948,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/948",
+          "state": "open",
+          "observed_slug": "SBA",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 950,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/950",
+          "state": "closed",
+          "observed_slug": "SBA",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 952,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/952",
+          "state": "open",
+          "observed_slug": "SBA",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1188,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1188",
+          "state": "open",
+          "observed_slug": "SBA",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1189,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1189",
+          "state": "open",
+          "observed_slug": "SBA",
+          "ordinal": "007"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SCRU",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 630,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/630",
+          "state": "open",
+          "observed_slug": "SCRU",
+          "ordinal": "002"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SCT",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 632,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/632",
+          "state": "open",
+          "observed_slug": "SCT",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 637,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/637",
+          "state": "open",
+          "observed_slug": "SCT",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 639,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/639",
+          "state": "open",
+          "observed_slug": "SCT",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 641,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/641",
+          "state": "open",
+          "observed_slug": "SCT",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 643,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/643",
+          "state": "open",
+          "observed_slug": "SCT",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1253,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1253",
+          "state": "open",
+          "observed_slug": "SCT",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1300,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1300",
+          "state": "open",
+          "observed_slug": "SCT",
+          "ordinal": "002"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SEM",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1125,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1125",
+          "state": "open",
+          "observed_slug": "SEM",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SKATE-U2A2U",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1687,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1687",
+          "state": "open",
+          "observed_slug": "SKATE-U2A2U",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SKATE-VOICE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1686,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1686",
+          "state": "open",
+          "observed_slug": "SKATE-VOICE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SKL",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1069,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1069",
+          "state": "open",
+          "observed_slug": "SKL",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SLD",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 419,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/419",
+          "state": "open",
+          "observed_slug": "SLD",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 645,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/645",
+          "state": "open",
+          "observed_slug": "SLD",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 651,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/651",
+          "state": "open",
+          "observed_slug": "SLD",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 653,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/653",
+          "state": "open",
+          "observed_slug": "SLD",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1057,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1057",
+          "state": "closed",
+          "observed_slug": "SLD",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SPECKIT-DONOR",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1705,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1705",
+          "state": "closed",
+          "observed_slug": "SPECKIT-DONOR",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SPECOPS-CONTEXT",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1720,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1720",
+          "state": "closed",
+          "observed_slug": "SPECOPS-CONTEXT",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SPECOPS-DIST",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1721,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1721",
+          "state": "closed",
+          "observed_slug": "SPECOPS-DIST",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SPECOPS-DRIFT",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1719,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1719",
+          "state": "closed",
+          "observed_slug": "SPECOPS-DRIFT",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SPECOPS-EPIC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1716,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1716",
+          "state": "closed",
+          "observed_slug": "SPECOPS-EPIC",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SPECOPS-MIGRATE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1717,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1717",
+          "state": "closed",
+          "observed_slug": "SPECOPS-MIGRATE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "SPECOPS-PLANS",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1718,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1718",
+          "state": "closed",
+          "observed_slug": "SPECOPS-PLANS",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "TB",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 661,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/661",
+          "state": "open",
+          "observed_slug": "TB",
+          "ordinal": "003"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "TC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 6,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/6",
+          "state": "closed",
+          "observed_slug": "TC",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 7,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/7",
+          "state": "closed",
+          "observed_slug": "TC",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 8,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/8",
+          "state": "closed",
+          "observed_slug": "TC",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 9,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/9",
+          "state": "closed",
+          "observed_slug": "TC",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 10,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/10",
+          "state": "closed",
+          "observed_slug": "TC",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 11,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/11",
+          "state": "open",
+          "observed_slug": "TC",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 12,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/12",
+          "state": "open",
+          "observed_slug": "TC",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1119,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1119",
+          "state": "closed",
+          "observed_slug": "TC",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1159,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1159",
+          "state": "open",
+          "observed_slug": "TC",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1160,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1160",
+          "state": "open",
+          "observed_slug": "TC",
+          "ordinal": "009"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "TRACE-CAPTURE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1689,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1689",
+          "state": "open",
+          "observed_slug": "TRACE-CAPTURE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "TRACE-LIVE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1685,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1685",
+          "state": "open",
+          "observed_slug": "TRACE-LIVE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "TRP",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1293,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1293",
+          "state": "closed",
+          "observed_slug": "TRP",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "TXS",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 496,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/496",
+          "state": "open",
+          "observed_slug": "TXS",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 676,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/676",
+          "state": "open",
+          "observed_slug": "TXS",
+          "ordinal": "001"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 678,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/678",
+          "state": "open",
+          "observed_slug": "TXS",
+          "ordinal": "003"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 680,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/680",
+          "state": "open",
+          "observed_slug": "TXS",
+          "ordinal": "004"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 683,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/683",
+          "state": "open",
+          "observed_slug": "TXS",
+          "ordinal": "006"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 685,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/685",
+          "state": "open",
+          "observed_slug": "TXS",
+          "ordinal": "007"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1024,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1024",
+          "state": "open",
+          "observed_slug": "TXS",
+          "ordinal": "005"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1067,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1067",
+          "state": "closed",
+          "observed_slug": "TXS",
+          "ordinal": "007"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "VER",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1461,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1461",
+          "state": "open",
+          "observed_slug": "VER",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "VIEDAY-SPIKE",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 1690,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1690",
+          "state": "open",
+          "observed_slug": "VIEDAY-SPIKE",
+          "ordinal": "001"
+        }
+      ]
+    },
+    {
+      "repository": "Entif-AI/Rosetta",
+      "slug": "YAAC",
+      "occurrences": [
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 528,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/528",
+          "state": "open",
+          "observed_slug": "YAAC",
+          "ordinal": "008"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 688,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/688",
+          "state": "open",
+          "observed_slug": "YAAC",
+          "ordinal": "002"
+        },
+        {
+          "repository": "Entif-AI/Rosetta",
+          "issue": 701,
+          "source_ref": "https://github.com/Entif-AI/Rosetta/issues/701",
+          "state": "open",
+          "observed_slug": "YAAC",
+          "ordinal": "009"
+        }
+      ]
+    }
+  ],
+  "matched_issue_count": 340,
+  "cross_repository_prefix_reuse": [],
+  "key_reuse": [
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1193,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1193",
+        "state": "open",
+        "observed_slug": "APC",
+        "ordinal": "008"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 455,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/455",
+        "state": "closed",
+        "observed_slug": "APC",
+        "ordinal": "008"
+      }
+    ],
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 402,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/402",
+        "state": "open",
+        "observed_slug": "BIP",
+        "ordinal": "002"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 396,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/396",
+        "state": "closed",
+        "observed_slug": "BIP",
+        "ordinal": "002"
+      }
+    ],
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 415,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/415",
+        "state": "open",
+        "observed_slug": "BIP",
+        "ordinal": "004"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 410,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/410",
+        "state": "open",
+        "observed_slug": "BIP",
+        "ordinal": "004"
+      }
+    ],
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1620,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1620",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1619,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1619",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1618,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1618",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1617,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1617",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1616,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1616",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1615,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1615",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1614,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1614",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1613,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1613",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1612,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1612",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1611,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1611",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1610,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1610",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1609,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1609",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1608,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1608",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1607,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1607",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1606,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1606",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1605,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1605",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1604,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1604",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1603,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1603",
+        "state": "open",
+        "observed_slug": "ETR",
+        "ordinal": "2026"
+      }
+    ],
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 626,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/626",
+        "state": "open",
+        "observed_slug": "RLM",
+        "ordinal": "003"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 624,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/624",
+        "state": "open",
+        "observed_slug": "RLM",
+        "ordinal": "003"
+      }
+    ],
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 79,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/79",
+        "state": "open",
+        "observed_slug": "ROCK",
+        "ordinal": "3111"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 77,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/77",
+        "state": "open",
+        "observed_slug": "ROCK",
+        "ordinal": "3111"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 74,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/74",
+        "state": "open",
+        "observed_slug": "ROCK",
+        "ordinal": "3111"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 71,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/71",
+        "state": "open",
+        "observed_slug": "ROCK",
+        "ordinal": "3111"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 69,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/69",
+        "state": "closed",
+        "observed_slug": "ROCK",
+        "ordinal": "3111"
+      }
+    ],
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1114,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1114",
+        "state": "closed",
+        "observed_slug": "RS",
+        "ordinal": "001"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1113,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1113",
+        "state": "closed",
+        "observed_slug": "RS",
+        "ordinal": "001"
+      }
+    ],
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1189,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1189",
+        "state": "open",
+        "observed_slug": "SBA",
+        "ordinal": "007"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1188,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1188",
+        "state": "open",
+        "observed_slug": "SBA",
+        "ordinal": "007"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 952,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/952",
+        "state": "open",
+        "observed_slug": "SBA",
+        "ordinal": "007"
+      }
+    ],
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1119,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1119",
+        "state": "closed",
+        "observed_slug": "TC",
+        "ordinal": "005"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 10,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/10",
+        "state": "closed",
+        "observed_slug": "TC",
+        "ordinal": "005"
+      }
+    ],
+    [
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 1067,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/1067",
+        "state": "closed",
+        "observed_slug": "TXS",
+        "ordinal": "007"
+      },
+      {
+        "repository": "Entif-AI/Rosetta",
+        "issue": 685,
+        "source_ref": "https://github.com/Entif-AI/Rosetta/issues/685",
+        "state": "open",
+        "observed_slug": "TXS",
+        "ordinal": "007"
+      }
+    ]
+  ],
+  "format_version": 1,
+  "observed_at": "2026-10-04T20:08:18.417995+00:00",
+  "scope": "accessible-public-repositories-only",
+  "protected_inventory": "not-established",
+  "extraction": "explicit leading mnemonic plus at least two digits; conservative, no inferred title meaning"
+}
