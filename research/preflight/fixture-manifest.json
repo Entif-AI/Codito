@@ -1,0 +1,134 @@
+{
+  "role": "authored-research-fixtures",
+  "fixtures": [
+    {
+      "id": "json",
+      "kind": "json",
+      "source_digest": "65abfd14ff61302f6b4f87cda2654b67e00627ac1d8f2a0f56a6aa5a825967b4",
+      "source_bytes": 33938,
+      "required_spans": [
+        [
+          33922,
+          33935
+        ]
+      ],
+      "paths": [
+        "/target"
+      ],
+      "hints": [
+        "target"
+      ],
+      "symbols": []
+    },
+    {
+      "id": "malformed",
+      "kind": "json",
+      "source_digest": "312bbd905f26fc83294a015589e45f4086a6bd51debd0b928e460b22fa5e52ff",
+      "source_bytes": 29934,
+      "required_spans": [
+        [
+          29915,
+          29933
+        ]
+      ],
+      "paths": [],
+      "hints": [
+        "critical"
+      ],
+      "symbols": []
+    },
+    {
+      "id": "code",
+      "kind": "code",
+      "source_digest": "129611b9dd79c80bc96ccba01e667a403c2b53d613fbafec1908d3c2bd847881",
+      "source_bytes": 13021,
+      "required_spans": [
+        [
+          13006,
+          13019
+        ]
+      ],
+      "paths": [],
+      "hints": [
+        "DECISIVE"
+      ],
+      "symbols": [
+        "target"
+      ]
+    },
+    {
+      "id": "browser",
+      "kind": "json",
+      "source_digest": "17c039de0c2953cf17c88130edbba37877e2d95e5b76ba6c9733ee8fdb98cadd",
+      "source_bytes": 34105,
+      "required_spans": [
+        [
+          33989,
+          34005
+        ]
+      ],
+      "paths": [
+        "/snapshot/refs"
+      ],
+      "hints": [
+        "DECISIVE-BROWSER"
+      ],
+      "symbols": []
+    },
+    {
+      "id": "axi",
+      "kind": "json",
+      "source_digest": "5e814669037bd17d474b53d1cad74dbdb237fe8546ccb520fc7ab43f67281f9a",
+      "source_bytes": 33968,
+      "required_spans": [
+        [
+          33949,
+          33961
+        ]
+      ],
+      "paths": [
+        "/result/next_action"
+      ],
+      "hints": [
+        "next_action"
+      ],
+      "symbols": []
+    },
+    {
+      "id": "log",
+      "kind": "log",
+      "source_digest": "3a3a54842001eceb028466ca91f72abaa03c990e7bfdd47ea73c75f12c3e95fb",
+      "source_bytes": 13011,
+      "required_spans": [
+        [
+          9254,
+          9266
+        ]
+      ],
+      "paths": [],
+      "hints": [
+        "ERROR"
+      ],
+      "symbols": []
+    },
+    {
+      "id": "tiny",
+      "kind": "json",
+      "source_digest": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+      "source_bytes": 7,
+      "required_spans": [
+        [
+          5,
+          6
+        ]
+      ],
+      "paths": [
+        "/x"
+      ],
+      "hints": [
+        "x"
+      ],
+      "symbols": []
+    }
+  ]
+}
