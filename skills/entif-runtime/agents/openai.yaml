@@ -1,0 +1,12 @@
+interface:
+  display_name: Entif Runtime
+  short_description: Orchestrate durable Entif work with capability-aware execution, shared handoffs, recovery, checkpoints, and failure intelligence.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
