@@ -24,32 +24,131 @@
     "cleanup"
   ],
   "properties": {
-    "schema": {"const": "entif.runtime.handoff/v1"},
-    "handoff_id": {"type": "string", "minLength": 1},
-    "kind": {"enum": ["checkpoint", "transfer", "completion", "emergency"]},
-    "created_at": {"type": "string", "minLength": 1},
-    "runtime_surface": {"enum": ["chat", "codex", "unknown"]},
-    "reason": {"type": "string"},
-    "mission": {"type": "string", "minLength": 1},
-    "refs": {"type": "object"},
-    "work": {"type": "object"},
-    "checkpoint": {"type": "object"},
-    "completed": {"type": "array", "items": {"type": "string"}},
-    "negative_knowledge": {"type": "array", "items": {"type": "string"}},
-    "unresolved": {"type": "array", "items": {"type": "object"}},
-    "next_safe_operations": {"type": "array", "items": {"type": "string"}},
-    "hydration": {
-      "type": "object",
-      "required": ["read_first", "read_if_needed", "read_if_condition"],
-      "properties": {
-        "read_first": {"type": "array", "items": {"type": "string"}},
-        "read_if_needed": {"type": "array", "items": {"type": "string"}},
-        "read_if_condition": {"type": "array", "items": {"type": "string"}}
+    "schema": {
+      "const": "entif.runtime.handoff/v1"
+    },
+    "handoff_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "checkpoint",
+        "transfer",
+        "completion",
+        "emergency"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "runtime_surface": {
+      "enum": [
+        "chat",
+        "codex",
+        "unknown"
+      ],
+      "description": "Compatibility product/preset label. Capability profile is the authoritative execution-policy input."
+    },
+    "reason": {
+      "type": "string"
+    },
+    "mission": {
+      "type": "string",
+      "minLength": 1
+    },
+    "refs": {
+      "type": "object"
+    },
+    "work": {
+      "type": "object"
+    },
+    "checkpoint": {
+      "type": "object"
+    },
+    "completed": {
+      "type": "array",
+      "items": {
+        "type": "string"
       }
     },
-    "verification": {"type": "array", "items": {"type": "string"}},
-    "cleanup": {"type": "object"},
-    "source_trace": {"type": ["object", "null"]},
-    "akasha_receipt": {"type": ["object", "null"]}
+    "negative_knowledge": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "next_safe_operations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hydration": {
+      "type": "object",
+      "required": [
+        "read_first",
+        "read_if_needed",
+        "read_if_condition"
+      ],
+      "properties": {
+        "read_first": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "read_if_needed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "read_if_condition": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cleanup": {
+      "type": "object"
+    },
+    "source_trace": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "akasha_receipt": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "capability_profile": {
+      "type": "object",
+      "description": "Observed runtime capabilities and persistence/verification posture used to select execution policy.",
+      "additionalProperties": true
+    },
+    "failure_intelligence": {
+      "type": "object",
+      "description": "Optional material incident/pattern refs, filing receipts, and bounded run-local gotchas that affect safe continuation.",
+      "additionalProperties": true
+    }
   }
 }
