@@ -18,13 +18,13 @@ Never fabricate exact occupancy.
 Work normally. Preserve state incrementally through the active adapter.
 
 ### PREPARE
-Finish the current coherent unit when safe, then materialize the semantic frontier and receipts. Avoid starting another large retrieval fan-out or non-idempotent multi-step sequence until checkpointed.
+Finish the current coherent unit when safe, then materialize the semantic frontier and receipts in the standard handoff. Avoid starting another large retrieval fan-out or non-idempotent multi-step sequence until checkpointed.
 
 ### TRANSFER
-Persist and verify the recovery capsule, reconcile ambiguous side effects, and deliberately continue in a fresh context/session. Do not reduce model/reasoning quality to remain in the old context.
+Persist and verify a `transfer` handoff, reconcile ambiguous side effects, narrate the selected recovery entrypoint, and deliberately continue in a fresh context/session. Do not reduce model/reasoning quality to remain in the old context.
 
 ### CRITICAL
-Do not begin another non-idempotent operation. Persist the minimum recoverable frontier immediately and transfer/recover.
+Do not begin another non-idempotent operation. Persist the minimum truthful `emergency` handoff immediately and transfer/recover.
 
 ## Heuristic evidence
 

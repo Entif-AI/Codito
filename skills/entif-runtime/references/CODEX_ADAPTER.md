@@ -15,6 +15,7 @@ Recommended layout:
 ```text
 .entif/runtime/
   RUN.json
+  HANDOFF.json    # standard checkpoint/transfer/completion/emergency handoff
   work/          # Work Stack bucket(s)
   journal/       # continuity journal / recovery capsule
   durability/    # checkpoint manifests / receipts
@@ -34,7 +35,7 @@ While materially dirty:
 
 A Codex checkpoint means:
 
-1. update Work Stack / continuity state;
+1. update Work Stack / continuity state and refresh `HANDOFF.json`;
 2. stage intended source changes plus `.entif/runtime/` state;
 3. run the cheapest relevant structural verification;
 4. commit on the feature branch;
@@ -53,7 +54,7 @@ Runtime state is branch operational evidence, not `main` source.
 
 Before declaring merge-ready:
 
-1. ensure all needed durable receipts/closeout evidence exist outside the soon-to-be-deleted runtime directory;
+1. materialize the final `completion`/`transfer` handoff and ensure all needed durable receipts/closeout evidence exist outside the soon-to-be-deleted runtime directory;
 2. delete `.entif/runtime/` from the worktree;
 3. commit and push that deletion;
 4. run `python scripts/runtime_controller.py merge-check --repo .`;
@@ -61,4 +62,4 @@ Before declaring merge-ready:
 
 The feature branch/PR history preserves prior runtime commits after the final tree is clean.
 
-Future direction: an Akasha/GitHub Action may export runtime telemetry before deletion. This skill reserves `telemetry/` and an adapter seam but does not implement that transport now.
+Future direction: Codito #84 owns an optional Akasha/GitHub Action (or equivalent adapter) that may export bounded runtime telemetry/evidence before deletion. This skill reserves `telemetry/` and the adapter seam but does not implement that transport now.

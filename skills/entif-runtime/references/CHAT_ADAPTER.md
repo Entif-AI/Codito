@@ -12,7 +12,7 @@ Persist:
 
 - run start identity/policy;
 - Work Stack snapshot/bundle when material state changes;
-- continuity journal/capsule;
+- continuity journal plus standard `HANDOFF.json`;
 - changed valuable artifacts or lossless checkpoint bundles;
 - receipts returned by the provider.
 
@@ -20,7 +20,7 @@ Do not claim durability without a concrete remote receipt/readback.
 
 ## Cadence
 
-Checkpoint at semantic boundaries. While materially dirty, default maximum external dirty interval is 10 minutes. Context pressure may force an earlier PREPARE/TRANSFER.
+Checkpoint at semantic boundaries. Refresh the standard handoff at each material checkpoint. While materially dirty, default maximum external dirty interval is 10 minutes. Context pressure may force an earlier PREPARE/TRANSFER.
 
 ## GitHub
 
@@ -28,4 +28,4 @@ GitHub connector operations may create/update issues, branches, files, or PRs wh
 
 ## Transfer
 
-Before deliberate context rollover, persist and verify the semantic frontier plus pointers to remote artifacts/receipts. A successor should hydrate only required live state, not replay the full transcript.
+Before deliberate context rollover, materialize `kind=transfer`, persist and verify the handoff plus pointers to remote artifacts/receipts, and narrate the recovery entrypoint. A successor should hydrate only required live state, not replay the full transcript. If structured external state is unavailable, follow the reduced-trace fallback in `HANDOFF_RECOVERY.md` / `TRACE_RECOVERY.ad`.

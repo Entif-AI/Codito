@@ -1,6 +1,6 @@
 interface:
   display_name: Entif Runtime
-  short_description: Run durable Entif work with environment-aware checkpoints, continuity, recovery, and feature-branch lifecycle.
+  short_description: Orchestrate durable Entif work with shared handoffs, recovery, checkpoints, and environment-aware execution.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

@@ -8,8 +8,9 @@ Logical state classes:
 
 - `authority`: current governing refs and disclosure posture;
 - `feature`: issue/spec/plan/branch/lease/PR identity;
+- `orchestration`: ready-work binding, selected procedure/executor/runtime surface, and dispatch identity;
 - `work`: task DAG, attempts, receipts, idempotency, stale/safe-held state;
-- `continuity`: semantic frontier, journal cursor, negative knowledge, next safe step;
+- `continuity`: standard handoff, semantic frontier, journal cursor, negative knowledge, next safe step;
 - `durability`: checkpoint identity, hashes, remote/branch receipt;
 - `pressure`: latest context-pressure state and evidence.
 
@@ -22,6 +23,8 @@ Do not duplicate canonical facts between modules.
 - Durability owns persistence proof.
 - Continuity owns semantic resumability and pointers to the others.
 - Pressure owns only the decision to checkpoint/transfer, never task truth.
+- Work orchestration owns ready-work uptake and dispatch binding, not desired-state authority.
+- Feature post-mortem execution owns evidence/evaluator/proposal mechanics; Governance owns institutional adoption/state.
 
 ## Shared Work Stack layout
 
@@ -31,7 +34,7 @@ A bucket contains `WORK.json`, `EVENTS.jsonl`, `tasks/`, `receipts/`, `children/
 
 ## Shared continuity frontier
 
-A transfer/recovery capsule should contain only the semantic frontier:
+Use `entif.runtime.handoff/v1` as the shared checkpoint/transfer/completion/emergency object. Its semantic frontier should contain:
 
 - mission and controlling user instruction;
 - authority and governing skill refs;
