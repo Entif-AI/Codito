@@ -12,7 +12,8 @@ Logical state classes:
 - `work`: task DAG, attempts, receipts, idempotency, stale/safe-held state;
 - `continuity`: standard handoff, semantic frontier, journal cursor, negative knowledge, next safe step;
 - `durability`: checkpoint identity, hashes, remote/branch receipt;
-- `pressure`: latest context-pressure state and evidence.
+- `pressure`: latest context-pressure state and evidence;
+- `failure_intelligence`: material incident/near-miss evidence, prior-pattern refs, run-local gotchas, and filing receipts.
 
 ## Ownership law
 
@@ -23,6 +24,7 @@ Do not duplicate canonical facts between modules.
 - Durability owns persistence proof.
 - Continuity owns semantic resumability and pointers to the others.
 - Pressure owns only the decision to checkpoint/transfer, never task truth.
+- Failure intelligence owns immediate evidence preservation, incident filing/reconciliation, Logic-assisted triage, and run-local gotcha projection; Governance owns institutional adoption/status.
 - Work orchestration owns ready-work uptake and dispatch binding, not desired-state authority.
 - Feature post-mortem execution owns evidence/evaluator/proposal mechanics; Governance owns institutional adoption/state.
 
@@ -49,3 +51,5 @@ Use `entif.runtime.handoff/v1` as the shared checkpoint/transfer/completion/emer
 - ordered next safe operations and hydration map.
 
 Raw transcripts are recovery evidence, not execution authority.
+
+Execution profile selection is capability-based. Product adapters are presets over observed durability, writability, verification, authorization, and telemetry capabilities; they are not separate state models.
