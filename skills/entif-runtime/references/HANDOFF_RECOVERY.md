@@ -11,7 +11,7 @@ Canonical machine shape: `references/handoff.schema.json` with schema ID `entif.
 - `completion`: requested work is complete; preserve receipts, closure state, and any follow-up without implying more execution is pending.
 - `emergency`: context pressure, connector/runtime instability, lease risk, or another imminent failure makes rapid preservation more important than narrative polish.
 
-The same fields are used in every environment. Only persistence adapters differ.
+The same fields are used across execution surfaces. Persistence behavior is selected from observed capabilities; named adapters are presets.
 
 ## Required semantic fields
 
@@ -28,7 +28,8 @@ A useful handoff records:
 - hydration map: `read_first`, `read_if_needed`, and condition-triggered material;
 - verification instructions for live state;
 - cleanup/merge posture;
-- optional source-trace and Akasha receipt references.
+- optional source-trace and Akasha receipt references;
+- applicable failure-intelligence refs and bounded run-local gotchas when a prior failure or near miss materially changes the safe continuation path.
 
 Do not dump raw transcript or tool payload history into the handoff merely because it exists.
 
@@ -133,6 +134,7 @@ After selecting a source:
 3. reconcile ambiguous side effects against live targets;
 4. hydrate only the recorded frontier plus required dependencies;
 5. verify branch/lease/issue/spec/plan/live refs before mutation;
-6. materialize a fresh `entif.runtime.handoff/v1` checkpoint before broad new work if recovery changed or reconstructed state.
+6. after an abnormal termination or material failed handoff, apply `FAILURE_INTELLIGENCE.md`: preserve evidence, assess filing duty, query prior incidents/patterns, and carry only applicable gotchas forward;
+7. materialize a fresh `entif.runtime.handoff/v1` checkpoint before broad new work if recovery changed or reconstructed state.
 
 A newer narrative does not automatically outrank an older verified receipt.
