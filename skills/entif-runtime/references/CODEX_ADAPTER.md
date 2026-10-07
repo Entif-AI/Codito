@@ -1,6 +1,6 @@
 # Codex adapter
 
-Use when execution occurs in a writable Git repository/worktree and branch-local commits/pushes are the durable execution substrate.
+Use as the common preset when execution occurs in a writable Git repository/worktree and branch-local commits/pushes are the durable execution substrate. Codex often fits this profile, but the capability profile controls.
 
 ## Canonical runtime root
 
