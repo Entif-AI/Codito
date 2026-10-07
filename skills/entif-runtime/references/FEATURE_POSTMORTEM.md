@@ -6,7 +6,7 @@ This module absorbs the execution-facing behavior formerly exposed as `entif-fea
 
 Run only after the full root feature reaches its governing completion gate on trunk and, when deployment is part of the contract, required production verification.
 
-Do not confuse this with immediate incident logging. Material failures discovered during active work still trigger the independently eager `entif-postmortem-logger` when its materiality gate applies.
+Do not confuse this with immediate incident logging. Material failures discovered during active work route immediately through Runtime's `FAILURE_INTELLIGENCE.md`. During migration, the legacy `entif-postmortem-logger` may remain eagerly visible only as a compatibility trigger into that canonical path.
 
 ## Runtime-owned work
 
