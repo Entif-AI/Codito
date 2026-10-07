@@ -1,6 +1,6 @@
 # Chat adapter
 
-Use when the runtime is ChatGPT/Atlas/API without a durable writable Git worktree that acts as the execution locus.
+Use as the common preset for a disposable/local execution locus that lacks a durable writable Git worktree. ChatGPT/Atlas/API often fit this profile, but the capability profile controls.
 
 ## Persistence
 
@@ -28,4 +28,4 @@ GitHub connector operations may create/update issues, branches, files, or PRs wh
 
 ## Transfer
 
-Before deliberate context rollover, materialize `kind=transfer`, persist and verify the handoff plus pointers to remote artifacts/receipts, and narrate the recovery entrypoint. A successor should hydrate only required live state, not replay the full transcript. If structured external state is unavailable, follow the reduced-trace fallback in `HANDOFF_RECOVERY.md` / `TRACE_RECOVERY.ad`.
+Before deliberate context rollover, materialize `kind=transfer`, persist and verify the handoff plus pointers to remote artifacts/receipts, and narrate the recovery entrypoint. A successor should hydrate only required live state, not replay the full transcript. If structured external state is unavailable, follow the reduced-trace fallback in `HANDOFF_RECOVERY.md` / `TRACE_RECOVERY.md`.
